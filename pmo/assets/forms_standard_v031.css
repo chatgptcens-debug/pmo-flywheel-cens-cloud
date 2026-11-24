@@ -1,0 +1,25 @@
+/* V0.31 · Estándar de formularios: reglas de presentación globales, sin cambiar widgets. */
+[data-testid="stForm"]{
+  border:1px solid #DFE8EE!important;border-radius:14px!important;
+  background-color:#fff!important;padding:18px 19px!important;
+  box-shadow:0 5px 18px rgba(16,55,75,.045)!important;
+}
+[data-testid="stForm"] [data-testid="stWidgetLabel"] p,
+[data-testid="stForm"] label[data-testid="stWidgetLabel"]{
+  font-size:12px!important;color:#2F4C60!important;font-weight:650!important;
+}
+[data-testid="stForm"] input,[data-testid="stForm"] textarea,
+[data-testid="stForm"] [data-baseweb="select"]>div{
+  border-radius:9px!important;min-height:37px;
+}
+[data-testid="stForm"] [data-testid="stFormSubmitButton"] button{
+  min-height:39px!important;border-radius:9px!important;font-weight:650!important;
+}
+.pmo31-form-head{margin:9px 0 15px;padding:15px 19px;border:1px solid #DEE8EE;
+ border-radius:12px;background:linear-gradient(115deg,#F1F9FA,#fff)}
+.pmo31-form-head span{font-size:10px;letter-spacing:1.15px;color:#16868C;font-weight:800}
+.pmo31-form-head h3{font-size:18px!important;color:#10374B!important;letter-spacing:-.3px;margin:6px 0!important}
+.pmo31-form-head p{font-size:12px;color:#61768A;margin:0;line-height:1.55}
+.pmo31-form-note{font-size:12px;color:#536F80;padding:11px 14px;
+ border-left:3px solid #0C989B;border-radius:7px;background:#F1F8F9;margin:12px 0}
+@media(max-width:720px){[data-testid="stForm"]{padding:13px!important}.pmo31-form-head{padding:12px}}

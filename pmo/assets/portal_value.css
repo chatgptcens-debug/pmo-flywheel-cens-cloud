@@ -1,0 +1,20 @@
+/* V0.28 — estilos locales del Portal de valor; no altera otros pasos ni el sidebar. */
+.portal-eyebrow{font-size:11px;text-transform:uppercase;font-weight:800;letter-spacing:1px;color:#19788D;margin:7px 0 5px}
+.portal-title{font-size:28px;font-weight:850;letter-spacing:-.6px;line-height:1.2;color:#15394E}
+.portal-subtitle{font-size:13px;color:#708595;margin:6px 0 17px}
+.portal-hero{border-radius:16px;background:linear-gradient(115deg,#10374B 0%,#145668 70%,#16747B 100%);padding:28px 31px;margin:2px 0 18px;color:white;box-shadow:0 10px 24px rgba(16,55,75,.12)}
+.portal-hero-chip{color:#9DE3D7;font-weight:800;letter-spacing:1.3px;font-size:10px}
+.portal-hero h2{font-size:24px!important;color:#fff!important;margin:10px 0 7px;letter-spacing:-.45px;font-weight:850}
+.portal-hero p{font-size:13px;color:#D4EAF1;line-height:1.7;max-width:800px;margin:0}
+.portal-kpi{background:white;border:1px solid #DFE9F0;border-radius:13px;padding:17px 16px;margin-bottom:18px;min-height:112px;box-shadow:0 5px 17px rgba(10,48,68,.035)}
+.portal-kpi-label{font-size:11px;color:#718597;font-weight:750;display:flex;align-items:center;gap:9px}
+.portal-kpi-label span{background:#EAF7F6;color:#0C7B82;border-radius:8px;padding:5px 8px;font-size:16px}
+.portal-kpi-value{font-size:27px;font-weight:850;color:#183A4F;letter-spacing:-.4px;margin:7px 0 2px}
+.portal-kpi-note{font-size:10.5px;color:#879AAB}
+.portal-pillar{min-height:172px;padding:20px 18px;margin:10px 0 16px;border-radius:14px;background:#fff;border:1px solid #E1EAF0;box-shadow:0 5px 15px rgba(20,50,70,.035)}
+.portal-pillar b{color:#203D50;font-size:13px}.portal-pillar p{color:#667C8A;font-size:12px;line-height:1.65;margin-top:10px}
+.portal-pillar-icon{background:#ECF7F7;color:#137A80;border-radius:9px;display:inline-flex;padding:7px 10px;font-size:19px;margin-bottom:11px}
+.portal-item-tag{color:#0C8587;text-transform:uppercase;font-size:10px;letter-spacing:1px;font-weight:800;margin:3px 0 7px}
+.portal-item-title{font-size:15px;font-weight:820;color:#193A4E;line-height:1.4;min-height:25px;margin-bottom:5px}
+.portal-meta{font-size:10.5px;color:#697F90;border-top:1px solid #E8EEF2;padding:10px 0;margin:9px 0}
+@media(max-width:900px){.portal-title{font-size:23px}.portal-hero{padding:20px}.portal-hero h2{font-size:20px!important}}

@@ -1,0 +1,56 @@
+/* V0.38 · navegación y familia SVG de trazo coherente. Conserva los radios reales. */
+[data-testid="stSidebar"] {min-width:296px!important;max-width:296px!important;background:var(--fly-nav)!important}
+[data-testid="stSidebar"] [data-testid="stSidebarContent"] {background:var(--fly-nav)!important;padding:18px 12px 24px!important}
+[data-testid="stSidebar"] .pmo-brand {margin-bottom:14px!important;padding:13px 10px 16px!important}
+[data-testid="stSidebar"] .pmo-side-label {margin:18px 10px 8px!important}
+[data-testid="stSidebar"] [role="radiogroup"] > label {min-height:43px!important;padding:9px 11px!important;gap:0!important;border-radius:10px!important}
+[data-testid="stSidebar"] [role="radiogroup"] > label [data-testid="stMarkdownContainer"] p {font-size:12.6px!important;line-height:1.4!important}
+/* Stage headings are decorations on existing first, third, fifth, seventh and ninth radio options. */
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(1),
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(3),
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(5),
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(7),
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(9) {margin-top:19px!important}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(1) {--nav-item-accent:var(--fly-explore)}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(2) {--nav-item-accent:var(--fly-explore)}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(3) {--nav-item-accent:var(--fly-design)}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(4) {--nav-item-accent:var(--fly-design)}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(5) {--nav-item-accent:var(--fly-deploy)}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(6) {--nav-item-accent:var(--fly-deploy)}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(7) {--nav-item-accent:var(--fly-improve)}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(8) {--nav-item-accent:var(--fly-improve)}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(9) {--nav-item-accent:var(--fly-realize)}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(10) {--nav-item-accent:var(--fly-realize)}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:has(input:checked) {border-left-color:var(--nav-item-accent)!important;background:rgba(255,255,255,.12)!important}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label::before {content:""!important;display:inline-block!important;width:22px!important;height:22px!important;flex:0 0 22px!important;margin-right:11px!important;border-radius:7px!important;background-color:var(--nav-item-accent)!important;background-repeat:no-repeat!important;background-position:center!important;background-size:15px 15px!important}
+/* Section captions are non-interactive and attached to the first option of each stage. */
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(1),
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(3),
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(5),
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(7),
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(9) {margin-top:31px!important}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(1)::after,
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(3)::after,
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(5)::after,
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(7)::after,
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(9)::after {position:absolute;top:-22px;left:2px;font-size:10px;font-weight:800;letter-spacing:.9px;color:#CECBE0;pointer-events:none;}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(1)::after {content:"EXPLORACIÓN";}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(3)::after {content:"DISEÑO";}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(5)::after {content:"DESPLIEGUE";}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(7)::after {content:"MEJORA";}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(9)::after {content:"REALIZACIÓN";}
+/* In text radio groups, use the original native controls. */
+[data-testid="stSidebar"] [role="radiogroup"]:not(:has(>label:nth-child(10))) > label::before {display:none!important}
+[data-testid="stSidebar"] .pmo-sidebar-bottom {background:rgba(255,255,255,.07)!important}
+[data-testid="stSidebar"] .pmo-sidebar-bottom .pmo-progress {margin-top:10px!important}
+@media(max-width:800px) {[data-testid="stSidebar"] {min-width:260px!important;max-width:min(296px,90vw)!important}[data-testid="stMainBlockContainer"],.block-container{padding:16px 14px 40px!important}}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(1)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M4%2017h16M6%2017V7l6-4%206%204v10M9%2017v-5h6v5%22%20stroke%3D%22white%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E")!important}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(2)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M7%203h10v4H7zM6%208h12v13H6zM9%2012h6M9%2016h6%22%20stroke%3D%22white%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E")!important}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(3)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M12%203v18M3%2012h18M5%205l14%2014M19%205%205%2019%22%20stroke%3D%22white%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E")!important}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(4)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M4%206h16M4%2012h16M4%2018h16M8%203v18M16%203v18%22%20stroke%3D%22white%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E")!important}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(5)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M4%2019l6-6%204%203%206-9M16%207h4v4%22%20stroke%3D%22white%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E")!important}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(6)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M12%203a9%209%200%201%201%200%2018%209%209%200%200%201%200-18M12%208v5l3%202%22%20stroke%3D%22white%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E")!important}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(7)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M4%2019V9M10%2019V5M16%2019v-8M22%2019V3%22%20stroke%3D%22white%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E")!important}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(8)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M4%2012h16M12%204v16M6%206l12%2012%22%20stroke%3D%22white%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E")!important}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(9)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M12%202l8%205v10l-8%205-8-5V7zM4%207l8%205%208-5M12%2012v10%22%20stroke%3D%22white%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E")!important}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)) > label:nth-child(10)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M12%203a9%209%200%200%201%209%209%209%209%200%200%201-18%200%209%209%200%200%201%209-9M8%2012l3%203%205-6%22%20stroke%3D%22white%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E")!important}

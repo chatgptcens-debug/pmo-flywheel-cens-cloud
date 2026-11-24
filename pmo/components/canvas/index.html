@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+*{box-sizing:border-box}
+:root{--ink:#172744;--purple:#362A60;--line:#DCE4EF;--muted:#61718D;--blue:#E5F3FF;--green:#E7F7E8;--violet:#F1E5FB;--orange:#FFF0E6}
+body{margin:0;background:transparent;color:var(--ink);font:13px/1.45 'Segoe UI',Arial,sans-serif;overflow-x:hidden}
+button{font:inherit;cursor:pointer;white-space:nowrap}
+button:focus-visible,.item:focus-visible{outline:3px solid #2474D1;outline-offset:2px}
+.toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 14px;margin-bottom:12px;border:1px solid var(--line);background:#FFF;border-radius:11px;flex-wrap:wrap}
+.toolbar .hint{font-size:12px;color:var(--muted);flex:1;min-width:280px}
+.toolbar .stats{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.counter{border:1px solid #DEE5F0;border-radius:24px;padding:5px 10px;background:#F7F9FE;font-size:11px;font-weight:700;color:#355173}
+.tiny-btn{border:1px solid #D2DDEF;border-radius:8px;background:#fff;color:#203758;font-weight:700;padding:7px 10px}
+.tiny-btn.primary{color:#fff;background:#1548A3;border-color:#1548A3}
+.tiny-btn:disabled{opacity:.45;cursor:not-allowed}
+.meta{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}.meta>div{border:1px solid #DAE3F0;background:#F8FAFF;border-radius:11px;padding:9px 13px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#263C5A}.meta b{color:#16243F;margin-right:10px}.meta span{color:#476281}@media(max-width:720px){.meta{grid-template-columns:1fr}}
+.selection{margin:0 0 12px;padding:11px 14px;border-radius:12px;border:1px solid #A9C5E9;background:#EFF7FF;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.selection[hidden]{display:none}
+.selection strong{font-size:12px;color:#133F80}.selection .actions{display:flex;gap:7px}
+.canvas{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px;position:relative;align-items:start;padding:0 6px 10px}
+.panel{min-width:0;position:relative;z-index:1}
+.panel-label{text-align:center;margin:0 auto 12px;display:flex;gap:8px;align-items:center;justify-content:center;max-width:350px;padding:9px 18px;font-size:15px;font-weight:800;color:#18233D;border:1px solid #C7D3E3;border-radius:16px;background:linear-gradient(135deg,#FBFCFF,#EEF3FB)}
+.panel-label .sym{font-size:21px;line-height:1}
+.design{position:relative;width:100%;aspect-ratio:1/1;background:#fff;isolation:isolate}
+.design.value{border:2px solid #26314A;border-radius:3px}
+.design.client{border:2px solid #26314A;border-radius:50%;overflow:hidden}
+.frame-lines{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
+.zone{position:absolute;z-index:2;padding:4px;min-width:0;display:flex;flex-direction:column;align-items:stretch;gap:5px;border-radius:12px;transition:background .15s,box-shadow .15s}
+.zone.dropzone{background:#DCEAFFB5;box-shadow:0 0 0 3px #2B6CC0 inset}
+.zone h4{display:flex;align-items:flex-start;gap:7px;margin:0;padding:4px 2px;color:#16243F;font-size:clamp(11px,1.15vw,15px);font-weight:800;line-height:1.22}
+.zone h4 .sym{font-size:17px;color:#254071;line-height:1.05}
+.zone h4 .number{font:700 10px/1.2 'Segoe UI',Arial,sans-serif;color:#8793AA;background:#F5F7FC;border-radius:15px;padding:2px 6px;margin-left:auto}
+.zone .scroll{min-height:0;overflow:auto;scrollbar-width:thin;scrollbar-color:#BECFE1 transparent;padding:1px 3px 4px}
+.zone.servicios{left:4%;top:29%;width:38%;height:59%}
+.zone.generadores{left:53%;top:8%;width:44%;height:40%}
+.zone.aliviadores{left:53%;top:55%;width:44%;height:38%}
+.zone.ganancias{left:13%;top:11%;width:52%;height:36%}
+.zone.dolores{left:13%;top:55%;width:52%;height:35%}
+.zone.tareas{left:66%;top:30%;width:32%;height:46%}
+.item{position:relative;margin:4px 0;border:1px solid #DFE7F2;border-radius:10px;padding:8px 9px;background:#F9FBFF;box-shadow:0 1px 3px #192B4910;line-height:1.3;cursor:grab;overflow-wrap:anywhere}
+.item:active{cursor:grabbing}
+.item-title{font-size:clamp(10px,.94vw,12px);font-weight:650;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;line-clamp:3;overflow:hidden}
+.item small{display:none;font-size:10px;color:#66768E;margin:4px 0 2px}
+.item:focus-within small,.item:hover small{display:block;max-height:72px;overflow:hidden}
+.item-actions{display:flex;justify-content:flex-end;margin-top:5px}
+.connect{border:0;background:transparent;padding:2px 4px;color:#154B9D;font-size:10px;font-weight:750;border-radius:5px}
+.connect:hover,.connect:focus-visible{background:#E9F0FC;text-decoration:underline}
+.item.selected{outline:2px solid #2563EB}
+.zone.servicios .item,.zone.tareas .item{background:#E7F2FC}
+.zone.generadores .item{background:#F3E9FB}
+.zone.aliviadores .item,.zone.dolores .item{background:#FFF0E6}
+.zone.ganancias .item{background:#E8F7E9}
+.placeholder{padding:8px 5px;font-size:11px;color:#7F91A9;font-style:italic}
+.gift,.face{position:absolute;z-index:1;pointer-events:none;display:flex;align-items:center;justify-content:center;color:#26314A;background:#fff;border:2px solid #26314A;box-shadow:0 2px 6px #1E355011}
+.gift{left:43%;top:44.5%;width:10%;height:12%;border-radius:12px}
+.face{left:45%;top:44%;width:13%;height:13%;border-radius:50%}
+.middle-arrow{position:absolute;left:49.5%;top:51%;transform:translate(-50%,0);z-index:2;font-size:27px;color:#244266;text-shadow:0 0 8px white;pointer-events:none}
+.link-overlay{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:7;overflow:visible}
+.linkstatus{background:#F4F7FC;border:1px solid #DEE6F1;border-radius:12px;padding:10px 13px;margin:6px 6px 2px;color:#4F6282;font-size:11px;display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}
+.linkstatus strong{color:#162C54}
+.footer{margin:8px 6px 5px;color:#66778F;font-size:11px}
+@media(max-width:920px){.canvas{grid-template-columns:1fr;max-width:680px;margin:auto}.middle-arrow{display:none}.design{aspect-ratio:1.12/1}.zone h4{font-size:14px}.item-title{font-size:12px}}
+@media(max-width:480px){.canvas{padding:0 2px}.zone h4{font-size:10px;gap:2px}.zone h4 .sym{font-size:12px}.zone h4 .number{display:none}.item{padding:4px 5px}.item-title{font-size:10px}.gift svg,.face svg{max-width:80%}.toolbar .hint{min-width:0}}
+</style>
+</head>
+<body>
+<div class="toolbar"><div class="hint"><b>Lienzo de propuesta de valor · CENS</b> · Mueve tarjetas entre zonas. Para crear un vínculo, selecciona dos tarjetas y confirma la relación.</div><div class="stats"><span id="count" class="counter">0 tarjetas · 0 vínculos</span><button id="toggleLinks" class="tiny-btn" type="button" aria-pressed="false">Mostrar conexiones</button></div></div>
+<div class="meta"><div><b>Propuesta de valor</b><span id="canvasName">—</span></div><div><b>Cliente o segmento</b><span id="canvasSegment">—</span></div></div>
+<div class="selection" id="selection" hidden><div id="selectedText" aria-live="polite"></div><div class="actions"><button id="confirm" type="button" class="tiny-btn primary" hidden>Guardar conexión</button><button id="cancel" type="button" class="tiny-btn">Cancelar</button></div></div>
+<div class="canvas" id="canvas">
+  <section class="panel"><div class="panel-label"><span class="sym" aria-hidden="true">♢</span> Mapa de valor PMO</div><div class="design value" id="value"><svg class="frame-lines" viewBox="0 0 600 520" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 L310 260 L0 520 M310 260 L600 260" stroke="#26314A" stroke-width="2.3" fill="none" /></svg><div class="gift" aria-hidden="true"><svg width="50" height="50" viewBox="0 0 48 48" fill="none" stroke="#26314A" stroke-width="2.2"><rect x="8" y="21" width="32" height="21" rx="2"/><path d="M5 18h38v9H5zM24 18v24"/><path d="M24 18C12 17 8 12 13 8c5-4 11 4 11 10Zm0 0c12-1 16-6 11-10-5-4-11 4-11 10Z"/></svg></div></div></section>
+  <div class="middle-arrow" aria-hidden="true">↔</div>
+  <section class="panel"><div class="panel-label"><span class="sym" aria-hidden="true">♙</span> Perfil del cliente</div><div class="design client" id="client"><svg class="frame-lines" viewBox="0 0 520 465" preserveAspectRatio="none" aria-hidden="true"><path d="M0 232 L260 232 M260 232 L419 74 M260 232 L419 391" stroke="#26314A" stroke-width="2.3" fill="none" /></svg><div class="face" aria-hidden="true"><svg width="51" height="51" viewBox="0 0 48 48" fill="none" stroke="#26314A" stroke-width="2.5"><circle cx="24" cy="16" r="8"/><path d="M10 43v-4c0-8 7-13 14-13s14 5 14 13v4"/></svg></div></div></section>
+</div>
+<div class="linkstatus"><span id="linkSummary"><strong>Relaciones de valor:</strong> sin conexiones registradas.</span><span>Una tarjeta sin vínculo no implica una solución validada.</span></div>
+<div class="footer">Modelo de seis zonas inspirado en el Value Proposition Canvas y adaptado al contexto PMO CENS. Las conexiones son evidencias de diseño, no aprobaciones de clientes. Sin servicios externos.</div>
+<script>
+'use strict';
+const Z={servicios:'Productos y servicios',generadores:'Generadores de beneficios',aliviadores:'Aliviadores de dolores',tareas:'Tareas del cliente',ganancias:'Beneficios esperados',dolores:'Dolores del cliente'};
+const ICON={servicios:'⬡',generadores:'↗',aliviadores:'◇',tareas:'☷',ganancias:'☺',dolores:'△'};
+let arg={cards:[],links:[]},picked=null,pending=null,showLinks=false,drawPending=false;
+function notify(type,extra){window.parent.postMessage({isStreamlitMessage:true,type:'streamlit:setComponentValue',value:{type,...extra,nonce:Math.random().toString(36).slice(2)+Date.now()}},'*');}
+function elm(tag,cls,label){const e=document.createElement(tag);if(cls)e.className=cls;if(label!==undefined)e.textContent=label;return e;}
+function setSelection(){const box=document.getElementById('selection'),txt=document.getElementById('selectedText'),confirm=document.getElementById('confirm');if(!picked&&!pending){box.hidden=true;return;}box.hidden=false;
+if(pending){txt.replaceChildren();const strong=elm('strong','','Confirmar relación de valor');txt.appendChild(strong);txt.appendChild(elm('div','',pending.from.titulo+' → '+pending.to.titulo));confirm.hidden=false;}
+else{txt.replaceChildren(elm('strong','','Origen seleccionado: '+picked.titulo));txt.appendChild(elm('div','','Ahora selecciona “Conectar” en la tarjeta de destino.'));confirm.hidden=true;}
+resize();}
+function resetSelection(){picked=null;pending=null;setSelection();draw();}
+function selectCard(card){if(pending){pending=null;picked=null;}if(!picked){picked=card;}else if(picked.id===card.id){picked=null;}else{pending={from:picked,to:card};picked=null;}setSelection();draw(false);}
+function createZone(zone){const d=elm('section','zone '+zone);d.dataset.zone=zone;d.setAttribute('aria-label',Z[zone]);
+const header=elm('h4');header.appendChild(elm('span','sym',ICON[zone]));header.appendChild(elm('span','',Z[zone]));
+const items=arg.cards.filter(c=>c.zona===zone);header.appendChild(elm('span','number',String(items.length)));d.appendChild(header);
+const list=elm('div','scroll');if(!items.length)list.appendChild(elm('div','placeholder','Agrega o arrastra una tarjeta'));
+items.forEach(c=>{const item=elm('article','item');item.draggable=true;item.tabIndex=0;item.dataset.id=c.id;item.title=c.titulo;
+item.appendChild(elm('div','item-title',c.titulo));if(c.detalle){const more=elm('small','',c.detalle.length>180?c.detalle.slice(0,180)+'…':c.detalle);more.title=c.detalle;item.appendChild(more);}
+const actions=elm('div','item-actions'),link=elm('button','connect','Conectar');link.type='button';link.setAttribute('aria-label','Conectar '+c.titulo);link.onclick=(ev)=>{ev.stopPropagation();selectCard(c);};actions.appendChild(link);item.appendChild(actions);
+if(picked?.id===c.id||pending?.from.id===c.id||pending?.to.id===c.id)item.classList.add('selected');
+item.addEventListener('dragstart',ev=>{ev.dataTransfer.setData('text/plain',c.id);ev.dataTransfer.effectAllowed='move';});list.appendChild(item);});
+list.addEventListener('scroll',scheduleLinks);d.appendChild(list);
+d.addEventListener('dragover',ev=>{ev.preventDefault();d.classList.add('dropzone');});
+d.addEventListener('dragleave',ev=>{if(!d.contains(ev.relatedTarget))d.classList.remove('dropzone');});
+d.addEventListener('drop',ev=>{ev.preventDefault();d.classList.remove('dropzone');const id=ev.dataTransfer.getData('text/plain');const card=arg.cards.find(c=>c.id===id);if(card&&card.zona!==zone)notify('move',{card_id:id,zone});});return d;}
+function scheduleLinks(){if(drawPending)return;drawPending=true;requestAnimationFrame(()=>{drawPending=false;drawLinks();});}
+function drawLinks(){const root=document.getElementById('canvas');root.querySelector('.link-overlay')?.remove();if(!showLinks||!arg.links.length)return;
+const rect=root.getBoundingClientRect(),nodes=new Map([...root.querySelectorAll('.item')].map(node=>[node.dataset.id,node]));
+const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.classList.add('link-overlay');svg.setAttribute('viewBox',`0 0 ${Math.max(rect.width,1)} ${Math.max(rect.height,1)}`);svg.setAttribute('aria-label','Conexiones registradas entre tarjetas');
+for(const rel of arg.links){const a=nodes.get(rel.origen_id),b=nodes.get(rel.destino_id);if(!a||!b)continue;const ar=a.getBoundingClientRect(),br=b.getBoundingClientRect();
+const x1=ar.left+ar.width/2-rect.left,y1=ar.top+ar.height/2-rect.top,x2=br.left+br.width/2-rect.left,y2=br.top+br.height/2-rect.top;
+const bend=(x1+x2)/2,path=document.createElementNS('http://www.w3.org/2000/svg','path');path.setAttribute('d',`M ${x1} ${y1} C ${bend} ${y1}, ${bend} ${y2}, ${x2} ${y2}`);path.setAttribute('stroke','#158B84');path.setAttribute('stroke-width','2');path.setAttribute('stroke-dasharray','4 4');path.setAttribute('opacity','.72');path.setAttribute('fill','none');svg.appendChild(path);}
+root.appendChild(svg);}
+function draw(updateSelection=true){document.querySelectorAll('.zone').forEach(x=>x.remove());const v=document.getElementById('value'),c=document.getElementById('client');
+['servicios','generadores','aliviadores'].forEach(z=>v.appendChild(createZone(z)));
+['ganancias','dolores','tareas'].forEach(z=>c.appendChild(createZone(z)));
+document.getElementById('canvasName').textContent=arg.title||'Lienzo sin título';document.getElementById('canvasSegment').textContent=arg.segment||'Sin identificar';
+const n=arg.cards.length,k=arg.links.length;document.getElementById('count').textContent=`${n} tarjetas · ${k} vínculos`;
+document.getElementById('linkSummary').replaceChildren(elm('strong','','Relaciones de valor: '),document.createTextNode(k?`${k} conexiones guardadas; utiliza “Mostrar conexiones” para verlas sobre el lienzo.`:'sin conexiones registradas.'));
+if(updateSelection)setSelection();scheduleLinks();resize();}
+function resize(){const h=Math.max(document.body.scrollHeight,430);window.parent.postMessage({isStreamlitMessage:true,type:'streamlit:setFrameHeight',height:h},'*');}
+document.getElementById('toggleLinks').onclick=()=>{showLinks=!showLinks;const b=document.getElementById('toggleLinks');b.textContent=showLinks?'Ocultar conexiones':'Mostrar conexiones';b.setAttribute('aria-pressed',String(showLinks));scheduleLinks();};
+document.getElementById('confirm').onclick=()=>{if(!pending)return;const {from,to}=pending;resetSelection();notify('link',{origin:from.id,destination:to.id});};
+document.getElementById('cancel').onclick=resetSelection;
+window.addEventListener('resize',()=>{scheduleLinks();resize();});
+window.addEventListener('message',event=>{if(event.data?.type==='streamlit:render'){arg=event.data.args||{cards:[],links:[]};arg.cards=Array.isArray(arg.cards)?arg.cards:[];arg.links=Array.isArray(arg.links)?arg.links:[];picked=null;pending=null;draw();}});
+window.parent.postMessage({isStreamlitMessage:true,type:'streamlit:componentReady',apiVersion:1},'*');resize();
+</script></body></html>

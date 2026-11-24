@@ -1,0 +1,4 @@
+/* Paso 7: capa visual independiente, sin alterar navegación ni lógica de pasos previos */
+.p7-callout{border-radius:13px;background:#EFF9FA;border:1px solid #CAE5E9;padding:16px;color:#285E6F}
+[data-testid="stHorizontalBlock"]{align-items:stretch}
+[data-testid="stMetric"]{border-radius:12px}

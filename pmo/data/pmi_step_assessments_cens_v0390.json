@@ -1,0 +1,586 @@
+{
+  "instrument": "CENS-ADAPTADA-2026.2",
+  "note": "Enunciados adaptados para uso interno CENS basados en los temas del ciclo PMO Value Ring 2025. No constituyen un instrumento oficial o una certificación PMI.",
+  "steps": {
+    "1": [
+      {
+        "name": "Identificación de clientes",
+        "questions": [
+          "Se mantiene un directorio actualizado de clientes potenciales.",
+          "Se clasifican los perfiles que requieren comunicación diferenciada.",
+          "Se identifican las áreas donde la PMO podría aportar valor.",
+          "Se identifican los referentes que participan en decisiones relevantes.",
+          "Se documentan desafíos preliminares manifestados por los clientes."
+        ]
+      },
+      {
+        "name": "Puntos de contacto",
+        "questions": [
+          "Se definen canales de contacto apropiados para cada audiencia.",
+          "Se comprueban las preferencias de comunicación de los grupos objetivo.",
+          "Existe una periodicidad acordada de interacción con clientes.",
+          "Se mantiene evidencia de los encuentros y comunicaciones realizados.",
+          "Se revisa la oportunidad y utilidad de los contactos establecidos."
+        ]
+      },
+      {
+        "name": "Educación sobre el valor",
+        "questions": [
+          "Existe contenido propio que explica el propósito de la PMO.",
+          "Se realizan actividades educativas adaptadas a la audiencia.",
+          "Se presentan ejemplos verificables de contribuciones de la PMO.",
+          "Se promueve la participación de referentes internos autorizados.",
+          "Los colaboradores tienen acceso a materiales vigentes de consulta."
+        ]
+      },
+      {
+        "name": "Medición de la eficacia",
+        "questions": [
+          "Se distinguen alcance y comprensión en los indicadores.",
+          "Se dispone de mecanismos para medir familiaridad y utilidad percibida.",
+          "Se identifican cambios de conocimiento mediante mediciones comparables.",
+          "Se reportan resultados con fuente y tamaño de muestra.",
+          "Se revisan resultados con responsables de las actividades."
+        ]
+      },
+      {
+        "name": "Mejora continua",
+        "questions": [
+          "Se recogen y analizan inquietudes sobre las acciones de sensibilización.",
+          "Los mensajes se ajustan según comentarios y evidencia.",
+          "Se revisan experiencias externas pertinentes y aplicables.",
+          "Se comunican oportunidades de mejora a los responsables.",
+          "Las acciones de ajuste se documentan y se verifica su resultado."
+        ]
+      }
+    ],
+    "2": [
+      {
+        "name": "Evaluación orientada a resultados",
+        "questions": [
+          "El diagnóstico parte de resultados que desean conseguir los clientes.",
+          "Existe información documentada sobre el contexto de los proyectos.",
+          "Se identifican segmentos y sus expectativas diferenciadas.",
+          "Los resultados deseados se vinculan a problemas reales.",
+          "Se acuerda el alcance del diagnóstico con los interesados."
+        ]
+      },
+      {
+        "name": "Recopilación y análisis de información",
+        "questions": [
+          "Se aplican métodos apropiados para escuchar a los clientes.",
+          "Las evidencias conservan fuente, fecha y relación con el cliente.",
+          "Los registros permiten comparar necesidades entre segmentos.",
+          "Se analizan entrevistas, encuestas y fuentes documentales.",
+          "Se comprueba la calidad de las respuestas antes de analizar."
+        ]
+      },
+      {
+        "name": "Brechas y oportunidades",
+        "questions": [
+          "Se identifica la situación actual y la situación esperada.",
+          "Se registran problemas y sus consecuencias para los clientes.",
+          "Las oportunidades incluyen resultados verificables.",
+          "Se distinguen hechos documentados de percepciones.",
+          "Se relacionan brechas con objetivos de la organización."
+        ]
+      },
+      {
+        "name": "Priorización de necesidades",
+        "questions": [
+          "Las reglas de ponderación se documentan y se justifican.",
+          "Las prioridades se sustentan en respuestas de clientes.",
+          "La priorización considera diferencias entre grupos.",
+          "Se revisan las recomendaciones antes de decidir servicios.",
+          "Los clientes participan en validar prioridades y hallazgos."
+        ]
+      },
+      {
+        "name": "Valor y comunicación del diagnóstico",
+        "questions": [
+          "Se entregan resultados comprensibles para cada audiencia.",
+          "Se comunican límites de la muestra y del método.",
+          "Las necesidades validadas mantienen trazabilidad a sus fuentes.",
+          "Se identifican decisiones y acciones posteriores.",
+          "Los antecedentes quedan disponibles para formular propuestas."
+        ]
+      }
+    ],
+    "3": [
+      {
+        "name": "Síntesis de los resultados de la evaluación de necesidades",
+        "questions": [
+          "¿Se analizaron los informes, encuestas, entrevistas y comentarios del Paso 2?",
+          "¿Se clasificaron las necesidades y resultados esperados en categorías comprensibles?",
+          "¿Se priorizaron las necesidades utilizando criterios objetivos y alineación estratégica?",
+          "¿Se documentaron las principales dificultades con información de impacto y evidencia?",
+          "¿Se elaboraron visualizaciones que faciliten comprender y comunicar las necesidades?"
+        ]
+      },
+      {
+        "name": "De los problemas a las posibles soluciones",
+        "questions": [
+          "¿Se generaron alternativas de solución mediante trabajo colaborativo?",
+          "¿Se utilizó un lienzo que relaciona dificultades, necesidades y soluciones?",
+          "¿Se examinó la viabilidad de las soluciones considerando capacidades, recursos e impacto?",
+          "¿Se agruparon y compararon las soluciones para identificar oportunidades de alto valor?",
+          "¿Las soluciones propuestas explican cómo reducirán los dolores y generarán beneficios?"
+        ]
+      },
+      {
+        "name": "Definición de la propuesta de valor de la PMO",
+        "questions": [
+          "¿Cada solución dispone de un concepto de valor claro y relacionado con la necesidad del cliente?",
+          "¿Existe un mapa visual que conecta necesidades, soluciones y objetivos organizacionales?",
+          "¿Se identificaron oportunidades para conseguir resultados tempranos?",
+          "¿Se definió de manera preliminar cómo podrían prestarse y evolucionar las soluciones?",
+          "¿Se presentaron los conceptos a clientes relevantes para recibir observaciones y validarlos?"
+        ]
+      },
+      {
+        "name": "Establecimiento y evolución de la propuesta de valor",
+        "questions": [
+          "¿Se establecieron acuerdos de valor con los principales grupos de clientes?",
+          "¿Existe una hoja de ruta para evolucionar las propuestas según las necesidades organizacionales?",
+          "¿Se identificaron y gestionaron los riesgos de incumplimiento del valor prometido?",
+          "¿Se estableció una periodicidad para revisar y actualizar la propuesta de valor?",
+          "¿Participan representantes de diferentes grupos de clientes en su revisión?"
+        ]
+      },
+      {
+        "name": "Medición y perfeccionamiento de la propuesta de valor",
+        "questions": [
+          "¿Se recoge sistemáticamente la percepción de los clientes sobre el valor de las propuestas?",
+          "¿Se documentan y utilizan las lecciones aprendidas en las revisiones?",
+          "¿Se priorizan mejoras considerando la retroalimentación de los clientes?",
+          "¿Se definieron criterios para modificar, evolucionar o retirar soluciones?",
+          "¿Se mide el valor logrado frente a las expectativas y compromisos definidos?"
+        ]
+      }
+    ],
+    "4": [
+      {
+        "name": "Enfoque de prestación",
+        "questions": [
+          "Se comparan opciones de prestación según la necesidad, madurez y cultura de cada cliente.",
+          "La modalidad de prestación define responsabilidades, roles e interacción entre PMO y clientes.",
+          "Los clientes participan en la validación y ajuste del enfoque de prestación.",
+          "Se anticipa cómo debe evolucionar el enfoque a medida que cambien las capacidades.",
+          "Los modelos de prestación se revisan para mantener su utilidad y efectividad."
+        ]
+      },
+      {
+        "name": "Diseño y adaptación de procesos",
+        "questions": [
+          "Cada servicio cuenta con un proceso de principio a fin que muestra decisiones y traspasos.",
+          "Se prevén variantes para distintos tipos, tamaños y complejidades de proyectos.",
+          "Los riesgos que afectan la prestación se identifican y cuentan con acciones de tratamiento.",
+          "Existen orientaciones para adaptar procesos a las particularidades de los clientes.",
+          "Los procesos disponen de diagramas, responsabilidades RACI e instrucciones documentadas."
+        ]
+      },
+      {
+        "name": "Catálogo de servicios",
+        "questions": [
+          "El catálogo identifica los servicios disponibles y describe sus principales características.",
+          "Los servicios están segmentados o adaptados según las necesidades de los clientes.",
+          "Los clientes conocen cómo solicitar, utilizar y acceder a cada servicio.",
+          "El catálogo se actualiza ante cambios de necesidades, mejoras o nuevas ofertas.",
+          "La oferta de servicios se comunica activamente a los grupos de clientes relevantes."
+        ]
+      },
+      {
+        "name": "Objetivos e indicadores",
+        "questions": [
+          "Para cada servicio se han definido métricas de eficiencia, entregables y resultados.",
+          "Los indicadores cuentan con fórmula, fuente, frecuencia y responsable definidos.",
+          "Las metas se establecen con participación de los clientes y usando líneas base.",
+          "Los tableros presentan métricas y metas apropiadas para cada cliente.",
+          "La PMO revisa los indicadores con los clientes y ajusta metas según la evidencia."
+        ]
+      },
+      {
+        "name": "Recursos y competencias",
+        "questions": [
+          "Se identifican las competencias técnicas y relacionales requeridas por cada servicio.",
+          "Las habilidades actuales del equipo se comparan con las competencias requeridas.",
+          "Los roles especifican responsabilidades, aptitudes y expectativas de desempeño.",
+          "Las asignaciones se actualizan al cambiar la demanda o disponibilidad del equipo.",
+          "Existe un plan para cerrar brechas de habilidades y fortalecer la capacidad futura."
+        ]
+      },
+      {
+        "name": "ANS y validación de clientes",
+        "questions": [
+          "Cada servicio cuenta con ANS que establecen alcance, plazos, calidad y desempeño.",
+          "Las metas de los ANS corresponden a recursos reales y expectativas alcanzables.",
+          "Los compromisos se adaptan, cuando corresponda, a distintos tipos de clientes.",
+          "Los clientes revisan y validan los ANS antes de su formalización.",
+          "Se prevé el monitoreo y la revisión periódica del cumplimiento de los ANS."
+        ]
+      },
+      {
+        "name": "Planificación de implementación",
+        "questions": [
+          "Existen hojas de ruta con hitos, dependencias y tiempos de desarrollo del servicio.",
+          "Los planes de implementación identifican recursos, presupuesto y riesgos.",
+          "El traspaso de incorporación a operación tiene requisitos y responsables definidos.",
+          "Se consideran pilotos y despliegues graduales para servicios complejos o críticos.",
+          "Existe gobernanza para supervisar implementación, incorporación y operación."
+        ]
+      }
+    ],
+    "5": [
+      {
+        "name": "Preparación y compromiso del cliente",
+        "questions": [
+          "Se identifican los grupos de clientes que utilizarán los servicios nuevos o mejorados.",
+          "La estrategia de compromiso considera necesidades y preocupaciones de cada grupo.",
+          "Se comunica oportunamente la oferta y el proceso de incorporación.",
+          "La retroalimentación recibida durante la incorporación se registra y se atiende.",
+          "Se promueve la participación de personas referentes que apoyan la adopción."
+        ]
+      },
+      {
+        "name": "Programa de formación",
+        "questions": [
+          "Se analizan las necesidades de aprendizaje de los diferentes tipos de clientes.",
+          "Se dispone de formación diferenciada según el rol y nivel de experiencia.",
+          "Hay guías, tutoriales o materiales prácticos para utilizar los servicios.",
+          "Se combinan opciones de autoaprendizaje y sesiones acompañadas.",
+          "Se verifica que los usuarios desarrollen las competencias de uso necesarias."
+        ]
+      },
+      {
+        "name": "Pilotos y retroalimentación",
+        "questions": [
+          "Los pilotos incorporan participantes de distintos segmentos de clientes.",
+          "Cada piloto cuenta con objetivos, alcance y criterios de éxito definidos.",
+          "Se proporciona acompañamiento reforzado a los participantes del piloto.",
+          "Se recopilan datos cuantitativos y opiniones de los participantes.",
+          "Los hallazgos de los pilotos se analizan y se traducen en mejoras."
+        ]
+      },
+      {
+        "name": "Infraestructura de soporte",
+        "questions": [
+          "Los niveles y canales de apoyo están definidos y son accesibles.",
+          "Existe información de consulta para resolver dudas frecuentes.",
+          "Se ofrecen canales apropiados para recibir consultas y solicitudes de ayuda.",
+          "El equipo responsable de soporte está preparado para atender a los usuarios.",
+          "Se promueve el intercambio de experiencias y conocimiento entre usuarios."
+        ]
+      },
+      {
+        "name": "Monitoreo y evaluación",
+        "questions": [
+          "Existen indicadores y criterios de éxito para evaluar la incorporación.",
+          "Se visualiza la evolución del uso y adopción mediante reportes o tableros.",
+          "Los datos de utilización y participación se recopilan de forma verificable.",
+          "Se realizan revisiones con los clientes sobre resultados y dificultades.",
+          "Se ajustan los planes de incorporación a partir de datos y opiniones."
+        ]
+      },
+      {
+        "name": "Transición a operación",
+        "questions": [
+          "Se han definido condiciones observables para considerar exitosa la incorporación.",
+          "Existe un plan de transición con fechas, recursos y responsables.",
+          "Se transfiere el conocimiento necesario al equipo que prestará los servicios.",
+          "La continuidad del soporte y del monitoreo posterior está prevista.",
+          "Se comunica a los clientes cómo funcionará el servicio después de la transición."
+        ]
+      }
+    ],
+    "9": [
+      {
+        "name": "Marco integral de medición del valor",
+        "questions": [
+          "¿Definimos resultados específicos y medibles para cada servicio de la PMO?",
+          "¿Recopilamos datos consistentes y fiables para evaluar el impacto de los servicios?",
+          "¿Nuestros informes de valor son claros y adaptados a los distintos clientes?",
+          "¿Revisamos periódicamente los indicadores de valor y su alineación organizacional?",
+          "¿Existe una periodicidad definida para recopilar datos y reportar valor entregado?"
+        ]
+      },
+      {
+        "name": "Análisis de impacto cuantitativo",
+        "questions": [
+          "¿Analizamos sistemáticamente datos cuantitativos sobre la contribución de la PMO?",
+          "¿Cuantificamos impactos financieros con fuentes y supuestos verificables?",
+          "¿Realizamos análisis de tendencias del valor generado por los servicios?",
+          "¿Los informes incluyen visualizaciones claras de los resultados?",
+          "¿Documentamos los métodos y supuestos usados para calcular el valor?"
+        ]
+      },
+      {
+        "name": "Realización de beneficios para los clientes",
+        "questions": [
+          "¿Revisamos los beneficios comprometidos para cada grupo de clientes?",
+          "¿Seguimos los beneficios a lo largo del tiempo mediante indicadores?",
+          "¿Comparamos la línea base con mediciones posteriores a las intervenciones?",
+          "¿Documentamos casos representativos de alto valor entregado?",
+          "¿Reportamos periódicamente los beneficios logrados por la PMO?"
+        ]
+      },
+      {
+        "name": "Síntesis y comunicación del valor",
+        "questions": [
+          "¿Integramos evidencias cuantitativas y cualitativas del valor generado?",
+          "¿Explicamos claramente la contribución de los servicios a los objetivos organizacionales?",
+          "¿Adaptamos los informes a la dirección, líderes de proyectos y otros clientes?",
+          "¿Utilizamos visualizaciones para comunicar resultados complejos?",
+          "¿Reportamos conforme a los ciclos organizacionales de decisión?"
+        ]
+      },
+      {
+        "name": "Perfeccionamiento y reajuste",
+        "questions": [
+          "¿Analizamos las diferencias entre beneficios prometidos y resultados reales?",
+          "¿Investigamos las causas de incumplimientos significativos de valor?",
+          "¿Definimos acciones para ajustar propuestas, servicios o procesos cuando se requiere?",
+          "¿Perfeccionamos los indicadores y los métodos de medición con base en evidencias?",
+          "¿Gestionamos y comunicamos formalmente los cambios derivados de las mejoras?"
+        ]
+      }
+    ],
+    "10": [
+      {
+        "name": "Encuestas de percepción del valor",
+        "questions": [
+          "¿Recogemos periódicamente la percepción del valor de los clientes de la PMO?",
+          "¿Combinamos preguntas de calificación con comentarios abiertos en las encuestas?",
+          "¿Analizamos las respuestas por grupos de clientes para detectar diferencias?",
+          "¿Identificamos brechas entre el valor demostrado y el valor que reconocen los clientes?",
+          "¿Aplicamos los resultados de las encuestas para orientar decisiones y mejoras?"
+        ]
+      },
+      {
+        "name": "Talleres de reconocimiento",
+        "questions": [
+          "¿Facilitamos talleres donde los clientes reflexionan sobre los aportes de la PMO?",
+          "¿Los talleres promueven diálogo abierto y construcción compartida de valor?",
+          "¿Documentamos y socializamos los hallazgos obtenidos en los talleres?",
+          "¿Damos seguimiento a los participantes para conocer cambios de percepción?",
+          "¿Realizamos talleres con una periodicidad definida?"
+        ]
+      },
+      {
+        "name": "Tablero de reconocimiento del valor",
+        "questions": [
+          "¿Contamos con un tablero que integre las métricas de reconocimiento de la PMO?",
+          "¿Incluimos percepción, uso de servicios y solicitudes de participación de la PMO?",
+          "¿El tablero es accesible a la PMO y a sus grupos de clientes pertinentes?",
+          "¿Ajustamos el tablero a partir de comentarios y prioridades cambiantes?",
+          "¿Difundimos casos concretos de éxito mediante el tablero?"
+        ]
+      },
+      {
+        "name": "Historias de valor",
+        "questions": [
+          "¿Comunicamos ejemplos comprobables del valor aportado por la PMO?",
+          "¿Preparamos al equipo para comunicar las contribuciones mediante historias comprensibles?",
+          "¿Utilizamos formatos diversos como casos, presentaciones o material audiovisual?",
+          "¿Compartimos los resultados de la PMO en espacios y actividades de divulgación?",
+          "¿Evaluamos el alcance y la utilidad de las historias para mejorar su comunicación?"
+        ]
+      },
+      {
+        "name": "Retroalimentación de valor 360°",
+        "questions": [
+          "¿Recibimos retroalimentación sobre el valor de la PMO en diversos puntos de contacto?",
+          "¿Combinamos encuestas breves, entrevistas y mecanismos digitales de opinión?",
+          "¿Analizamos las observaciones recibidas para detectar tendencias y oportunidades de mejora?",
+          "¿Informamos a los clientes cómo se utilizan sus comentarios para tomar acciones?",
+          "¿Revisamos periódicamente que los canales de retroalimentación sigan siendo pertinentes?"
+        ]
+      },
+      {
+        "name": "Eventos de reconocimiento",
+        "questions": [
+          "¿Organizamos actividades que permitan mostrar y reconocer las contribuciones de la PMO?",
+          "¿Utilizamos diversos formatos y espacios para compartir los logros de la PMO?",
+          "¿Promovemos una cultura de valoración de la dirección de proyectos?",
+          "¿Involucramos a directivos o representantes clave en las actividades de reconocimiento?",
+          "¿Medimos asistencia, participación y cambios de percepción tras las actividades?"
+        ]
+      }
+    ],
+    "6": [
+      {
+        "name": "Gestión diaria de servicios",
+        "questions": [
+          "Los servicios se prestan conforme a los procesos y criterios de calidad definidos.",
+          "La PMO prioriza actividades equilibrando compromisos planificados y solicitudes imprevistas.",
+          "Existen canales de comunicación funcionales para recibir solicitudes.",
+          "La prestación se supervisa y los incidentes se atienden oportunamente.",
+          "Se revisa el desempeño operativo y se identifican acciones de mejora."
+        ]
+      },
+      {
+        "name": "Ejecución de ANS",
+        "questions": [
+          "Se revisan periódicamente los ANS vigentes y sus objetivos.",
+          "Las solicitudes se priorizan considerando los compromisos de ANS.",
+          "Existe un mecanismo definido para escalar posibles incumplimientos.",
+          "Se conservan evidencias de decisiones, excepciones y actuaciones sobre los ANS.",
+          "El equipo incorpora la responsabilidad por los ANS en su trabajo cotidiano."
+        ]
+      },
+      {
+        "name": "Solicitudes y consultas",
+        "questions": [
+          "El sistema permite seguir cada solicitud desde el registro hasta la resolución.",
+          "La priorización considera urgencia, impacto y prioridades organizacionales.",
+          "Se fijan y cumplen tiempos de respuesta y resolución por tipo de solicitud.",
+          "Existen rutas para escalar solicitudes urgentes o complejas.",
+          "Se mejoran periódicamente los procedimientos de atención y consulta."
+        ]
+      },
+      {
+        "name": "Recursos y carga de trabajo",
+        "questions": [
+          "La disponibilidad y las competencias de los integrantes están actualizadas.",
+          "Las asignaciones consideran capacidades, cargas de trabajo y necesidades del servicio.",
+          "Se emplean herramientas para equilibrar y seguir el trabajo asignado.",
+          "El equipo revisa regularmente restricciones y disponibilidad.",
+          "Se analiza el uso de recursos para orientar mejoras operativas."
+        ]
+      },
+      {
+        "name": "Comunicación con clientes",
+        "questions": [
+          "La comunicación se adapta a las características de cada grupo de clientes.",
+          "Se utilizan canales accesibles y consistentes de comunicación bidireccional.",
+          "La retroalimentación recibida genera acciones de seguimiento.",
+          "Las expectativas y limitaciones de atención se comunican de manera transparente.",
+          "Se promueven relaciones de colaboración y confianza con los clientes."
+        ]
+      },
+      {
+        "name": "Riesgos e incidentes",
+        "questions": [
+          "Existe un enfoque de gestión de riesgos para la continuidad de los servicios.",
+          "Los incidentes se registran, escalan y resuelven mediante un proceso definido.",
+          "Se mantiene actualizado un registro con riesgos, incidentes y tratamientos.",
+          "Existen planes de contingencia probados para riesgos relevantes.",
+          "Los riesgos e incidentes significativos se comunican a los clientes afectados."
+        ]
+      },
+      {
+        "name": "Conocimiento y capacidades",
+        "questions": [
+          "La PMO cuenta con un repositorio accesible de conocimientos operativos.",
+          "Las experiencias y soluciones de atención se documentan y comparten.",
+          "La documentación de los servicios y la formación del equipo se actualizan.",
+          "Se emplean herramientas tecnológicas para compartir y reutilizar conocimientos.",
+          "Las prácticas de conocimiento se revisan y mejoran según las necesidades."
+        ]
+      }
+    ],
+    "7": [
+      {
+        "name": "Marco integral de monitoreo",
+        "questions": [
+          "Existe un proceso estandarizado y confiable para recopilar los datos de desempeño de todos los servicios.",
+          "La PMO dispone de un tablero centralizado que permite consultar el rendimiento de los servicios.",
+          "Se cumple un cronograma de seguimiento con frecuencias definidas.",
+          "Los responsables de recopilar, analizar e informar los datos están claramente identificados.",
+          "El equipo conoce el marco de monitoreo y ha recibido orientación para aplicarlo."
+        ]
+      },
+      {
+        "name": "Gestión de cumplimiento de ANS",
+        "questions": [
+          "Existe un sistema para supervisar el cumplimiento de los ANS de todos los servicios.",
+          "Se revisa periódicamente el desempeño y se intervienen los riesgos de incumplimiento.",
+          "La PMO aplica un procedimiento documentado para escalar posibles incumplimientos.",
+          "Los incumplimientos y sus circunstancias quedan documentados y se analizan para mejorar.",
+          "Los ANS se revisan periódicamente para mantenerlos pertinentes frente a las necesidades."
+        ]
+      },
+      {
+        "name": "Informes y comunicación del desempeño",
+        "questions": [
+          "Los resultados de los ANS se comunican regularmente y con transparencia a los clientes.",
+          "La periodicidad de los informes responde a los ciclos de decisión de la organización.",
+          "Los informes utilizan visualizaciones comprensibles para explicar los resultados.",
+          "Cada informe explica los hallazgos, su relevancia y las medidas tomadas.",
+          "Se utilizan canales apropiados para comunicar el desempeño a los diferentes grupos de clientes."
+        ]
+      },
+      {
+        "name": "Retroalimentación del cliente",
+        "questions": [
+          "Se utilizan preguntas o métricas consistentes para evaluar la satisfacción en distintos servicios.",
+          "Existe un mecanismo para recoger oportunamente las opiniones de los clientes.",
+          "Se analizan las evaluaciones para reconocer tendencias, problemas y fortalezas.",
+          "Se combinan resultados cuantitativos y comentarios cualitativos para comprender la calidad.",
+          "Se comunica a los clientes qué acciones surgieron de su retroalimentación."
+        ]
+      }
+    ],
+    "8": [
+      {
+        "name": "Diagnóstico de madurez de los servicios",
+        "questions": [
+          "Los servicios cuentan con criterios documentados para establecer su situación de madurez.",
+          "La evaluación permite distinguir las capacidades existentes de las brechas por servicio.",
+          "Se conservan evidencias consultables de cada revisión de madurez.",
+          "Los resultados del diagnóstico orientan las iniciativas de mejora y sus prioridades.",
+          "Los criterios de madurez se actualizan según el contexto y las necesidades organizacionales."
+        ]
+      },
+      {
+        "name": "Identificación y priorización de brechas",
+        "questions": [
+          "Se identifican las brechas que afectan más el valor y la calidad de los servicios.",
+          "Las mejoras se priorizan considerando impacto, expectativas de los clientes y estrategia.",
+          "Se seleccionan oportunidades de impacto temprano que puedan verificarse.",
+          "La factibilidad técnica y organizacional se revisa antes de comprometer una mejora.",
+          "Las oportunidades identificadas se documentan y comunican a los interesados pertinentes."
+        ]
+      },
+      {
+        "name": "Hoja de ruta de mejora",
+        "questions": [
+          "Cada iniciativa de mejora posee objetivos y resultados de éxito medibles.",
+          "La hoja de ruta contempla medidas inmediatas y de largo plazo.",
+          "Existen hitos y fechas de seguimiento para las iniciativas.",
+          "Se asignan responsables claros para la ejecución de cada mejora.",
+          "Los recursos disponibles son coherentes con los compromisos del plan de mejora."
+        ]
+      },
+      {
+        "name": "Ejecución y control de mejoras",
+        "questions": [
+          "El equipo encargado reúne las capacidades necesarias para implementar las mejoras.",
+          "Las iniciativas de mejora están desagregadas en actividades ejecutables.",
+          "Se realizan pruebas piloto de las mejoras cuando su naturaleza lo requiere.",
+          "Las personas afectadas reciben acompañamiento para adoptar los cambios.",
+          "Los avances se miden periódicamente con indicadores y evidencias."
+        ]
+      },
+      {
+        "name": "Retroalimentación y lecciones aprendidas",
+        "questions": [
+          "Se consulta a los usuarios durante la evolución de los servicios.",
+          "Los comentarios documentados se convierten en ajustes pertinentes de las mejoras.",
+          "Los riesgos de implementación son revisados y gestionados oportunamente.",
+          "Se registran lecciones aprendidas de las acciones de mejora.",
+          "Las lecciones aprendidas retroalimentan las siguientes iniciativas."
+        ]
+      },
+      {
+        "name": "Transferencia a la operación",
+        "questions": [
+          "Existen criterios para decidir cuándo una mejora puede pasar a operación.",
+          "La transición contempla responsables, entregables y continuidad del servicio.",
+          "Se establece seguimiento después del despliegue de la mejora.",
+          "Se comprueban los resultados sostenibles de los cambios ya incorporados.",
+          "Los clientes conocen los cambios realizados y disponen de soporte en la transición."
+        ]
+      }
+    ]
+  }
+}

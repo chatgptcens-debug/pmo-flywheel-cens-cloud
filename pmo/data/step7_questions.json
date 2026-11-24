@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Marco integral de monitoreo",
+    "questions": [
+      "Existe un proceso estandarizado y confiable para recopilar los datos de desempeño de todos los servicios.",
+      "La PMO dispone de un tablero centralizado que permite consultar el rendimiento de los servicios.",
+      "Se cumple un cronograma de seguimiento con frecuencias definidas.",
+      "Los responsables de recopilar, analizar e informar los datos están claramente identificados.",
+      "El equipo conoce el marco de monitoreo y ha recibido orientación para aplicarlo."
+    ]
+  },
+  {
+    "name": "Gestión de cumplimiento de ANS",
+    "questions": [
+      "Existe un sistema para supervisar el cumplimiento de los ANS de todos los servicios.",
+      "Se revisa periódicamente el desempeño y se intervienen los riesgos de incumplimiento.",
+      "La PMO aplica un procedimiento documentado para escalar posibles incumplimientos.",
+      "Los incumplimientos y sus circunstancias quedan documentados y se analizan para mejorar.",
+      "Los ANS se revisan periódicamente para mantenerlos pertinentes frente a las necesidades."
+    ]
+  },
+  {
+    "name": "Informes y comunicación del desempeño",
+    "questions": [
+      "Los resultados de los ANS se comunican regularmente y con transparencia a los clientes.",
+      "La periodicidad de los informes responde a los ciclos de decisión de la organización.",
+      "Los informes utilizan visualizaciones comprensibles para explicar los resultados.",
+      "Cada informe explica los hallazgos, su relevancia y las medidas tomadas.",
+      "Se utilizan canales apropiados para comunicar el desempeño a los diferentes grupos de clientes."
+    ]
+  },
+  {
+    "name": "Retroalimentación del cliente",
+    "questions": [
+      "Se utilizan preguntas o métricas consistentes para evaluar la satisfacción en distintos servicios.",
+      "Existe un mecanismo para recoger oportunamente las opiniones de los clientes.",
+      "Se analizan las evaluaciones para reconocer tendencias, problemas y fortalezas.",
+      "Se combinan resultados cuantitativos y comentarios cualitativos para comprender la calidad.",
+      "Se comunica a los clientes qué acciones surgieron de su retroalimentación."
+    ]
+  }
+]

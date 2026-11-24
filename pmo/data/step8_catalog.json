@@ -1,0 +1,1588 @@
+[
+  {
+    "id": 1,
+    "name": "Advice to Executive Level",
+    "category": "Strategic",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Reactive advisory",
+        "description": "Advice is provided only when explicitly requested by executives."
+      },
+      {
+        "level": 2,
+        "title": "Structured consultation",
+        "description": "The PMO implements scheduled consultations with executives, providing more consistent advice."
+      },
+      {
+        "level": 3,
+        "title": "Data-driven guidance",
+        "description": "The PMO leverages robust data analytics to provide insights."
+      },
+      {
+        "level": 4,
+        "title": "Strategic integration",
+        "description": "The PMO’s advice becomes a key input in strategic decision-making."
+      },
+      {
+        "level": 5,
+        "title": "Transformational leadership",
+        "description": "The PMO is seen as a strategic partner, actively shaping organizational strategy through its advice."
+      }
+    ],
+    "name_es": "Asesoramiento a nivel ejecutivo",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Asesoría reactiva",
+        "description": "La PMO responde a solicitudes puntuales de la dirección con información limitada y sin un análisis estratégico sistemático."
+      },
+      {
+        "level": 2,
+        "title": "Consulta estructurada",
+        "description": "Se realizan reuniones periódicas de asesoramiento con una estructura básica; la información y la integración entre proyectos todavía son limitadas."
+      },
+      {
+        "level": 3,
+        "title": "Orientación basada en datos",
+        "description": "Se formulan recomendaciones proactivas con análisis de tendencias, desempeño y evidencia alineada con los objetivos de la organización."
+      },
+      {
+        "level": 4,
+        "title": "Integración estratégica",
+        "description": "El asesoramiento influye en las decisiones estratégicas; existe intercambio bidireccional y se usan escenarios y análisis predictivos."
+      },
+      {
+        "level": 5,
+        "title": "Liderazgo transformador",
+        "description": "La PMO participa en la definición estratégica y genera cambios organizacionales mediante análisis avanzados, predicciones e innovación."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Benefits Realization Management",
+    "category": "Strategic",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Ad hoc tracking",
+        "description": "The PMO identifies potential benefits for portfolios and programs, but there is no structured process for tracking or measuring them."
+      },
+      {
+        "level": 2,
+        "title": "Structured monitoring",
+        "description": "The PMO establishes a formal process for identifying and tracking benefits."
+      },
+      {
+        "level": 3,
+        "title": "Active management",
+        "description": "The PMO actively manages benefits throughout the life cycle of portfolios and programs."
+      },
+      {
+        "level": 4,
+        "title": "Integrated approach",
+        "description": "Benefits realization becomes a key factor in program and project selection, prioritization, and continuation decisions."
+      },
+      {
+        "level": 5,
+        "title": "Continuous optimization",
+        "description": "The PMO employs advanced analytics and artificial intelligence to forecast and optimize benefits realization."
+      }
+    ],
+    "name_es": "Gestión de la realización de beneficios",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Seguimiento informal",
+        "description": "Se reconocen beneficios potenciales, pero no hay seguimiento estructurado después de finalizar las iniciativas."
+      },
+      {
+        "level": 2,
+        "title": "Monitoreo estructurado",
+        "description": "Se documentan beneficios esperados y se definen métricas básicas; el seguimiento posterior aún es parcial."
+      },
+      {
+        "level": 3,
+        "title": "Gestión activa",
+        "description": "Se revisan beneficios durante el ciclo de vida, se asignan responsables y se gestionan riesgos que afectan su realización."
+      },
+      {
+        "level": 4,
+        "title": "Gestión integrada",
+        "description": "Los beneficios influyen en la selección y continuidad de iniciativas y se relacionan con los objetivos estratégicos y el portafolio."
+      },
+      {
+        "level": 5,
+        "title": "Optimización continua",
+        "description": "Se anticipa la realización de beneficios con modelos analíticos avanzados, escenarios y aprendizaje sistemático para maximizar valor."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Foster Project Culture",
+    "category": "Strategic",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Basic awareness",
+        "description": "The PMO introduces basic project management concepts to the organization."
+      },
+      {
+        "level": 2,
+        "title": "Structured education",
+        "description": "The PMO implements regular training sessions to improve project management skills across the organization."
+      },
+      {
+        "level": 3,
+        "title": "Embedded practices",
+        "description": "Project management principles are widely understood and applied across the organization beyond just project teams."
+      },
+      {
+        "level": 4,
+        "title": "Cultural alignment",
+        "description": "Project management is seen as a core competency and is factored into performance evaluations across the organization."
+      },
+      {
+        "level": 5,
+        "title": "Innovative project culture",
+        "description": "Project management culture drives innovation and is a key differentiator for the organization."
+      }
+    ],
+    "name_es": "Fomento de la cultura de proyectos",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Sensibilización básica",
+        "description": "Se divulgan nociones elementales de dirección de proyectos de forma esporádica; el valor de estas prácticas es poco conocido."
+      },
+      {
+        "level": 2,
+        "title": "Formación estructurada",
+        "description": "Existe una programación de capacitación y un currículo básico; la participación se concentra principalmente en equipos de proyectos."
+      },
+      {
+        "level": 3,
+        "title": "Prácticas incorporadas",
+        "description": "Los principios y herramientas de proyectos se utilizan en distintas áreas y se fortalece la colaboración interfuncional."
+      },
+      {
+        "level": 4,
+        "title": "Cultura alineada",
+        "description": "La dirección impulsa la cultura de proyectos y las competencias se incorporan a perfiles, desarrollo profesional y prácticas de mejora."
+      },
+      {
+        "level": 5,
+        "title": "Cultura innovadora",
+        "description": "La gestión de proyectos impulsa la experimentación, la innovación, el aprendizaje y el posicionamiento organizacional."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Governance Oversight",
+    "category": "Strategic",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Basic rules",
+        "description": "The PMO introduces basic rules for project management but they are not consistently followed across the organization."
+      },
+      {
+        "level": 2,
+        "title": "Structured framework",
+        "description": "The PMO establishes clear governance structures that are generally adhered to across portfolios, programs, and projects."
+      },
+      {
+        "level": 3,
+        "title": "Active enforcement",
+        "description": "The PMO conducts regular audits to ensure compliance with governance standards."
+      },
+      {
+        "level": 4,
+        "title": "Adaptive governance",
+        "description": "The PMO regularly reviews and updates the governance framework to reflect changing organizational needs and lessons learned."
+      },
+      {
+        "level": 5,
+        "title": "Value-driven governance",
+        "description": "Governance is seen as a value-adding activity, not just a control mechanism, and drives organizational performance."
+      }
+    ],
+    "name_es": "Supervisión de la gobernanza",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Reglas básicas",
+        "description": "Existen normas elementales que se aplican de manera irregular; la gobernanza opera principalmente de forma reactiva."
+      },
+      {
+        "level": 2,
+        "title": "Marco estructurado",
+        "description": "Se establecen órganos, roles, responsabilidades, reuniones y reglas de gobernanza con documentación accesible."
+      },
+      {
+        "level": 3,
+        "title": "Cumplimiento activo",
+        "description": "Se realizan verificaciones, auditorías y formación para aplicar las reglas, utilizando hallazgos para mejorar la gestión."
+      },
+      {
+        "level": 4,
+        "title": "Gobernanza adaptable",
+        "description": "Las reglas se actualizan según necesidades y lecciones aprendidas; se integran herramientas para facilitar decisiones sin burocracia excesiva."
+      },
+      {
+        "level": 5,
+        "title": "Gobernanza orientada al valor",
+        "description": "La gobernanza demuestra su contribución a resultados organizacionales mediante analítica, eficiencia y buenas prácticas reconocidas."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Organizational Change Management",
+    "category": "Strategic",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Reactive approach",
+        "description": "The PMO responds to change impacts reactively, with no formal process in place."
+      },
+      {
+        "level": 2,
+        "title": "Planned approach",
+        "description": "The PMO establishes a formal change management process for portfolios and programs."
+      },
+      {
+        "level": 3,
+        "title": "Integrated management",
+        "description": "A comprehensive change management approach is consistently applied across all portfolios and programs."
+      },
+      {
+        "level": 4,
+        "title": "Proactive enablement",
+        "description": "The PMO uses change management to proactively enable and accelerate organizational transformations."
+      },
+      {
+        "level": 5,
+        "title": "Cultural embedding",
+        "description": "The organization is highly adaptable, with change management embedded in its culture."
+      }
+    ],
+    "name_es": "Gestión del cambio organizacional",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Respuesta reactiva",
+        "description": "Los efectos del cambio se atienden cuando aparecen; existen resistencia y escasa preparación de los interesados."
+      },
+      {
+        "level": 2,
+        "title": "Cambio planificado",
+        "description": "Se dispone de procesos de cambio, evaluaciones básicas de impacto y acciones de comunicación y preparación."
+      },
+      {
+        "level": 3,
+        "title": "Gestión integrada",
+        "description": "El cambio se integra en portafolios, programas y proyectos con análisis de interesados y estrategias de adopción."
+      },
+      {
+        "level": 4,
+        "title": "Habilitación proactiva",
+        "description": "Se anticipan los impactos, se desarrolla resiliencia y se relacionan las métricas de cambio con los resultados de las iniciativas."
+      },
+      {
+        "level": 5,
+        "title": "Cultura de adaptación",
+        "description": "La adaptación está incorporada a la cultura y se emplean análisis avanzados para orientar transformaciones y decisiones."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Portfolio Management",
+    "category": "Strategic",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Basic project listing",
+        "description": "The PMO maintains a basic inventory of programs and projects."
+      },
+      {
+        "level": 2,
+        "title": "Structured selection and prioritization",
+        "description": "The PMO establishes project selection and prioritization criteria."
+      },
+      {
+        "level": 3,
+        "title": "Active portfolio management",
+        "description": "The PMO actively manages the portfolio, optimizing resource allocation on an ongoing basis."
+      },
+      {
+        "level": 4,
+        "title": "Strategic alignment and optimization",
+        "description": "The portfolio is a key tool for executing organizational strategy."
+      },
+      {
+        "level": 5,
+        "title": "Dynamic portfolio optimization",
+        "description": "The portfolio is dynamically optimized using predictive models and scenario analysis."
+      }
+    ],
+    "name_es": "Gestión de portafolios",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Inventario básico",
+        "description": "La PMO registra proyectos, pero la selección, la priorización y la asignación de recursos son principalmente informales."
+      },
+      {
+        "level": 2,
+        "title": "Selección estructurada",
+        "description": "Se establecen criterios de selección y priorización y se realiza un seguimiento básico de iniciativas y recursos."
+      },
+      {
+        "level": 3,
+        "title": "Gestión activa",
+        "description": "Se revisa periódicamente el portafolio y se ajustan iniciativas y recursos con base en desempeño y alineación estratégica."
+      },
+      {
+        "level": 4,
+        "title": "Optimización estratégica",
+        "description": "El portafolio ejecuta la estrategia mediante analítica avanzada, escenarios e integración de dependencias entre iniciativas."
+      },
+      {
+        "level": 5,
+        "title": "Optimización dinámica",
+        "description": "Se emplean modelos predictivos y escenarios para reoptimizar continuamente el portafolio frente a cambios del entorno."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Strategic Planning Support",
+    "category": "Strategic",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Basic input provision",
+        "description": "The PMO’s involvement in strategic planning is limited to providing basic project status information."
+      },
+      {
+        "level": 2,
+        "title": "Structured contribution",
+        "description": "The PMO provides regular, structured inputs to the strategic planning process."
+      },
+      {
+        "level": 3,
+        "title": "Active participation",
+        "description": "The PMO actively contributes to shaping strategic plans based on portfolio insights."
+      },
+      {
+        "level": 4,
+        "title": "Strategic integration",
+        "description": "The PMO plays a key role in translating strategy into executable portfolio plans."
+      },
+      {
+        "level": 5,
+        "title": "Strategy Cocreation",
+        "description": "The PMO is seen as a strategic partner, with portfolio insights driving strategic direction."
+      }
+    ],
+    "name_es": "Apoyo a la planificación estratégica",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Información básica",
+        "description": "La PMO aporta principalmente estados de proyectos sin analizar suficientemente su contribución a los objetivos estratégicos."
+      },
+      {
+        "level": 2,
+        "title": "Contribución estructurada",
+        "description": "Se suministran insumos regulares sobre programas y proyectos, con análisis inicial de alineación estratégica."
+      },
+      {
+        "level": 3,
+        "title": "Participación activa",
+        "description": "La PMO aporta información y análisis que influyen en la formulación estratégica y en la selección de iniciativas."
+      },
+      {
+        "level": 4,
+        "title": "Integración estratégica",
+        "description": "La PMO conecta estrategia y portafolios con escenarios de ejecución y un intercambio bidireccional de información."
+      },
+      {
+        "level": 5,
+        "title": "Construcción conjunta de estrategia",
+        "description": "La PMO participa como socio estratégico y emplea modelos predictivos para orientar decisiones de largo plazo."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Knowledge Management",
+    "category": "Tactical",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Ad hoc documentation",
+        "description": "Knowledge capture is sporadic and unstructured."
+      },
+      {
+        "level": 2,
+        "title": "Basic knowledge repository",
+        "description": "The PMO establishes a central repository for project documents and lessons learned."
+      },
+      {
+        "level": 3,
+        "title": "Active knowledge sharing",
+        "description": "Regular knowledge-sharing sessions are implemented."
+      },
+      {
+        "level": 4,
+        "title": "Integrated knowledge management",
+        "description": "Knowledge management is integrated into all phases of the program and project life cycles."
+      },
+      {
+        "level": 5,
+        "title": "Knowledge-driven organization",
+        "description": "Knowledge management becomes a key strategic asset and competitive advantage."
+      }
+    ],
+    "name_es": "Gestión del conocimiento",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Documentación informal",
+        "description": "Las lecciones aprendidas se registran de modo esporádico y dependen de intercambios personales no estructurados."
+      },
+      {
+        "level": 2,
+        "title": "Repositorio básico",
+        "description": "Existe un repositorio y formatos comunes para capturar conocimiento, aunque su uso y divulgación son inconsistentes."
+      },
+      {
+        "level": 3,
+        "title": "Intercambio activo",
+        "description": "Se realizan sesiones, estudios de caso y transferencias entre proyectos con una base de conocimiento disponible y utilizada."
+      },
+      {
+        "level": 4,
+        "title": "Conocimiento integrado",
+        "description": "La captura y transferencia de conocimiento está incluida en el ciclo de vida y se apoya en comunidades y herramientas avanzadas."
+      },
+      {
+        "level": 5,
+        "title": "Organización basada en conocimiento",
+        "description": "El conocimiento impulsa decisiones, innovación y aprendizaje continuo, y se reconoce como activo estratégico."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Methodologies and Frameworks",
+    "category": "Tactical",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Basic guidelines",
+        "description": "The PMO provides basic project management guidelines but they are not comprehensive or consistently followed."
+      },
+      {
+        "level": 2,
+        "title": "Standardized methodology",
+        "description": "The PMO establishes a standardized methodology for project management."
+      },
+      {
+        "level": 3,
+        "title": "Comprehensive framework",
+        "description": "The PMO implements a comprehensive framework that addresses portfolio, program, and project management."
+      },
+      {
+        "level": 4,
+        "title": "Adaptive methodology",
+        "description": "The PMO’s methodology is regularly updated based on lessons learned and emerging practices."
+      },
+      {
+        "level": 5,
+        "title": "Innovative good practice",
+        "description": "The PMO’s methodologies and frameworks are at the forefront of industry practices, often driving innovation in the field."
+      }
+    ],
+    "name_es": "Gestión de metodologías y marcos de referencia",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Orientaciones básicas",
+        "description": "Existen guías limitadas, con documentación y aplicación heterogéneas entre proyectos."
+      },
+      {
+        "level": 2,
+        "title": "Metodología estandarizada",
+        "description": "Se cuenta con metodología común, plantillas, herramientas y capacitación inicial, aunque la adopción todavía es desigual."
+      },
+      {
+        "level": 3,
+        "title": "Marco integral",
+        "description": "Se integran proyectos, programas y portafolios con documentación, herramientas, formación y revisiones de cumplimiento."
+      },
+      {
+        "level": 4,
+        "title": "Metodología adaptable",
+        "description": "Se actualiza el marco con lecciones aprendidas y se ajusta según tipologías y necesidades de proyectos."
+      },
+      {
+        "level": 5,
+        "title": "Buenas prácticas innovadoras",
+        "description": "El marco incorpora innovación y tecnologías avanzadas y articula integralmente proyectos, programas y portafolios."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Resource Management",
+    "category": "Tactical",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Basic allocation",
+        "description": "The PMO provides basic support for resource allocation."
+      },
+      {
+        "level": 2,
+        "title": "Centralized tracking",
+        "description": "The PMO establishes a centralized resource management system."
+      },
+      {
+        "level": 3,
+        "title": "Proactive management",
+        "description": "The PMO implements proactive resource management practices."
+      },
+      {
+        "level": 4,
+        "title": "Strategic alignment",
+        "description": "The PMO aligns resource management with organizational strategy."
+      },
+      {
+        "level": 5,
+        "title": "Dynamic optimization",
+        "description": "The PMO employs artificial intelligence and machine learning for dynamic resource optimization."
+      }
+    ],
+    "name_es": "Gestión de recursos",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Asignación básica",
+        "description": "Se asignan recursos de forma reactiva, con poca visibilidad de disponibilidad, cargas y competencias."
+      },
+      {
+        "level": 2,
+        "title": "Seguimiento centralizado",
+        "description": "Existe inventario centralizado de recursos y seguimiento de disponibilidad, utilización y habilidades."
+      },
+      {
+        "level": 3,
+        "title": "Gestión proactiva",
+        "description": "Se planifica capacidad, se anticipan conflictos y se optimiza la asignación según competencias y demanda de proyectos."
+      },
+      {
+        "level": 4,
+        "title": "Alineación estratégica",
+        "description": "Se vincula la gestión de recursos a prioridades estratégicas mediante modelos de optimización y desarrollo de capacidades."
+      },
+      {
+        "level": 5,
+        "title": "Optimización dinámica",
+        "description": "Se ajustan los recursos con predicciones y análisis avanzados en función de cambios en el portafolio y la demanda."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Systems and Tools Management",
+    "category": "Tactical",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Basic tool provision",
+        "description": "The PMO offers basic project management tools, often with minimal integration."
+      },
+      {
+        "level": 2,
+        "title": "Standardized tool set",
+        "description": "The PMO establishes a consistent tool set for portfolio, program, and project management."
+      },
+      {
+        "level": 3,
+        "title": "Integrated management systems",
+        "description": "The PMO provides comprehensive, integrated management systems."
+      },
+      {
+        "level": 4,
+        "title": "Strategic technology enablement",
+        "description": "The PMO aligns systems and tools with organizational strategy."
+      },
+      {
+        "level": 5,
+        "title": "Intelligent management ecosystems",
+        "description": "The PMO employs artificial intelligence and machine learning for intelligent, adaptive management systems."
+      }
+    ],
+    "name_es": "Gestión de sistemas y herramientas",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Herramientas básicas",
+        "description": "Se proporcionan herramientas aisladas con poca integración y soporte principalmente reactivo."
+      },
+      {
+        "level": 2,
+        "title": "Herramientas estandarizadas",
+        "description": "Existe un conjunto común de soluciones, soporte y capacitación inicial y seguimiento básico de utilización."
+      },
+      {
+        "level": 3,
+        "title": "Sistemas integrados",
+        "description": "Los datos fluyen entre proyectos, programas y portafolios y se mide el efecto de las herramientas en la gestión."
+      },
+      {
+        "level": 4,
+        "title": "Habilitación tecnológica estratégica",
+        "description": "Las soluciones tecnológicas apoyan decisiones estratégicas y emplean modelos y analítica predictiva."
+      },
+      {
+        "level": 5,
+        "title": "Ecosistema inteligente",
+        "description": "Se integran automatización e inteligencia artificial para apoyar decisiones y optimizar procesos de forma adaptativa."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Training and Development",
+    "category": "Tactical",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Basic skill training",
+        "description": "The PMO offers basic, sporadic training sessions."
+      },
+      {
+        "level": 2,
+        "title": "Structured training program",
+        "description": "The PMO implements a structured training program covering key project management areas."
+      },
+      {
+        "level": 3,
+        "title": "Comprehensive competency development",
+        "description": "The PMO provides a robust, multitiered competency development program."
+      },
+      {
+        "level": 4,
+        "title": "Strategic capability building",
+        "description": "The PMO aligns training and development with strategic organizational capabilities."
+      },
+      {
+        "level": 5,
+        "title": "Transformational learning ecosystem",
+        "description": "The PMO employs advanced technologies for adaptive, personalized learning experiences."
+      }
+    ],
+    "name_es": "Formación y desarrollo",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Capacitación básica",
+        "description": "Se ofrecen sesiones ocasionales y generales; el aprendizaje no está suficientemente vinculado con brechas ni objetivos."
+      },
+      {
+        "level": 2,
+        "title": "Programa estructurado",
+        "description": "Existe una programación formal, contenidos adaptados y seguimiento básico de eficacia, participación y certificaciones."
+      },
+      {
+        "level": 3,
+        "title": "Desarrollo integral de competencias",
+        "description": "Se diagnostican brechas y se articulan rutas de aprendizaje, formación experiencial y desarrollo profesional."
+      },
+      {
+        "level": 4,
+        "title": "Capacidades estratégicas",
+        "description": "La formación se alinea con capacidades futuras y necesidades estratégicas de portafolios, programas y proyectos."
+      },
+      {
+        "level": 5,
+        "title": "Aprendizaje transformador",
+        "description": "Se personaliza el aprendizaje con tecnologías avanzadas y ajustes continuos que impulsan innovación y transformación."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Audit Assessments",
+    "category": "Operational",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Basic compliance checks",
+        "description": "The PMO performs basic audits focusing primarily on policy compliance."
+      },
+      {
+        "level": 2,
+        "title": "Standardized audits",
+        "description": "The PMO establishes a consistent audit methodology."
+      },
+      {
+        "level": 3,
+        "title": "Comprehensive assessments",
+        "description": "The PMO conducts thorough assessments covering all aspects of program and project management."
+      },
+      {
+        "level": 4,
+        "title": "Proactive performance optimization",
+        "description": "The PMO uses audits proactively to optimize program and project performance."
+      },
+      {
+        "level": 5,
+        "title": "Continuous intelligent oversight",
+        "description": "The PMO employs artificial intelligence and machine learning for continuous, real-time program and project oversight."
+      }
+    ],
+    "name_es": "Evaluaciones de auditoría",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Verificaciones básicas",
+        "description": "Se realizan controles poco frecuentes centrados en cumplimiento, con seguimiento limitado a hallazgos."
+      },
+      {
+        "level": 2,
+        "title": "Auditorías estandarizadas",
+        "description": "Existen criterios y procedimientos consistentes, periodicidad definida y seguimiento documentado de resultados."
+      },
+      {
+        "level": 3,
+        "title": "Evaluaciones integrales",
+        "description": "Las auditorías examinan desempeño y cumplimiento mediante herramientas y hallazgos vinculados con la mejora continua."
+      },
+      {
+        "level": 4,
+        "title": "Optimización proactiva",
+        "description": "Se anticipan problemas con analítica y los resultados de auditoría se integran en prácticas de gestión."
+      },
+      {
+        "level": 5,
+        "title": "Supervisión inteligente continua",
+        "description": "Los controles se apoyan en automatización y analítica predictiva para identificar riesgos y proponer mejoras permanentemente."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Change Control Management",
+    "category": "Operational",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Reactive change handling",
+        "description": "The PMO responds to changes as they occur, with no standardized process."
+      },
+      {
+        "level": 2,
+        "title": "Basic change process",
+        "description": "The PMO establishes a basic change control process with defined steps."
+      },
+      {
+        "level": 3,
+        "title": "Integrated change management",
+        "description": "The PMO implements a comprehensive change control system integrated with other processes."
+      },
+      {
+        "level": 4,
+        "title": "Proactive change management",
+        "description": "The PMO uses advanced analytics to predict potential changes and their impacts."
+      },
+      {
+        "level": 5,
+        "title": "Strategic change enablement",
+        "description": "The PMO’s change management approach is seen as a strategic asset, enabling organizational agility."
+      }
+    ],
+    "name_es": "Gestión del control de cambios",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Gestión reactiva de cambios",
+        "description": "Los cambios se atienden cuando ocurren; la documentación y los análisis de impacto son incompletos."
+      },
+      {
+        "level": 2,
+        "title": "Proceso básico de cambios",
+        "description": "Se formalizan solicitudes, análisis elementales, registros y un mecanismo de aprobación o comité de cambios."
+      },
+      {
+        "level": 3,
+        "title": "Control integrado",
+        "description": "Los cambios se gestionan con análisis detallado de alcance, plazos, recursos y riesgos, y con escalamiento e información a interesados."
+      },
+      {
+        "level": 4,
+        "title": "Gestión proactiva",
+        "description": "Se analizan tendencias y se automatizan flujos para anticipar, prevenir y reducir cambios perjudiciales."
+      },
+      {
+        "level": 5,
+        "title": "Habilitación estratégica del cambio",
+        "description": "El control de cambios se integra con la estrategia y facilita respuestas ágiles ante transformaciones organizacionales."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Customer Relationship Management",
+    "category": "Operational",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Basic customer interaction",
+        "description": "The PMO provides basic support for project customer interactions."
+      },
+      {
+        "level": 2,
+        "title": "Standardized customer management",
+        "description": "The PMO establishes consistent processes for managing project customer relationships."
+      },
+      {
+        "level": 3,
+        "title": "Integrated customer engagement",
+        "description": "The PMO implements comprehensive project customer engagement strategies."
+      },
+      {
+        "level": 4,
+        "title": "Strategic customer partnership",
+        "description": "The PMO aligns project customer relationship management with organizational strategy."
+      },
+      {
+        "level": 5,
+        "title": "Transformational customer collaboration",
+        "description": "The PMO employs advanced technologies for dynamic project customer insight and engagement."
+      }
+    ],
+    "name_es": "Gestión de relaciones con clientes",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Interacción básica",
+        "description": "La PMO recopila solicitudes de manera reactiva, con seguimiento limitado de expectativas y satisfacción."
+      },
+      {
+        "level": 2,
+        "title": "Relación estandarizada",
+        "description": "Se emplean procesos consistentes para gestionar requisitos, comunicaciones y seguimiento básico de satisfacción."
+      },
+      {
+        "level": 3,
+        "title": "Vinculación integrada",
+        "description": "La relación con clientes incorpora análisis de necesidades, comunicación proactiva y gestión sistemática de expectativas."
+      },
+      {
+        "level": 4,
+        "title": "Alianza estratégica",
+        "description": "La PMO anticipa necesidades y desarrolla relaciones de largo plazo que contribuyen a resultados estratégicos."
+      },
+      {
+        "level": 5,
+        "title": "Colaboración transformadora",
+        "description": "Se emplean análisis avanzados y ajuste continuo de estrategias de relacionamiento para cocrear valor con los clientes."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Data Analytics and Reporting",
+    "category": "Operational",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Basic reporting",
+        "description": "The PMO provides basic, often manual, reporting on project status."
+      },
+      {
+        "level": 2,
+        "title": "Standardized reporting",
+        "description": "The PMO establishes consistent reporting templates and processes."
+      },
+      {
+        "level": 3,
+        "title": "Integrated analytics",
+        "description": "The PMO implements comprehensive analytics and reporting systems."
+      },
+      {
+        "level": 4,
+        "title": "Strategic insight generation",
+        "description": "The PMO uses advanced analytics to generate strategic insights."
+      },
+      {
+        "level": 5,
+        "title": "Intelligent performance optimization",
+        "description": "The PMO employs artificial intelligence and machine learning for intelligent performance optimization."
+      }
+    ],
+    "name_es": "Análisis de datos e informes",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Reportes básicos",
+        "description": "Predominan informes manuales y descriptivos, con datos poco consistentes o insuficientemente oportunos."
+      },
+      {
+        "level": 2,
+        "title": "Informes estandarizados",
+        "description": "Existen plantillas, controles de calidad, tableros iniciales y análisis básicos de tendencia."
+      },
+      {
+        "level": 3,
+        "title": "Analítica integrada",
+        "description": "Se integran datos entre niveles de gestión y se utilizan tableros oportunos y análisis más avanzados para decidir."
+      },
+      {
+        "level": 4,
+        "title": "Inteligencia estratégica",
+        "description": "Los análisis explican impactos en objetivos organizacionales y generan orientaciones predictivas y prescriptivas."
+      },
+      {
+        "level": 5,
+        "title": "Optimización inteligente",
+        "description": "Se automatizan hallazgos y recomendaciones con analítica avanzada e inteligencia artificial para mejorar resultados."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Issue Management",
+    "category": "Operational",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Reactive issue handling",
+        "description": "The PMO responds to issues reactively."
+      },
+      {
+        "level": 2,
+        "title": "Basic issue tracking",
+        "description": "The PMO establishes a basic issue log and tracking process."
+      },
+      {
+        "level": 3,
+        "title": "Proactive issue management",
+        "description": "The PMO implements comprehensive issue management processes."
+      },
+      {
+        "level": 4,
+        "title": "Strategic issue prevention",
+        "description": "The PMO employs predictive analytics to identify potential issues before they occur."
+      },
+      {
+        "level": 5,
+        "title": "Intelligent performance optimization",
+        "description": "The PMO employs artificial intelligence and machine learning for intelligent performance optimization."
+      }
+    ],
+    "name_es": "Gestión de incidentes",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Atención reactiva",
+        "description": "Los problemas se resuelven caso por caso sin registros sistemáticos ni análisis de causas."
+      },
+      {
+        "level": 2,
+        "title": "Seguimiento básico",
+        "description": "Existe registro, priorización elemental, documentación de soluciones y seguimiento inicial de tendencias."
+      },
+      {
+        "level": 3,
+        "title": "Gestión proactiva",
+        "description": "Los incidentes se identifican anticipadamente, se escalan y se analizan sus causas, integrándolos con riesgos."
+      },
+      {
+        "level": 4,
+        "title": "Prevención estratégica",
+        "description": "Se usan tendencias y modelos predictivos para prevenir incidentes y transferir lecciones al portafolio."
+      },
+      {
+        "level": 5,
+        "title": "Optimización inteligente",
+        "description": "Se automatizan análisis y recomendaciones para mejorar continuamente la atención y prevenir recurrencias."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Mentoring and Coaching",
+    "category": "Operational",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Ad hoc support",
+        "description": "The PMO provides basic, informal mentoring to program and project managers."
+      },
+      {
+        "level": 2,
+        "title": "Structured mentoring program",
+        "description": "The PMO implements a structured mentoring program."
+      },
+      {
+        "level": 3,
+        "title": "Comprehensive coaching framework",
+        "description": "The PMO establishes a robust coaching and mentoring framework."
+      },
+      {
+        "level": 4,
+        "title": "Strategic talent development",
+        "description": "The PMO aligns mentoring and coaching with strategic talent development goals."
+      },
+      {
+        "level": 5,
+        "title": "Transformational leadership development",
+        "description": "The PMO employs artificial intelligence to create highly personalized mentoring and coaching experiences."
+      }
+    ],
+    "name_es": "Tutoría y coaching",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Apoyo informal",
+        "description": "La orientación a directores de proyecto es ocasional, depende de iniciativas individuales y no se mide su efectividad."
+      },
+      {
+        "level": 2,
+        "title": "Programa estructurado",
+        "description": "Hay criterios, parejas de tutoría, formación de mentores y retroalimentación básica de la atención."
+      },
+      {
+        "level": 3,
+        "title": "Acompañamiento integral",
+        "description": "Se diferencian tutoría y coaching, se desarrollan mentores y se registra la mejora en capacidades de los participantes."
+      },
+      {
+        "level": 4,
+        "title": "Desarrollo estratégico del talento",
+        "description": "El acompañamiento se alinea con trayectorias profesionales, perfiles y sucesión de líderes de proyectos."
+      },
+      {
+        "level": 5,
+        "title": "Desarrollo transformador de liderazgo",
+        "description": "Se personaliza la mentoría con tecnologías avanzadas y retroalimentación continua que impulsa el liderazgo."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Performance Management",
+    "category": "Operational",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Basic monitoring",
+        "description": "The PMO provides basic monitoring of project timelines and budgets."
+      },
+      {
+        "level": 2,
+        "title": "Standardized tracking",
+        "description": "The PMO establishes consistent performance metrics and tracking processes."
+      },
+      {
+        "level": 3,
+        "title": "Integrated performance management",
+        "description": "The PMO implements comprehensive performance management processes."
+      },
+      {
+        "level": 4,
+        "title": "Predictive performance optimization",
+        "description": "The PMO employs predictive analytics to forecast program and project performance."
+      },
+      {
+        "level": 5,
+        "title": "Intelligent performance enhancement",
+        "description": "The PMO uses artificial intelligence and machine learning for continuous performance optimization."
+      }
+    ],
+    "name_es": "Gestión del rendimiento",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Seguimiento básico",
+        "description": "Se realiza seguimiento elemental de plazo y presupuesto, con escaso análisis y vínculo con objetivos estratégicos."
+      },
+      {
+        "level": 2,
+        "title": "Control estandarizado",
+        "description": "Se aplican indicadores, informes y revisiones periódicas con análisis inicial de tendencias."
+      },
+      {
+        "level": 3,
+        "title": "Gestión integrada",
+        "description": "Se analizan integralmente indicadores de desempeño y valor ganado y se interviene preventivamente ante desviaciones."
+      },
+      {
+        "level": 4,
+        "title": "Optimización predictiva",
+        "description": "Se anticipa el desempeño mediante analítica, alertas y modelamiento de impactos de proyectos y programas."
+      },
+      {
+        "level": 5,
+        "title": "Mejora inteligente",
+        "description": "Los análisis y recomendaciones automatizados apoyan intervenciones en tiempo real y mejora continua de resultados."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Program Management",
+    "category": "Operational",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Basic coordination",
+        "description": "The PMO provides program managers on an ad hoc basis for basic coordination among related projects."
+      },
+      {
+        "level": 2,
+        "title": "Structured program management",
+        "description": "The PMO assigns program managers more consistently, implementing a structured approach to program management."
+      },
+      {
+        "level": 3,
+        "title": "Integrated program governance",
+        "description": "The PMO provides experienced program managers who implement comprehensive program governance aligned with organizational structures."
+      },
+      {
+        "level": 4,
+        "title": "Strategic program alignment",
+        "description": "The PMO deploys highly skilled program managers who position programs as critical drivers of strategic objectives."
+      },
+      {
+        "level": 5,
+        "title": "Transformational program leadership",
+        "description": "The PMO provides elite program managers capable of driving significant organizational transformations."
+      }
+    ],
+    "name_es": "Gestión de programas",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Coordinación básica",
+        "description": "Se asignan responsables para coordinar proyectos relacionados, con integración limitada de objetivos, planes y beneficios."
+      },
+      {
+        "level": 2,
+        "title": "Gestión estructurada",
+        "description": "Hay objetivos, reportes, coordinación de recursos y seguimiento básico de riesgos y beneficios del programa."
+      },
+      {
+        "level": 3,
+        "title": "Gobernanza integrada",
+        "description": "Se gestionan interdependencias, beneficios y decisiones mediante una gobernanza robusta y reportes de programas."
+      },
+      {
+        "level": 4,
+        "title": "Alineación estratégica",
+        "description": "Los programas se gestionan como instrumentos de estrategia mediante modelos de contribución y optimización de recursos."
+      },
+      {
+        "level": 5,
+        "title": "Liderazgo transformador",
+        "description": "Los programas permiten crear capacidades e impulsar transformaciones organizacionales e innovación verificable."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Project Management",
+    "category": "Operational",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Basic execution",
+        "description": "The PMO provides part-time project managers with limited skills on an as-needed basis."
+      },
+      {
+        "level": 2,
+        "title": "Standardized processes",
+        "description": "The PMO assigns part-time project managers with improved skills more consistently."
+      },
+      {
+        "level": 3,
+        "title": "Integrated management",
+        "description": "The PMO deploys skilled part-time project managers who implement comprehensive project management practices integrated with organizational strategies."
+      },
+      {
+        "level": 4,
+        "title": "Optimized performance",
+        "description": "The PMO provides a mix of part-time and full-time skilled project managers who employ sophisticated project management techniques to optimize performance."
+      },
+      {
+        "level": 5,
+        "title": "Innovative leadership",
+        "description": "The PMO assigns highly experienced part-time and full- time project managers whose practices are at the forefront of the industry."
+      }
+    ],
+    "name_es": "Dirección de proyectos",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Ejecución básica",
+        "description": "Se asignan responsables ocasionales, con seguimiento elemental y documentación inconsistente."
+      },
+      {
+        "level": 2,
+        "title": "Procesos estandarizados",
+        "description": "Se aplican metodologías, formatos y controles consistentes de alcance, tiempo, costo, riesgos e interesados."
+      },
+      {
+        "level": 3,
+        "title": "Dirección integrada",
+        "description": "Los profesionales gestionan integralmente restricciones y desempeño de proyectos alineados con la estrategia."
+      },
+      {
+        "level": 4,
+        "title": "Desempeño optimizado",
+        "description": "Se combinan especialistas y analítica predictiva para gestionar proyectos con altos niveles de valor y mejora continua."
+      },
+      {
+        "level": 5,
+        "title": "Liderazgo innovador",
+        "description": "Los directores emplean prácticas y tecnologías de avanzada y alcanzan resultados transformadores reconocidos."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Project Support Services",
+    "category": "Operational",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Basic administrative support",
+        "description": "The PMO offers basic administrative support on request."
+      },
+      {
+        "level": 2,
+        "title": "Standardized support services",
+        "description": "The PMO implements a defined set of support services."
+      },
+      {
+        "level": 3,
+        "title": "Comprehensive project enablement",
+        "description": "The PMO provides a full range of proactive support services."
+      },
+      {
+        "level": 4,
+        "title": "Strategic support optimization",
+        "description": "The PMO aligns support services with strategic project objectives."
+      },
+      {
+        "level": 5,
+        "title": "Intelligent project assistance",
+        "description": "The PMO employs artificial intelligence and machine learning for intelligent project assistance."
+      }
+    ],
+    "name_es": "Servicios de apoyo a proyectos",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Apoyo administrativo básico",
+        "description": "La PMO responde solicitudes administrativas puntuales sin un catálogo formal ni documentación consistente."
+      },
+      {
+        "level": 2,
+        "title": "Apoyo estandarizado",
+        "description": "Existen servicios, herramientas, plantillas, niveles de atención y registros definidos para solicitudes frecuentes."
+      },
+      {
+        "level": 3,
+        "title": "Habilitación integral",
+        "description": "Se presta apoyo proactivo e integrado a la gestión, con tecnologías y niveles de servicio medidos y revisados."
+      },
+      {
+        "level": 4,
+        "title": "Optimización estratégica",
+        "description": "El soporte se alinea con objetivos y recursos del portafolio mediante análisis para anticipar necesidades."
+      },
+      {
+        "level": 5,
+        "title": "Asistencia inteligente",
+        "description": "Se automatizan tareas rutinarias y se usan modelos para anticipar y resolver necesidades de apoyo."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Quality Assurance",
+    "category": "Operational",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Basic quality checks",
+        "description": "The PMO conducts basic quality checks, primarily at project completion."
+      },
+      {
+        "level": 2,
+        "title": "Standardized quality processes",
+        "description": "The PMO establishes consistent quality standards and processes."
+      },
+      {
+        "level": 3,
+        "title": "Integrated quality management",
+        "description": "The PMO implements comprehensive quality management processes."
+      },
+      {
+        "level": 4,
+        "title": "Predictive quality optimization",
+        "description": "The PMO employs predictive analytics to identify potential quality issues before they occur."
+      },
+      {
+        "level": 5,
+        "title": "Intelligent quality enhancement",
+        "description": "The PMO uses artificial intelligence and machine learning for continuous quality optimization."
+      }
+    ],
+    "name_es": "Aseguramiento de la calidad",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Verificaciones básicas",
+        "description": "Se realizan controles principalmente al finalizar proyectos, con criterios limitados y orientación reactiva."
+      },
+      {
+        "level": 2,
+        "title": "Procesos de calidad estandarizados",
+        "description": "Se aplican estándares y controles en hitos definidos, con métricas y documentación básica."
+      },
+      {
+        "level": 3,
+        "title": "Calidad integrada",
+        "description": "La calidad se gestiona preventivamente a lo largo del ciclo y se integra a los procesos y mejora continua."
+      },
+      {
+        "level": 4,
+        "title": "Optimización predictiva",
+        "description": "Se anticipan problemas de calidad con modelos de riesgo e impacto y se fortalecen resultados y entregables."
+      },
+      {
+        "level": 5,
+        "title": "Mejora inteligente",
+        "description": "Se automatizan análisis de calidad y ajustes de procesos mediante analítica avanzada y mejora permanente."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Risk Management",
+    "category": "Operational",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Basic identification",
+        "description": "The PMO supports basic risk identification for projects."
+      },
+      {
+        "level": 2,
+        "title": "Standardized process",
+        "description": "The PMO establishes a consistent project risk management process."
+      },
+      {
+        "level": 3,
+        "title": "Integrated approach",
+        "description": "The PMO implements an integrated risk management approach."
+      },
+      {
+        "level": 4,
+        "title": "Strategic risk management",
+        "description": "The PMO aligns risk management with organizational strategy."
+      },
+      {
+        "level": 5,
+        "title": "Predictive risk intelligence",
+        "description": "The PMO employs artificial intelligence and machine learning for predictive risk intelligence."
+      }
+    ],
+    "name_es": "Gestión de riesgos",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Identificación básica",
+        "description": "Se registran algunos riesgos con análisis y seguimiento limitados; las respuestas son principalmente reactivas."
+      },
+      {
+        "level": 2,
+        "title": "Proceso estandarizado",
+        "description": "Se definen categorías, evaluaciones cualitativas, revisiones y planes de respuesta con aplicación consistente."
+      },
+      {
+        "level": 3,
+        "title": "Gestión integrada",
+        "description": "Se utilizan análisis cualitativos y cuantitativos y se coordinan riesgos y respuestas entre proyectos y programas."
+      },
+      {
+        "level": 4,
+        "title": "Riesgos estratégicos",
+        "description": "Los riesgos se alinean con el apetito y la estrategia, y se utilizan escenarios y analítica avanzada."
+      },
+      {
+        "level": 5,
+        "title": "Inteligencia predictiva de riesgos",
+        "description": "Se detectan y analizan riesgos en tiempo real mediante modelos predictivos e interacciones entre amenazas y oportunidades."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Specialized Services",
+    "category": "Operational",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Ad hoc expertise",
+        "description": "The PMO provides specialized services reactively on a case- by-case basis."
+      },
+      {
+        "level": 2,
+        "title": "Defined specialty areas",
+        "description": "The PMO establishes a defined set of specialized services and begins to build a pool of internal experts."
+      },
+      {
+        "level": 3,
+        "title": "Integrated specialized support",
+        "description": "The PMO maintains a comprehensive range of specialized services with a robust network of internal and external experts."
+      },
+      {
+        "level": 4,
+        "title": "Strategic capability enhancement",
+        "description": "The PMO aligns specialized services with strategic organizational capabilities, providing high-level experts contributing to competitive advantage."
+      },
+      {
+        "level": 5,
+        "title": "Innovative specialization leadership",
+        "description": "The PMO provides world-class experts who are at the forefront of developing and implementing cutting-edge specialized services."
+      }
+    ],
+    "name_es": "Servicios especializados",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Experticia ocasional",
+        "description": "Se contratan o consultan especialistas por casos puntuales, sin procedimientos regulares ni medición de impacto."
+      },
+      {
+        "level": 2,
+        "title": "Especialidades definidas",
+        "description": "Se identifican áreas de apoyo, expertos disponibles, criterios de solicitud y mediciones básicas de utilización."
+      },
+      {
+        "level": 3,
+        "title": "Apoyo especializado integrado",
+        "description": "Existe una red estructurada de expertos internos y externos integrada en equipos y mediciones de contribución."
+      },
+      {
+        "level": 4,
+        "title": "Capacidades especializadas estratégicas",
+        "description": "Los servicios especializados se alinean con capacidades estratégicas y se convierten en centros de excelencia."
+      },
+      {
+        "level": 5,
+        "title": "Liderazgo especializado innovador",
+        "description": "La PMO desarrolla servicios de vanguardia y una red de especialistas reconocida como referencia de innovación."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Stakeholder Engagement",
+    "category": "Operational",
+    "levels": [
+      {
+        "level": 1,
+        "title": "Basic stakeholder identification",
+        "description": "The PMO supports basic stakeholder identification."
+      },
+      {
+        "level": 2,
+        "title": "Structured stakeholder analysis",
+        "description": "The PMO establishes consistent stakeholder analysis and management processes."
+      },
+      {
+        "level": 3,
+        "title": "Comprehensive stakeholder engagement",
+        "description": "The PMO implements comprehensive stakeholder engagement strategies."
+      },
+      {
+        "level": 4,
+        "title": "Strategic stakeholder alignment",
+        "description": "The PMO aligns stakeholder engagement with organizational strategy."
+      },
+      {
+        "level": 5,
+        "title": "Transformational stakeholder collaboration",
+        "description": "The PMO employs advanced technologies for dynamic stakeholder analysis and engagement."
+      }
+    ],
+    "name_es": "Gestión del involucramiento de interesados",
+    "source": "PMO Service Maturity Assessment · PMO Value Ring™ · PDF facilitado por el usuario",
+    "levels_es": [
+      {
+        "level": 1,
+        "title": "Identificación básica",
+        "description": "Se identifican interesados y sus necesidades sin análisis suficiente de influencia ni estrategias estructuradas."
+      },
+      {
+        "level": 2,
+        "title": "Análisis estructurado",
+        "description": "Se documentan intereses, expectativas y planes básicos de participación, con comunicaciones más regulares."
+      },
+      {
+        "level": 3,
+        "title": "Participación integral",
+        "description": "Se utilizan estrategias diferenciadas y seguimiento continuo de relaciones e influencia durante programas y proyectos."
+      },
+      {
+        "level": 4,
+        "title": "Alineación estratégica de interesados",
+        "description": "Las relaciones se gestionan en el nivel de portafolio y se vinculan con objetivos y valor de largo plazo."
+      },
+      {
+        "level": 5,
+        "title": "Colaboración transformadora",
+        "description": "La PMO anticipa y ajusta la vinculación con interesados utilizando análisis avanzados y cocreación de valor."
+      }
+    ]
+  }
+]

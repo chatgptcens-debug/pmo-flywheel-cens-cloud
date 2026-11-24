@@ -1,0 +1,489 @@
+/*
+ * PMO FLYWHEEL CENS — V0.9 visual ONLY.
+ * Design tokens below are canonical. No IDs, widget values, event handlers,
+ * calculations, import/export processes or database structures are changed.
+ * Targets use Streamlit public/test IDs and project-owned .pmo/.p2 classes.
+ */
+:root {
+  --cens-violet: #302B56;
+  --cens-violet-mid: #67618F;
+  --cens-orange: #CE7C42;
+  --cens-action: #1050AA;
+  --cens-bg: #F4F6FA;
+  --cens-white: #FFFFFF;
+  --cens-soft: #F7F8FA;
+  --cens-lavender: #F1E7FF;
+  --cens-ink: #232747;
+  --cens-muted: #65718C;
+  --cens-line: #E1E5EC;
+  --cens-success: #16B77A;
+  --cens-warning: #E5A126;
+  --cens-error: #DC4C55;
+  --cens-rad: 15px;
+  --cens-rad-field: 10px;
+  --cens-shadow: 0 6px 22px rgba(48,43,86,.045);
+  --cens-focus: 0 0 0 3px rgba(16,80,170,.20);
+  --cens-sp-1: 4px;
+  --cens-sp-2: 8px;
+  --cens-sp-3: 12px;
+  --cens-sp-4: 16px;
+  --cens-sp-6: 24px;
+  --cens-sp-8: 32px;
+  /* Legacy CSS compatibility: presentation only, not model variables. */
+  --navy: var(--cens-violet);
+  --p2-navy: var(--cens-violet);
+  --teal: var(--cens-action);
+  --p2-teal: var(--cens-action);
+  --orange: var(--cens-orange);
+  --p2-orange: var(--cens-orange);
+  --bg: var(--cens-bg);
+  --p2-bg: var(--cens-bg);
+  --ink: var(--cens-ink);
+  --p2-ink: var(--cens-ink);
+  --muted: var(--cens-muted);
+  --p2-muted: var(--cens-muted);
+  --line: var(--cens-line);
+  --p2-line: var(--cens-line);
+}
+
+/* 01. Layout, type scale, scrolling */
+.stApp, [data-testid="stAppViewContainer"] {
+  background: var(--cens-bg) !important;
+  color: var(--cens-ink);
+  font-family: Inter, "Segoe UI", Arial, sans-serif !important;
+}
+[data-testid="stMainBlockContainer"], .block-container {
+  max-width: 1600px !important;
+  padding: 20px clamp(16px, 2.25vw, 34px) 56px !important;
+}
+[data-testid="stMarkdownContainer"], .stApp p {
+  color: inherit;
+}
+.stApp h1, .stApp h2, .stApp h3, .stApp h4 {
+  color: var(--cens-ink);
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  letter-spacing: -.02em;
+}
+.stApp h1 {font-size: 29px; font-weight: 800;}
+.stApp h2 {font-size: 22px; font-weight: 760;}
+.stApp h3 {font-size: 18px; font-weight: 730;}
+.stApp hr {border-color: var(--cens-line);}
+[data-testid="stCaptionContainer"], .stApp small {color: var(--cens-muted);}
+
+/* 02. Global app chrome and sidebar; do not modify radio options or keys. */
+[data-testid="stSidebar"], [data-testid="stSidebarContent"] {
+  background: var(--cens-violet) !important;
+}
+[data-testid="stSidebar"] {
+  min-width: 254px !important;
+  max-width: 254px !important;
+  border-right: 1px solid rgba(255,255,255,.10);
+}
+[data-testid="stSidebar"] [data-testid="stSidebarContent"] {
+  padding: 16px 12px 20px !important;
+}
+.pmo-brand {
+  padding: 16px 12px 20px !important;
+  margin-bottom: 22px !important;
+  border-bottom: 1px solid rgba(255,255,255,.13) !important;
+}
+.pmo-brand strong {color: #FFF !important; font-size: 14.5px !important;letter-spacing:.45px !important;}
+.pmo-brand strong::before {
+  content: ""; display: inline-block; vertical-align: -4px; margin-right: 12px;
+  width: 19px;height: 19px;border-radius: 6px;
+  border: 1px solid rgba(255,255,255,.56);
+  background: linear-gradient(135deg, transparent 40%, #CE7C42 40%, #CE7C42 60%, transparent 60%);
+}
+.pmo-brand small {color: #C8C4E5 !important; font-size:10px !important;letter-spacing:1.05px !important;}
+.pmo-side-label {color: #B9B4D3 !important;font-size:10.5px !important;letter-spacing:1.15px !important; margin: 20px 10px 10px !important;}
+.pmo-side-step {
+  background: rgba(255,255,255,.095) !important;
+  border: 1px solid rgba(255,255,255,.08);
+  color: #FFF !important;
+  border-radius: 11px !important;
+  padding: 12px 11px !important;
+  font-size: 12px !important;
+  margin-bottom: 12px !important;
+}
+.pmo-side-num {background: var(--cens-orange) !important;border-radius: 8px !important;padding:5px 9px !important;color:#FFF !important;}
+[data-testid="stSidebar"] [role="radiogroup"] {gap: 3px !important;}
+[data-testid="stSidebar"] [role="radiogroup"] > label {
+  border: 1px solid transparent !important;
+  min-height: 39px !important;
+  margin: 2px 0 !important;
+  padding: 9px 9px !important;
+  border-radius: 10px !important;
+  color: #EBE9F7 !important;
+  transition: background-color .12s ease, border-color .12s ease;
+}
+[data-testid="stSidebar"] [role="radiogroup"] > label:hover {
+  background: rgba(255,255,255,.10) !important;
+}
+[data-testid="stSidebar"] [role="radiogroup"] > label:has(input:checked) {
+  background: rgba(255,255,255,.17) !important;
+  border-left: 3px solid var(--cens-orange) !important;
+  border-top: 1px solid rgba(255,255,255,.13) !important;
+  border-right: 1px solid rgba(255,255,255,.13) !important;
+  border-bottom: 1px solid rgba(255,255,255,.13) !important;
+  padding-left: 7px !important;
+}
+[data-testid="stSidebar"] [role="radiogroup"] > label [data-testid="stMarkdownContainer"] p {
+  color: #ECEAF8 !important;
+  font-size: 12px !important;
+  font-weight: 560 !important;
+  line-height: 1.43 !important;
+}
+[data-testid="stSidebar"] [role="radiogroup"] > label:has(input:checked) [data-testid="stMarkdownContainer"] p {
+  color: #FFF !important;
+  font-weight: 750 !important;
+}
+[data-testid="stSidebar"] [role="radiogroup"] > label:focus-within {
+  outline: 2px solid #C6B7ED !important;
+  outline-offset: 2px;
+}
+[data-testid="stSidebar"] .pmo-sidebar-bottom {
+  background: rgba(255,255,255,.08) !important;
+  border: 1px solid rgba(255,255,255,.17) !important;
+  border-radius: 12px !important;
+  padding: 15px !important;
+  color: #DDD9EE !important;
+}
+.pmo-sidebar-bottom strong {color:#FFF !important;}
+.pmo-progress {background:rgba(255,255,255,.20) !important;}
+.pmo-progress span {background:var(--cens-orange) !important;}
+[data-testid="stSidebar"] [data-testid="stExpander"] {
+  border-color: rgba(255,255,255,.18);
+}
+[data-testid="stSidebar"] [data-testid="stExpander"] summary {color:#FFF !important;}
+
+/* 03. Branded header and section text */
+.pmo-topbar {
+  background: var(--cens-white) !important;
+  border: 1px solid var(--cens-line) !important;
+  border-radius: 12px !important;
+  padding: 14px 20px !important;
+  color: var(--cens-muted) !important;
+  margin-bottom: 22px !important;
+  min-height: 54px !important;
+  box-shadow: 0 2px 12px rgba(48,43,86,.025) !important;
+}
+.pmo-topbar b {color:var(--cens-violet) !important;}
+.pmo-topmark {background:var(--cens-lavender) !important;color:var(--cens-violet) !important;border-radius: 50% !important;}
+.pmo-eyebrow,.p2-panel-label {color:var(--cens-violet-mid) !important;font-size:11px !important;letter-spacing:1.1px !important;}
+.pmo-eyebrow::before,.p2-section-label::before {background:var(--cens-orange) !important;}
+.pmo-title {color:var(--cens-ink) !important;font-size:29px !important;font-weight:800 !important;line-height:1.24 !important;letter-spacing:-.7px !important;}
+.pmo-subtitle {color:var(--cens-muted) !important;font-size:14px !important;line-height:1.65 !important;margin-bottom:22px !important;}
+.p2-section-label {color:var(--cens-violet-mid) !important;}
+.pmo-card-header, .p2-ref-heading {color:var(--cens-violet) !important;font-size:16px !important;}
+.pmo-card-caption,.p2-ref-caption {color:var(--cens-muted) !important;font-size:12px !important;}
+
+/* 04. All cards, panels and KPIs preserve original DOM composition */
+[data-testid="stVerticalBlockBorderWrapper"] > div {
+  background: var(--cens-white) !important;
+  border: 1px solid var(--cens-line) !important;
+  border-radius: var(--cens-rad) !important;
+  box-shadow: var(--cens-shadow) !important;
+}
+.pmo-kpi {
+  background: var(--cens-white) !important;
+  border: 1px solid var(--cens-line) !important;
+  border-radius: var(--cens-rad) !important;
+  box-shadow: var(--cens-shadow) !important;
+  padding: 20px 20px 18px !important;
+  min-height: 126px !important;
+}
+.pmo-kpi-head {font-size:12px !important;color:var(--cens-muted) !important;}
+.pmo-kpi-icon {color:var(--cens-violet) !important;background:var(--cens-lavender) !important;font-size:16px !important;}
+.pmo-kpi-icon.orange {background:#FCF0E6 !important;color:var(--cens-orange) !important;}
+.pmo-kpi-icon.blue {background:#EBF2FC !important;color:var(--cens-action) !important;}
+.pmo-kpi-icon.purple {background:var(--cens-lavender) !important;color:var(--cens-violet-mid) !important;}
+.pmo-kpi-value {color:var(--cens-ink) !important;font-size:30px !important;line-height:1.18 !important;}
+.pmo-kpi-foot {font-size:12px !important;color:var(--cens-muted) !important;}
+.pmo-resource,.p2-outcome-card,.p2-ref-need-card,.p2-ref-route-row,.p2-ref-causal > div,.p2-ref-steps span {
+  background:var(--cens-white) !important;
+  border-color:var(--cens-line) !important;
+  border-radius:var(--cens-rad) !important;
+  box-shadow:var(--cens-shadow);
+}
+.pmo-resource strong,.p2-outcome-name,.p2-ref-route-row strong,.p2-ref-causal strong {color:var(--cens-ink) !important;}
+.pmo-resource p,.p2-ref-route-row small,.p2-ref-causal small {color:var(--cens-muted) !important;}
+.pmo-client-hero {background:var(--cens-soft) !important;border:1px solid var(--cens-line) !important;}
+.pmo-initial {background:var(--cens-lavender) !important;color:var(--cens-violet) !important;}
+.pmo-person-title,.pmo-pair b {color:var(--cens-ink) !important;}
+.pmo-pair,.p2-ref-pair {border-bottom:1px solid var(--cens-line) !important;}
+.pmo-pair span,.p2-ref-pair span {color:var(--cens-muted) !important;}
+.pmo-soft,.p2-ref-note {background:var(--cens-soft) !important;border-color:var(--cens-line) !important;color:var(--cens-muted) !important;}
+.pmo-hint {border-color:var(--cens-line) !important;border-left:3px solid var(--cens-action) !important;color:var(--cens-muted) !important;}
+.pmo-pill {background:var(--cens-lavender) !important;color:var(--cens-violet) !important;}
+
+/* 05. Headers/hero: restrained violet solid fills, orange accent, no large gradients */
+.pmo-hero,.p2-welcome,.p2-ref-footer {
+  background:var(--cens-violet) !important;
+  color:#FFF !important;
+  border-radius:var(--cens-rad) !important;
+  border-top:4px solid var(--cens-orange) !important;
+  box-shadow:var(--cens-shadow);
+}
+.pmo-hero small,.p2-welcome-kicker,.p2-ref-footer small {color:#F2BE98 !important;}
+.pmo-hero h2,.p2-welcome-title,.p2-ref-footer h3 {color:#FFF !important;font-size:24px !important;}
+.pmo-hero p,.p2-welcome-desc,.p2-ref-footer p {color:#EEEAF8 !important;font-size:13px !important;}
+.p2-welcome-tags span {color:#FFF !important;background:rgba(255,255,255,.1) !important;border:1px solid rgba(255,255,255,.22) !important;}
+.p2-welcome:before,.p2-welcome:after {opacity:.24;}
+.p2-context {background:#FFF !important;border-color:var(--cens-line) !important;box-shadow:var(--cens-shadow) !important;}
+.p2-context-item {border-color:var(--cens-line) !important;}
+.p2-context-item span {color:var(--cens-muted) !important;}
+.p2-context-item strong {color:var(--cens-ink) !important;}
+.p2-flow,.p2-mini-guide {background:var(--cens-soft) !important;border:1px solid var(--cens-line) !important;}
+.p2-flow span,.p2-mini-guide span {color:var(--cens-violet) !important;}
+.p2-flow b,.p2-mini-guide i {color:var(--cens-orange) !important;}
+
+/* 06. Primary / secondary / selected buttons and keyboard support */
+.stApp div.stButton > button,
+.stApp div.stDownloadButton > button,
+.stApp div.stFormSubmitButton > button,
+.stApp [data-testid="stBaseButton-secondary"],
+.stApp [data-testid="stBaseButton-primary"] {
+  border-radius: 11px !important;
+  min-height:44px !important;
+  padding:8px 15px !important;
+  font-family:Inter,"Segoe UI",Arial,sans-serif !important;
+  font-size:13px !important;
+  font-weight:690 !important;
+  transition: background-color .14s ease,border-color .14s ease,box-shadow .14s ease !important;
+}
+.stApp div.stButton > button[kind="primary"],
+.stApp div.stFormSubmitButton > button[kind="primary"],
+.stApp [data-testid="stBaseButton-primary"] {
+  background:var(--cens-action) !important;color:#FFF !important;border:1px solid var(--cens-action) !important;
+}
+.stApp div.stButton > button[kind="primary"]:hover,
+.stApp div.stFormSubmitButton > button[kind="primary"]:hover,
+.stApp [data-testid="stBaseButton-primary"]:hover {
+  background:#0C438F !important;border-color:#0C438F !important;
+}
+.stApp div.stButton > button:not([kind="primary"]),
+.stApp div.stDownloadButton > button,
+.stApp div.stFormSubmitButton > button:not([kind="primary"]),
+.stApp [data-testid="stBaseButton-secondary"] {
+  background:#FFF !important;color:var(--cens-violet) !important;border:1px solid var(--cens-line) !important;
+}
+.stApp div.stButton > button:not([kind="primary"]):hover,
+.stApp div.stDownloadButton > button:hover,
+.stApp div.stFormSubmitButton > button:not([kind="primary"]):hover {
+  background:var(--cens-soft) !important;border-color:#BBB4D7 !important;
+}
+.stApp button:focus-visible,.stApp [role="tab"]:focus-visible,
+.stApp [role="radio"]:focus-visible,.stApp [role="checkbox"]:focus-visible,
+.stApp a:focus-visible {outline:2px solid var(--cens-action) !important;outline-offset:2px !important;box-shadow:var(--cens-focus) !important;}
+.stApp button:disabled,.stApp button[aria-disabled="true"] {opacity:.5 !important;cursor:not-allowed !important;}
+[data-testid="stSidebar"] div.stButton > button:not([kind="primary"]),
+[data-testid="stSidebar"] div.stDownloadButton > button {
+  background:rgba(255,255,255,.09) !important;color:#FFF !important;border:1px solid rgba(255,255,255,.20) !important;
+}
+[data-testid="stSidebar"] div.stButton > button:not([kind="primary"]):hover {
+  background:rgba(255,255,255,.17) !important;border-color:rgba(255,255,255,.5) !important;
+}
+
+/* 07. Tabs, segmented controls, filters and progress */
+.stTabs [data-baseweb="tab-list"] {
+  display:flex;
+  background:var(--cens-white) !important;
+  border:1px solid var(--cens-line) !important;
+  border-radius:12px !important;
+  padding:5px !important;
+  gap:5px !important;
+}
+.stTabs button[data-baseweb="tab"] {
+  color:var(--cens-muted) !important;
+  background:var(--cens-soft) !important;
+  border:1px solid transparent !important;
+  border-radius:9px !important;
+  min-height:38px !important;
+  padding:8px 13px !important;
+  font-size:12px !important;
+  font-weight:650 !important;
+}
+.stTabs button[data-baseweb="tab"][aria-selected="true"] {
+  background:var(--cens-violet) !important;
+  color:#FFF !important;
+  border:1px solid var(--cens-orange) !important;
+  box-shadow:none !important;
+}
+.stTabs [data-baseweb="tab-highlight"],
+.stTabs [data-baseweb="tab-border"] {display:none !important;}
+[data-testid="stSegmentedControl"] button[aria-checked="true"],
+[data-testid="stSegmentedControl"] button[aria-pressed="true"] {
+  background:var(--cens-violet) !important;color:#FFF !important;border:1px solid var(--cens-orange) !important;
+}
+[data-testid="stProgress"] [role="progressbar"] > div,
+[data-testid="stProgress"] [data-testid="stProgressBar"] {background:var(--cens-action) !important;}
+
+/* 08. Forms: borders and focus states; preserve required flags, validation and callbacks */
+.stApp [data-testid="stWidgetLabel"] label,
+.stApp [data-testid="stWidgetLabel"] p,
+.stApp [data-testid="stTextInput"] label,
+.stApp [data-testid="stNumberInput"] label,
+.stApp [data-testid="stTextArea"] label {
+  font-size:12.5px !important;color:var(--cens-ink) !important;font-weight:650 !important;
+}
+.stApp [data-testid="stTextInput"] input,
+.stApp [data-testid="stNumberInput"] input,
+.stApp [data-testid="stDateInput"] input,
+.stApp [data-testid="stTextArea"] textarea,
+.stApp div[data-baseweb="select"] > div,
+.stApp [data-testid="stFileUploader"] {
+  border-color:var(--cens-line) !important;
+  border-radius:var(--cens-rad-field) !important;
+  background:#FFF !important;
+  color:var(--cens-ink) !important;
+}
+.stApp [data-testid="stTextInput"] input,
+.stApp [data-testid="stNumberInput"] input,
+.stApp [data-testid="stDateInput"] input {
+  min-height:42px !important;
+}
+.stApp [data-testid="stTextInput"] input:focus-visible,
+.stApp [data-testid="stNumberInput"] input:focus-visible,
+.stApp [data-testid="stDateInput"] input:focus-visible,
+.stApp [data-testid="stTextArea"] textarea:focus-visible,
+.stApp div[data-baseweb="select"]:focus-within > div {
+  border-color:var(--cens-action) !important;
+  box-shadow:var(--cens-focus) !important;
+  outline:0 !important;
+}
+.stApp [data-testid="stFileUploader"] {
+  border:1px dashed #B8B5C9 !important;
+  background:var(--cens-soft) !important;
+  padding:12px 14px !important;
+}
+.stApp [data-testid="stFileUploader"]:focus-within {outline:2px solid var(--cens-action) !important;outline-offset:1px;}
+.stApp [data-testid="stCheckbox"] input:checked,
+.stApp [data-testid="stRadio"] input:checked {accent-color:var(--cens-action) !important;}
+.stApp [data-testid="stExpander"] {border:1px solid var(--cens-line);border-radius:12px;overflow:hidden;}
+.stApp [data-testid="stExpander"] summary {color:var(--cens-violet) !important;font-size:13px !important;font-weight:650 !important;}
+
+/* 09. Data tables and status chips */
+[data-testid="stDataFrame"], [data-testid="stTable"] {
+  border:1px solid var(--cens-line) !important;border-radius:12px !important;overflow:hidden;
+}
+[data-testid="stDataFrame"] button {border-radius:8px !important;}
+.p2-ref-table th {background:var(--cens-soft) !important;color:var(--cens-violet) !important;border-color:var(--cens-line) !important;}
+.p2-ref-table td {background:#FFF !important;color:var(--cens-ink) !important;border-color:var(--cens-line) !important;}
+.p2-ref-table-scroll {border-color:var(--cens-line) !important;}
+.p2-ref-ranked > b,.p2-ref-route-row b,.p2-ref-causal b,
+.p2-ref-engine-steps b {background:var(--cens-lavender) !important;color:var(--cens-violet) !important;}
+.p2-ref-need-title span {background:var(--cens-lavender) !important;color:var(--cens-violet) !important;}
+
+/* 10. Visual analytics: same data, same dimensions, same diagram shapes */
+.p2-ref-track {background:#EBEDF3 !important;}
+.p2-ref-track i {background:var(--cens-action) !important;}
+.p2-ref-bars .p2-ref-bar-row strong {color:var(--cens-violet) !important;}
+.p2-ref-bar-row {color:var(--cens-ink) !important;}
+.p2-outcome-id {color:var(--cens-violet-mid) !important;}
+.p2-outcome-name {color:var(--cens-ink) !important;}
+.p2-ref-need-title,.p2-ref-need-footer {color:var(--cens-muted) !important;}
+.p2-pain,.p2-ref-pain {
+  background:#FCF3EA !important;border-color:#F3D7C5 !important;color:#7C4A31 !important;
+}
+.p2-gain,.p2-ref-gain {
+  background:#F0EAF8 !important;border-color:#D9CFED !important;color:var(--cens-violet) !important;
+}
+.p2-panel-cap,.p2-pain .p2-panel-cap {color:var(--cens-orange) !important;}
+.p2-gain .p2-panel-cap {color:var(--cens-violet-mid) !important;}
+svg[aria-label="Radar de percepción actual y deseada"] polygon[stroke="#0B9A9F"] {
+  fill:rgba(103,97,143,.15) !important;stroke:var(--cens-violet-mid) !important;
+}
+svg[aria-label="Radar de percepción actual y deseada"] polygon[stroke="#ED9250"] {
+  fill:rgba(206,124,66,.12) !important;stroke:var(--cens-orange) !important;
+}
+svg[aria-label="Radar de percepción actual y deseada"] polygon[stroke="#DDE8EE"] {
+  stroke:var(--cens-line) !important;
+}
+.p2-ref-footer h3 {font-size:18px !important;}
+
+/* 11. Alerts / neutral status cards: informational meaning is unchanged */
+[data-testid="stAlert"] {
+  border-radius:11px !important;
+  border-width:1px !important;
+  font-size:13px !important;
+}
+[data-testid="stAlert"] [data-testid="stMarkdownContainer"] p {line-height:1.5 !important;}
+[data-testid="stAlert"]:has([data-testid="stNotificationContentInfo"]) {
+  background:#EDF3FC !important;color:#164C8C !important;border-color:#D4E1F5 !important;
+}
+[data-testid="stAlert"]:has([data-testid="stNotificationContentSuccess"]) {
+  background:#E9F9F1 !important;color:#146744 !important;border-color:#C7EAD8 !important;
+}
+[data-testid="stAlert"]:has([data-testid="stNotificationContentWarning"]) {
+  background:#FFF5E8 !important;color:#825B24 !important;border-color:#F4E0C0 !important;
+}
+[data-testid="stAlert"]:has([data-testid="stNotificationContentError"]) {
+  background:#FFF0F1 !important;color:#9B2733 !important;border-color:#F6D1D4 !important;
+}
+
+/* 12. Screens from 760px–1440px: preserve columns; avoid excess horizontal scroll */
+@media (max-width: 1200px) {
+  [data-testid="stMainBlockContainer"],.block-container {padding:16px 18px 38px !important;}
+  .pmo-title {font-size:27px !important;}
+}
+@media (max-width: 900px) {
+  [data-testid="stSidebar"] {min-width:220px !important;max-width:220px !important;}
+  .pmo-kpi {min-height:116px !important;padding:16px !important;}
+  .pmo-kpi-value {font-size:26px !important;}
+  .pmo-title {font-size:25px !important;}
+}
+@media (max-width: 640px) {
+  [data-testid="stMainBlockContainer"],.block-container {padding:12px 13px 32px !important;}
+  .pmo-topbar {padding:10px 12px !important;gap:6px;flex-wrap:wrap;}
+  .pmo-title {font-size:24px !important;}
+  .pmo-subtitle {font-size:13px !important;}
+  .pmo-kpi {min-height:104px !important;}
+  .stTabs [data-baseweb="tab-list"] {overflow-x:auto;flex-wrap:nowrap;}
+  .stTabs button[data-baseweb="tab"] {white-space:nowrap;}
+}
+@media (prefers-reduced-motion: reduce) {
+  .stApp button,[data-testid="stSidebar"] [role="radiogroup"]>label {transition:none !important;}
+}
+
+/* Icon consistency, preserving existing KPI values/labels. */
+.pmo-kpi-icon {display:inline-flex !important;align-items:center;justify-content:center;flex:0 0 32px;}
+.pmo-kpi-icon svg{display:block;width:18px;height:18px;stroke:currentColor;}
+
+/* Navigation icons are visual CSS pseudoelements, not new or replacement widgets.
+   Group-length scoping allows the existing 6-item/12-item nav to retain its keys. */
+[data-testid="stSidebar"] [role="radiogroup"]:has(> label:nth-child(6)):not(:has(> label:nth-child(7))) > label::before {content:"";display:inline-block;flex:0 0 18px;width:18px;height:18px;vertical-align:middle;margin-right:5px;background-position:center;background-repeat:no-repeat;background-size:18px 18px;}
+[data-testid="stSidebar"] [role="radiogroup"]:has(> label:nth-child(6)):not(:has(> label:nth-child(7))) > label:nth-child(1)::before{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNEMENDRTciIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xNiAyMXYtMmE0IDQgMCAwIDAtNC00SDZhNCA0IDAgMCAwLTQgNHYyIi8+PGNpcmNsZSBjeD0iOSIgY3k9IjciIHI9IjQiLz48cGF0aCBkPSJNMjIgMjF2LTJhNCA0IDAgMCAwLTMtMy44N00xNiAzLjEzYTQgNCAwIDAgMSAwIDcuNzUiLz48L3N2Zz4=");}
+[data-testid="stSidebar"] [role="radiogroup"]:has(> label:nth-child(6)):not(:has(> label:nth-child(7))) > label:nth-child(2)::before{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNEMENDRTciIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik00IDE5LjVBMi41IDIuNSAwIDAgMSA2LjUgMTdIMjAiLz48cGF0aCBkPSJNNi41IDJIMjB2MjBINi41QTIuNSAyLjUgMCAwIDEgNCAxOS41di0xNUEyLjUgMi41IDAgMCAxIDYuNSAyWiIvPjwvc3ZnPg==");}
+[data-testid="stSidebar"] [role="radiogroup"]:has(> label:nth-child(6)):not(:has(> label:nth-child(7))) > label:nth-child(3)::before{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNEMENDRTciIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjUiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNiIgcng9IjIiLz48cGF0aCBkPSJNMTYgM3Y0TTggM3Y0TTMgMTBoMTgiLz48L3N2Zz4=");}
+[data-testid="stSidebar"] [role="radiogroup"]:has(> label:nth-child(6)):not(:has(> label:nth-child(7))) > label:nth-child(4)::before{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNEMENDRTciIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0yMSAxMS41YTguNSA4LjUgMCAwIDEtMTIuMyA3LjZMMyAyMWwxLjktNS43QTguNSA4LjUgMCAxIDEgMjEgMTEuNVoiLz48L3N2Zz4=");}
+[data-testid="stSidebar"] [role="radiogroup"]:has(> label:nth-child(6)):not(:has(> label:nth-child(7))) > label:nth-child(5)::before{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNEMENDRTciIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0zIDN2MThoMTgiLz48cGF0aCBkPSJtNyAxNiA1LTUgNCAzIDUtNyIvPjwvc3ZnPg==");}
+[data-testid="stSidebar"] [role="radiogroup"]:has(> label:nth-child(6)):not(:has(> label:nth-child(7))) > label:nth-child(6)::before{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNEMENDRTciIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjQiIHk9IjMiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxOCIgcng9IjIiLz48cGF0aCBkPSJtOCAxMiAzIDMgNS02Ii8+PC9zdmc+");}
+[data-testid="stSidebar"] [role="radiogroup"]:has(> label:nth-child(12)):not(:has(> label:nth-child(13))) > label::before {content:"";display:inline-block;flex:0 0 18px;width:18px;height:18px;vertical-align:middle;margin-right:5px;background-position:center;background-repeat:no-repeat;background-size:18px 18px;}
+[data-testid="stSidebar"] [role="radiogroup"]:has(> label:nth-child(12)):not(:has(> label:nth-child(13))) > label:nth-child(1)::before{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNEMENDRTciIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjMiIHdpZHRoPSI3IiBoZWlnaHQ9IjciIHJ4PSIxIi8+PHJlY3QgeD0iMTQiIHk9IjMiIHdpZHRoPSI3IiBoZWlnaHQ9IjciIHJ4PSIxIi8+PHJlY3QgeD0iMyIgeT0iMTQiIHdpZHRoPSI3IiBoZWlnaHQ9IjciIHJ4PSIxIi8+PHJlY3QgeD0iMTQiIHk9IjE0IiB3aWR0aD0iNyIgaGVpZ2h0PSI3IiByeD0iMSIvPjwvc3ZnPg==");}
+[data-testid="stSidebar"] [role="radiogroup"]:has(> label:nth-child(12)):not(:has(> label:nth-child(13))) > label:nth-child(2)::before{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNEMENDRTciIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0zIDN2MThoMTgiLz48cGF0aCBkPSJtNyAxNiA1LTUgNCAzIDUtNyIvPjwvc3ZnPg==");}
+[data-testid="stSidebar"] [role="radiogroup"]:has(> label:nth-child(12)):not(:has(> label:nth-child(13))) > label:nth-child(3)::before{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNEMENDRTciIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik04IDZoMTNNOCAxMmgxM004IDE4aDEzIi8+PHBhdGggZD0iTTMgNmguMDFNMyAxMmguMDFNMyAxOGguMDEiLz48L3N2Zz4=");}
+[data-testid="stSidebar"] [role="radiogroup"]:has(> label:nth-child(12)):not(:has(> label:nth-child(13))) > label:nth-child(4)::before{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNEMENDRTciIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjkiIGN5PSI4IiByPSIzIi8+PGNpcmNsZSBjeD0iMTgiIGN5PSI5IiByPSIyIi8+PHBhdGggZD0iTTMgMjB2LTJhNiA2IDAgMCAxIDEyIDB2Mk0xNiAyMHYtMWE0IDQgMCAwIDAtMS0zLjIiLz48L3N2Zz4=");}
+[data-testid="stSidebar"] [role="radiogroup"]:has(> label:nth-child(12)):not(:has(> label:nth-child(13))) > label:nth-child(5)::before{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNEMENDRTciIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjkiLz48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI1Ii8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMSIvPjwvc3ZnPg==");}
+[data-testid="stSidebar"] [role="radiogroup"]:has(> label:nth-child(12)):not(:has(> label:nth-child(13))) > label:nth-child(6)::before{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNEMENDRTciIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Im0xMiAzLTkgNiA5IDYgOS02LTktNloiLz48cGF0aCBkPSJtMyAxMyA5IDYgOS02Ii8+PC9zdmc+");}
+[data-testid="stSidebar"] [role="radiogroup"]:has(> label:nth-child(12)):not(:has(> label:nth-child(13))) > label:nth-child(7)::before{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNEMENDRTciIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0zIDN2MThoMTgiLz48cGF0aCBkPSJtNyAxNiA1LTUgNCAzIDUtNyIvPjwvc3ZnPg==");}
+[data-testid="stSidebar"] [role="radiogroup"]:has(> label:nth-child(12)):not(:has(> label:nth-child(13))) > label:nth-child(8)::before{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNEMENDRTciIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik02IDJoOGw1IDV2MTVINnpNMTQgMnY1aDVNOSAxMmg3TTkgMTZoNyIvPjwvc3ZnPg==");}
+[data-testid="stSidebar"] [role="radiogroup"]:has(> label:nth-child(12)):not(:has(> label:nth-child(13))) > label:nth-child(9)::before{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNEMENDRTciIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjMiIHdpZHRoPSI3IiBoZWlnaHQ9IjciIHJ4PSIxIi8+PHJlY3QgeD0iMTQiIHk9IjMiIHdpZHRoPSI3IiBoZWlnaHQ9IjciIHJ4PSIxIi8+PHJlY3QgeD0iMyIgeT0iMTQiIHdpZHRoPSI3IiBoZWlnaHQ9IjciIHJ4PSIxIi8+PHJlY3QgeD0iMTQiIHk9IjE0IiB3aWR0aD0iNyIgaGVpZ2h0PSI3IiByeD0iMSIvPjwvc3ZnPg==");}
+[data-testid="stSidebar"] [role="radiogroup"]:has(> label:nth-child(12)):not(:has(> label:nth-child(13))) > label:nth-child(10)::before{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNEMENDRTciIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjQiIHk9IjMiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxOCIgcng9IjIiLz48cGF0aCBkPSJtOCAxMiAzIDMgNS02Ii8+PC9zdmc+");}
+[data-testid="stSidebar"] [role="radiogroup"]:has(> label:nth-child(12)):not(:has(> label:nth-child(13))) > label:nth-child(11)::before{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNEMENDRTciIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjUiIHk9IjQiIHdpZHRoPSIxNCIgaGVpZ2h0PSIxOCIgcng9IjIiLz48cmVjdCB4PSI5IiB5PSIyIiB3aWR0aD0iNiIgaGVpZ2h0PSI0IiByeD0iMSIvPjxwYXRoIGQ9Ik05IDEyaDZNOSAxNmg1Ii8+PC9zdmc+");}
+[data-testid="stSidebar"] [role="radiogroup"]:has(> label:nth-child(12)):not(:has(> label:nth-child(13))) > label:nth-child(12)::before{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNEMENDRTciIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0zIDdoN2wyIDJoOXYxMUgzeiIvPjwvc3ZnPg==");}
+/* Panel titles: violet titlebars for prominent Step 1 cards; Step 2 retains
+   compact editorial headers, with an orange landmark instead of extra nesting. */
+.pmo-card-header {
+  background:var(--cens-violet) !important;
+  color:#FFF !important;
+  padding:11px 14px !important;
+  border-radius:10px !important;
+  margin:0 0 10px !important;
+  font-size:15px !important;
+  letter-spacing:.1px !important;
+}
+.p2-ref-heading {
+  border-left:3px solid var(--cens-orange) !important;
+  padding:3px 0 3px 11px !important;
+  margin:4px 0 8px !important;
+}

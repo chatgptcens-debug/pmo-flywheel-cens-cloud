@@ -1,0 +1,78 @@
+/* V0.38.1 visual-only layer; native Streamlit radio remains functional. */
+[data-testid="stSidebar"] {min-width:308px!important;max-width:308px!important;background:#272345!important;border-right:1px solid #474164!important}
+[data-testid="stSidebar"] [data-testid="stSidebarContent"] {background:linear-gradient(155deg,#282447,#24213f)!important;padding:18px 15px 28px!important}
+[data-testid="stSidebar"] .pmo-brand-pro {display:flex;align-items:center;gap:11px;padding:10px 8px 20px!important;margin-bottom:16px!important;border-bottom:1px solid rgba(255,255,255,.21)!important}
+[data-testid="stSidebar"] .pmo-logo-pro {flex:0 0 36px;display:flex;align-items:center;justify-content:center}
+[data-testid="stSidebar"] .pmo-brand-pro strong {font-size:16px!important;line-height:1.35!important;letter-spacing:.2px!important;color:white!important}
+[data-testid="stSidebar"] .pmo-brand-pro small {font-size:8.9px!important;letter-spacing:1.55px!important;color:#cfc9e5!important}
+[data-testid="stSidebar"] .pmo-side-label {margin:17px 9px 9px!important;color:#c9c2e4!important;letter-spacing:1.1px!important;font-size:10px!important}
+[data-testid="stSidebar"] [role="radiogroup"] {gap:2px!important}
+[data-testid="stSidebar"] [role="radiogroup"]>label {position:relative!important;display:flex!important;min-height:36px!important;padding:6px 10px!important;margin:1px 0!important;align-items:center!important;border:1px solid transparent!important;border-radius:10px!important;transition:background .16s ease,border-color .16s ease!important;cursor:pointer!important}
+[data-testid="stSidebar"] [role="radiogroup"]>label:hover {background:rgba(255,255,255,.095)!important;border-color:rgba(255,255,255,.12)!important}
+[data-testid="stSidebar"] [role="radiogroup"]>label:focus-within {outline:2px solid #DCD7FF!important;outline-offset:0!important}
+[data-testid="stSidebar"] [role="radiogroup"]>label [data-testid="stMarkdownContainer"] p {font-size:12px!important;line-height:1.3!important;color:#eeeaf9!important;font-weight:450!important}
+/* Hide the ornamental radio circles, not their input: labels stay clickable and keyboard accessible. */
+[data-testid="stSidebar"] [role="radiogroup"]>label [data-baseweb="radio"]>div:first-child {width:0!important;min-width:0!important;margin:0!important;overflow:hidden!important;opacity:0!important}
+[data-testid="stSidebar"] [role="radiogroup"]>label:has(input:checked) {background:color-mix(in srgb,var(--fly-stage) 15%,#272345)!important;border:1px solid var(--fly-stage)!important;box-shadow:inset 3px 0 0 var(--fly-stage)!important}
+[data-testid="stSidebar"] [role="radiogroup"]>label:has(input:checked) [data-testid="stMarkdownContainer"] p {font-weight:760!important;color:#fff!important}
+/* Stage-coded step icons, replacing the default marker with a compact number badge. */
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)):not(:has(>label:nth-child(11)))>label {padding-left:10px!important}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)):not(:has(>label:nth-child(11)))>label::before {content:""!important;position:static!important;display:inline-flex!important;width:28px!important;height:28px!important;flex:0 0 28px!important;border-radius:9px!important;margin-right:9px!important;background:rgba(255,255,255,.10)!important;border:1px solid rgba(255,255,255,.06)!important;background-image:none!important}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)):not(:has(>label:nth-child(11)))>label:has(input:checked)::before {background:var(--nav-item-accent)!important}
+/* Earlier radio item content already includes the official step number; CSS badge is intentionally non-interactive. */
+[data-testid="stSidebar"] .pmo-side-step {background:rgba(255,255,255,.10)!important;border:1px solid rgba(255,255,255,.18)!important;border-left:3px solid var(--fly-stage)!important;margin:15px 1px 15px!important;padding:11px 9px!important;font-size:12px!important}
+[data-testid="stSidebar"] .pmo-side-num {background:var(--fly-stage)!important;border-radius:8px!important}
+/* Long component lists: every item remains a real native radio control. */
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(12))>label {padding-left:9px!important;min-height:32px!important}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(12))>label::before {content:""!important;position:static!important;display:inline-block!important;width:24px!important;height:24px!important;flex:0 0 24px!important;border-radius:8px!important;margin-right:9px!important;background:rgba(255,255,255,.075)!important;background-position:center!important;background-repeat:no-repeat!important;background-size:17px 17px!important}
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(12))>label:has(input:checked)::before {background-color:color-mix(in srgb,var(--fly-stage) 30%,#272345)!important}
+[data-testid="stSidebar"] .pmo-sidebar-bottom {border:1px solid #766D9A!important;background:linear-gradient(135deg,#38335a,#302b51)!important;padding:17px!important;border-radius:14px!important;color:#e6e0f7!important}
+[data-testid="stSidebar"] .pmo-sidebar-bottom strong {font-size:18px!important;color:#fff!important}
+[data-testid="stSidebar"] .pmo-sidebar-bottom small {display:block!important;color:#d0c9eb!important;line-height:1.5!important;margin-top:3px!important}
+[data-testid="stSidebar"] .pmo-sidebar-bottom .pmo-progress {height:7px!important;background:#625b83!important}
+[data-testid="stSidebar"] [data-testid="stExpander"] {border:1px solid #9f96c4!important;border-radius:12px!important;background:rgba(255,255,255,.035)!important}
+@media(max-width:850px){[data-testid="stSidebar"]{min-width:0!important;max-width:min(308px,90vw)!important}}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(12))>label:nth-child(1)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20stroke%3D%22%23EDE9FF%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M6%204h8l4%204v12H6zM14%204v4h4M9%2012h6M9%2016h6%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E")!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(12))>label:nth-child(2)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20stroke%3D%22%23EDE9FF%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M4%2019V5M4%2019h16M8%2016v-5M12%2016V8M16%2016v-8%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E")!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(12))>label:nth-child(3)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20stroke%3D%22%23EDE9FF%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20x%3D%225%22%20y%3D%223%22%20width%3D%2214%22%20height%3D%2218%22%20rx%3D%222%22%2F%3E%3Cpath%20d%3D%22M9%208h6M9%2012h6M9%2016h4%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E")!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(12))>label:nth-child(4)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20stroke%3D%22%23EDE9FF%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%229%22%20cy%3D%228%22%20r%3D%223%22%2F%3E%3Ccircle%20cx%3D%2217%22%20cy%3D%229%22%20r%3D%222%22%2F%3E%3Cpath%20d%3D%22M3%2020v-3a6%206%200%200%201%2012%200v3M15%2015a4%204%200%200%201%206%204%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E")!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(12))>label:nth-child(5)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20stroke%3D%22%23EDE9FF%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%229%22%2F%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%225%22%2F%3E%3Cpath%20d%3D%22m12%2012%205-5%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E")!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(12))>label:nth-child(6)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20stroke%3D%22%23EDE9FF%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22m12%203%209%205-9%205-9-5zM3%2012l9%205%209-5M3%2016l9%205%209-5%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E")!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(12))>label:nth-child(7)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20stroke%3D%22%23EDE9FF%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M5%203v18M5%204h13l-3%205%203%205H5%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E")!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(12))>label:nth-child(8)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20stroke%3D%22%23EDE9FF%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M4%204h16v16H4zM9%204v16M14%204v16M4%2010h16%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E")!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(12))>label:nth-child(9)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20stroke%3D%22%23EDE9FF%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%225%22%20cy%3D%227%22%20r%3D%222%22%2F%3E%3Ccircle%20cx%3D%2219%22%20cy%3D%227%22%20r%3D%222%22%2F%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2218%22%20r%3D%222%22%2F%3E%3Cpath%20d%3D%22M7%208l4%208M17%208l-4%208M7%207h10%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E")!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(12))>label:nth-child(10)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20stroke%3D%22%23EDE9FF%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%229%22%2F%3E%3Cpath%20d%3D%22m8%2012%203%203%205-6%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E")!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(12))>label:nth-child(11)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20stroke%3D%22%23EDE9FF%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M12%203%204%206v6c0%205%203%208%208%209%205-1%208-4%208-9V6zM9%2012l2%202%204-5%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E")!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(12))>label:nth-child(12)::before {background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20stroke%3D%22%23EDE9FF%22%20stroke-width%3D%221.8%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M3%205h7l2%203h9v12H3z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E")!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)):not(:has(>label:nth-child(11)))>label:nth-child(1)::before {content:"01"!important;font-size:12px!important;font-weight:800!important;color:#fff!important;align-items:center!important;justify-content:center!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)):not(:has(>label:nth-child(11)))>label:nth-child(2)::before {content:"02"!important;font-size:12px!important;font-weight:800!important;color:#fff!important;align-items:center!important;justify-content:center!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)):not(:has(>label:nth-child(11)))>label:nth-child(3)::before {content:"03"!important;font-size:12px!important;font-weight:800!important;color:#fff!important;align-items:center!important;justify-content:center!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)):not(:has(>label:nth-child(11)))>label:nth-child(4)::before {content:"04"!important;font-size:12px!important;font-weight:800!important;color:#fff!important;align-items:center!important;justify-content:center!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)):not(:has(>label:nth-child(11)))>label:nth-child(5)::before {content:"05"!important;font-size:12px!important;font-weight:800!important;color:#fff!important;align-items:center!important;justify-content:center!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)):not(:has(>label:nth-child(11)))>label:nth-child(6)::before {content:"06"!important;font-size:12px!important;font-weight:800!important;color:#fff!important;align-items:center!important;justify-content:center!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)):not(:has(>label:nth-child(11)))>label:nth-child(7)::before {content:"07"!important;font-size:12px!important;font-weight:800!important;color:#fff!important;align-items:center!important;justify-content:center!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)):not(:has(>label:nth-child(11)))>label:nth-child(8)::before {content:"08"!important;font-size:12px!important;font-weight:800!important;color:#fff!important;align-items:center!important;justify-content:center!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)):not(:has(>label:nth-child(11)))>label:nth-child(9)::before {content:"09"!important;font-size:12px!important;font-weight:800!important;color:#fff!important;align-items:center!important;justify-content:center!important}
+
+[data-testid="stSidebar"] [role="radiogroup"]:has(>label:nth-child(10)):not(:has(>label:nth-child(11)))>label:nth-child(10)::before {content:"10"!important;font-size:12px!important;font-weight:800!important;color:#fff!important;align-items:center!important;justify-content:center!important}

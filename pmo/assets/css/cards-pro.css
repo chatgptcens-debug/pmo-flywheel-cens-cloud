@@ -1,0 +1,13 @@
+/* V0.38 · all cards and KPI appearance only, no fake trends or new data */
+.stApp .pmo-kpi, .stApp .pmo-resource, .stApp [data-testid="stVerticalBlockBorderWrapper"] > div {border-color:var(--fly-border)!important;border-radius:var(--fly-rad)!important;box-shadow:var(--fly-shadow)!important;background:var(--fly-white)!important}
+.stApp .pmo-kpi {min-height:128px!important;padding:19px 20px!important;transition:box-shadow .15s ease,border-color .15s ease!important}
+.stApp .pmo-kpi:hover {box-shadow:0 4px 18px rgba(36,40,70,.075)!important;border-color:#D3D9E5!important}
+.stApp .pmo-kpi-head {font-size:12px!important;line-height:1.45!important;letter-spacing:.01em!important}
+.stApp .pmo-kpi-value {font-size:clamp(24px,2.2vw,34px)!important;font-variant-numeric:tabular-nums!important;font-feature-settings:"tnum" 1!important;letter-spacing:-.025em!important}
+.stApp .pmo-kpi-foot {font-size:12px!important;line-height:1.5!important}
+.stApp .pmo-kpi-icon {width:34px!important;height:34px!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;flex:none!important;border-radius:10px!important}
+.stApp .pmo-kpi-icon svg {display:block!important}
+.stApp .pmo-title {line-height:1.22!important}
+.stApp .pmo-resource,.stApp .pmo-soft {border-radius:var(--fly-rad)!important}
+/* Use current CSS for status badges (success/warning/error): stage hue never overrides those status meanings. */
+@media(max-width:750px) {.stApp .pmo-kpi{padding:16px!important;min-height:108px!important}.stApp .pmo-kpi-value{font-size:26px!important}}

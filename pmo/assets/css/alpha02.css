@@ -1,0 +1,22 @@
+/* Native buttons: style only new keyed navigation containers. No radio DOM. */
+[data-testid="stSidebar"] .alpha02-stage-title{font-size:10px;font-weight:850;letter-spacing:.09em;margin:5px 2px 1px;line-height:1.25}
+[data-testid="stSidebar"] .st-key-alpha02_steps [data-testid="stVerticalBlock"],
+[data-testid="stSidebar"] [class*="st-key-alpha02_components_"] [data-testid="stVerticalBlock"]{gap:2px!important}
+[data-testid="stSidebar"] [class*="st-key-alpha02_stage_"],
+[data-testid="stSidebar"] [class*="st-key-alpha02_components_"]{--nav-accent:#FF7825}
+[data-testid="stSidebar"] .st-key-alpha02_stage_0,[data-testid="stSidebar"] .st-key-alpha02_components_0{--nav-accent:#FF7825}
+[data-testid="stSidebar"] .st-key-alpha02_stage_1,[data-testid="stSidebar"] .st-key-alpha02_components_1{--nav-accent:#6092FF}
+[data-testid="stSidebar"] .st-key-alpha02_stage_2,[data-testid="stSidebar"] .st-key-alpha02_components_2{--nav-accent:#22C5B5}
+[data-testid="stSidebar"] .st-key-alpha02_stage_3,[data-testid="stSidebar"] .st-key-alpha02_components_3{--nav-accent:#21C2E3}
+[data-testid="stSidebar"] .st-key-alpha02_stage_4,[data-testid="stSidebar"] .st-key-alpha02_components_4{--nav-accent:#A98AFF}
+[data-testid="stSidebar"] :is([class*="st-key-alpha02_stage_"],[class*="st-key-alpha02_components_"]) button{justify-content:flex-start!important;text-align:left!important;min-height:31px!important;padding:4px 8px!important;border:1px solid transparent!important;border-left:3px solid var(--nav-accent)!important;background:#FFFFFF08!important;color:#fff!important;border-radius:7px!important;white-space:normal!important;line-height:1.15!important}
+[data-testid="stSidebar"] :is([class*="st-key-alpha02_stage_"],[class*="st-key-alpha02_components_"]) button p{font-size:12px!important;color:#fff!important;line-height:1.22!important;text-align:left!important;margin:0!important}
+[data-testid="stSidebar"] :is([class*="st-key-alpha02_stage_"],[class*="st-key-alpha02_components_"]) button [data-testid="stIconMaterial"]{color:var(--nav-accent)!important;font-size:18px!important}
+[data-testid="stSidebar"] :is([class*="st-key-alpha02_stage_"],[class*="st-key-alpha02_components_"]) button[kind="primary"]{background:#ffffff26!important;border-color:var(--nav-accent)!important;box-shadow:inset 0 0 0 1px var(--nav-accent)!important;font-weight:800!important}
+[data-testid="stSidebar"] :is([class*="st-key-alpha02_stage_"],[class*="st-key-alpha02_components_"]) button:hover{background:#ffffff19!important;border-color:var(--nav-accent)!important}
+[data-testid="stSidebar"] :is([class*="st-key-alpha02_stage_"],[class*="st-key-alpha02_components_"]) button:focus-visible{outline:2px solid #fff!important;outline-offset:2px}
+[data-testid="stSidebar"] .st-key-alpha_home_nav button{background:#ffffff12!important;color:#fff!important;border:1px solid #9DA8C5!important}
+[data-testid="stSidebar"] .st-key-alpha_home_nav button[kind="primary"]{background:#ffffff25!important;border-color:#FF7825!important}
+[data-testid="stSidebar"] .st-key-alpha_home_nav button p{color:#fff!important}
+/* Make the icon a compact color chip while preserving the readable native label. */
+[data-testid="stSidebar"] :is([class*="st-key-alpha02_stage_"],[class*="st-key-alpha02_components_"]) button [data-testid="stIconMaterial"]{background:var(--nav-accent)!important;color:#17233b!important;border-radius:5px!important;padding:3px!important;font-size:16px!important;flex-shrink:0!important}

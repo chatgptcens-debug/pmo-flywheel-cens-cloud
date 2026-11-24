@@ -1,0 +1,63 @@
+<!doctype html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style>
+:root{font-family:'Segoe UI',Arial,sans-serif;color:#203648}*{box-sizing:border-box}
+body{margin:0;background:transparent;font-size:12px}#board{display:grid;grid-template-columns:repeat(5,minmax(205px,1fr));gap:12px;min-height:495px}
+.lane{border:1px solid #E3EBF1;background:#F0F4F7;border-radius:13px;padding:10px;min-height:475px}
+.lane.over{outline:3px dashed #0B9A9F;outline-offset:-4px}.heading{font-weight:700;color:#10374B;min-height:51px;padding:7px}
+.heading .line{width:100%;height:5px;border-radius:3px;background:#A0ADBA;margin-bottom:10px}.heading .count{float:right;background:white;border-radius:20px;padding:2px 7px}
+.ticket{border:1px solid #DFE7EE;border-radius:10px;padding:12px;background:white;margin-bottom:9px;box-shadow:0 3px 12px #00000008;cursor:grab}
+.ticket:hover{border-color:#4CB7B8}.ticket:focus-visible{outline:2px solid #0B9A9F}.code{font-size:10px;color:#708797;display:flex;justify-content:space-between}.code b{color:#9D6328}
+.title{font-size:12px;font-weight:750;color:#10374B;line-height:1.35;margin:8px 0 5px}.meta{font-size:10.5px;color:#718497;line-height:1.5}
+.foot{border-top:1px solid #EFF2F5;padding-top:7px;margin-top:10px;display:flex;justify-content:space-between;align-items:center;gap:4px}
+.sla-track{height:7px;border-radius:7px;background:#E7ECF2;overflow:hidden;margin-top:9px}
+.sla-fill{height:100%;border-radius:7px;background:#17A886}
+.sla-fill.Ambar{background:#F0A531}.sla-fill.Rojo{background:#E25A3D}
+.sla-fill.Vencido,.sla-fill.Incumplido{background:#C92E37}.sla-fill.Cumplido{background:#4682B4}
+.sla-detail{font-size:10px;color:#65788C;margin-top:4px;display:flex;justify-content:space-between}
+.owner{font-size:11px;color:#315365;margin-top:5px;font-weight:600}.demo-tag{font-size:10px;font-weight:700;color:#9D6328}.wip-badge{font-size:10px;color:#6157A0;margin-top:3px}
+.risk{font-size:10px;color:#147F72;background:#E7F5F1;border-radius:15px;padding:3px 6px}.risk.warn{color:#A7563D;background:#FFF0E7}
+.action{font-size:11px;font-weight:750;color:#0B7B7D;border:1px solid #D5E7EB;background:white;border-radius:8px;padding:5px 8px;cursor:pointer}
+.action:focus-visible{outline:2px solid #0B9A9F}.empty{color:#91A0AF;text-align:center;padding:22px 4px;font-size:11px}
+.info{font-size:11px;color:#718497;padding:10px 0}
+@media(max-width:1160px){#board{min-width:1080px}body{overflow-x:auto}}
+@media(prefers-reduced-motion:no-preference){.ticket{transition:border-color .15s,box-shadow .15s}.ticket:hover{box-shadow:0 4px 16px #00000014}}
+</style></head><body><div id="board"></div><div class="info">Arrastra a una etapa consecutiva para solicitar el cambio. Los requisitos se validan al guardar; también puedes abrir la ficha.</div><script>
+const STAGES=['Solicitud de servicio','Servicio asignado','En proceso','Evaluación del servicio','Finalizado'];
+const COLORS=['#97A7B3','#468AC0','#E7A34C','#36A68A','#6E8193'];
+let data={items:[]};
+const send=(type,event)=>parent.postMessage({isStreamlitMessage:true,type:'streamlit:'+type,...event},'*');
+const escapeHtml=(v)=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const notify=(action,extra)=>send('setComponentValue',{value:{action,nonce:Date.now()+'-'+Math.random(),...extra}});
+function render(){const root=document.getElementById('board');root.replaceChildren();for(let i=0;i<STAGES.length;i++){
+ const lane=document.createElement('section');lane.className='lane';lane.dataset.stage=STAGES[i];
+ const contents=data.items.filter(t=>t.estado===STAGES[i]);
+ const heading=document.createElement('div');heading.className='heading';
+ heading.innerHTML='<div class="line" style="background:'+COLORS[i]+'"></div><span class="count">'+contents.length+'</span>'+escapeHtml(STAGES[i]);lane.appendChild(heading);
+ if(!contents.length){const empty=document.createElement('div');empty.className='empty';empty.textContent='Sin solicitudes';lane.appendChild(empty);}
+ for(const t of contents){const article=document.createElement('article');article.draggable=true;article.tabIndex=0;article.className='ticket';article.dataset.id=t.id;
+  const risk=escapeHtml(t.ans||'Sin ANS');
+  const pct=Number.isFinite(Number(t.sres)) && t.sres!==null ? Number(t.sres) : null;
+  const band=t.semaforo||'Sin ANS';const colorClass={'Ámbar':'Ambar','Rojo':'Rojo','Vencido':'Vencido','Incumplido':'Incumplido','Cumplido':'Cumplido'}[band]||'';
+  const percentHtml=pct===null?'':('<div class="sla-track" role="progressbar" aria-label="ANS resolución consumido" aria-valuemin="0" aria-valuemax="100" aria-valuenow="'+Math.max(0,Math.min(pct,100))+'"><div class="sla-fill '+colorClass+'" style="width:'+Math.max(0,Math.min(100,pct))+'%"></div></div><div class="sla-detail"><span>Resolución · '+escapeHtml(band)+'</span><span>'+escapeHtml(pct.toFixed(1))+'% ANS</span></div>');
+  const wip=t.wip?'<div class="wip-badge">WIP '+escapeHtml(t.wip.actual)+'/'+escapeHtml(t.wip.limite)+' · '+escapeHtml(t.wip.operador)+'</div>':'';
+  article.innerHTML='<div class="code">'+escapeHtml(t.folio)+'<b>'+escapeHtml(t.prioridad)+'</b></div><div class="title">'+escapeHtml(t.titulo)+'</div><div class="meta">'+escapeHtml(t.servicio)+'</div><div class="owner">Responsable: '+escapeHtml(t.responsable||'Sin asignar')+'</div><div class="meta">Respuesta: '+escapeHtml(t.respuesta||'Sin ANS')+'</div>'+(t.demo?'<div class="demo-tag">DEMO</div>':'')+percentHtml+wip+'<div class="foot"><span class="risk '+(/Vencido|riesgo/.test(risk)?'warn':'')+'">'+risk+'</span><button type="button" class="action">Abrir</button></div><div class="meta" style="margin-top:6px">'+escapeHtml(t.cliente)+'</div>';
+  article.querySelector('button').addEventListener('click',()=>notify('open',{id:t.id}));
+  article.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();notify('open',{id:t.id});}});
+  article.addEventListener('dragstart',e=>{e.dataTransfer.setData('text/plain',t.id);e.dataTransfer.effectAllowed='move';});lane.appendChild(article);
+ }
+ lane.addEventListener('dragover',e=>{e.preventDefault();lane.classList.add('over');});
+ lane.addEventListener('dragleave',e=>{if(!lane.contains(e.relatedTarget))lane.classList.remove('over');});
+ lane.addEventListener('drop',e=>{e.preventDefault();lane.classList.remove('over');const id=e.dataTransfer.getData('text/plain');const row=data.items.find(t=>t.id===id);if(!row)return;
+  const diff=i-STAGES.indexOf(row.estado);if(Math.abs(diff)!==1)return alert('Solo puedes mover el ticket a una etapa consecutiva.');
+  let reason='';if(diff<0){reason=prompt('Motivo obligatorio para devolver la solicitud:')||'';if(!reason.trim())return;}
+  if(diff>0 && STAGES[i]==='En proceso' && row.wip && row.wip.actual>=row.wip.limite){
+    if(row.wip.modo==='Bloquear')return alert('Límite WIP alcanzado: '+row.wip.actual+'/'+row.wip.limite+'. Debes redistribuir la carga o modificar expresamente el límite.');
+    reason=prompt('WIP al límite. Escribe justificación para registrar una excepción auditada:')||'';
+    if(!reason.trim())return;
+  }
+  notify('move',{id,to:STAGES[i],reason});});root.appendChild(lane);
+ }
+ setTimeout(()=>send('setFrameHeight',{height:Math.max(document.documentElement.scrollHeight,520)}),10);
+}
+window.addEventListener('message',e=>{if(e.data?.type==='streamlit:render'){data=e.data.args||data;render();}});
+send('componentReady',{apiVersion:1});render();
+</script></body></html>

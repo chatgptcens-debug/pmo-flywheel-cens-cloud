@@ -1,0 +1,28 @@
+/* Paso 8: presentación aditiva. No modifica lógica de otras secciones. */
+.p8-steps{padding:14px 16px;background:#FFFFFF;border:1px solid #DDE7ED;border-radius:12px;color:#316579;font-size:12px;font-weight:700;line-height:1.65;margin:10px 0 22px;letter-spacing:.12px}
+.p8-overview{background:linear-gradient(110deg,#10374B,#254E68);color:#F5FCFE;border-radius:14px;padding:25px 27px;margin:17px 0;box-shadow:0 8px 25px #10374B18}
+.p8-overview b{font-size:14px;font-weight:750}
+.p8-overview .p8-numbers{font-size:30px;font-weight:850;margin:13px 0;letter-spacing:-.8px}
+.p8-overview .p8-numbers span{font-size:15px;background:#CE7C42;padding:7px 11px;border-radius:9px;white-space:nowrap;color:white}
+.p8-overview small{color:#D5E9F1;font-size:12px}
+@media(max-width:850px){.p8-overview .p8-numbers{font-size:23px}.p8-steps{font-size:11px}}
+
+/* V0.18: perfil de diez pasos, tarjetas y barras consistentes con el resto del aplicativo */
+.p8prof-kpi{background:#FFF;border:1px solid #DFE7EC;border-radius:14px;padding:18px 16px;min-height:126px;box-shadow:0 7px 24px #10374B0A;margin:10px 0 18px}
+.p8prof-kpi .label{font-size:12px;color:#65798D;font-weight:650}
+.p8prof-kpi .value{font-size:26px;letter-spacing:-.03em;color:#10374B;font-weight:800;margin:8px 0 4px}
+.p8prof-kpi .foot{font-size:11px;color:#718A9B}
+.p8prof-bar{display:grid;grid-template-columns:minmax(120px,1.15fr) minmax(100px,1fr) 48px;gap:11px;align-items:center;min-height:35px;font-size:12px;color:#315265}
+.p8prof-bar .name{font-weight:600}.p8prof-bar .track{height:8px;background:#E6EEF3;border-radius:50px;overflow:hidden}
+.p8prof-bar .track i{height:100%;display:block;border-radius:50px;background:linear-gradient(90deg,#0B9A9F,#7FD2CB)}
+.p8prof-bar b{text-align:right;color:#10374B;font-variant-numeric:tabular-nums}
+@media(max-width:1100px){.p8prof-kpi{min-height:108px}.p8prof-kpi .value{font-size:21px}.p8prof-bar{font-size:11px}}
+
+/* V0.19 · Criterios de madurez en fichas Streamlit: solo presentación */
+.p8-level-card{display:flex;gap:12px;align-items:flex-start;background:#FFFFFF;border:1px solid #DFE7EC;
+ border-radius:11px;margin:8px 0;padding:13px 14px;line-height:1.5;color:#203648}
+.p8-level-card p{font-size:13px;color:#536B7C;margin:5px 0 6px}
+.p8-level-id{background:#E9F4F5;color:#0C7E84;border-radius:9px;min-width:36px;height:36px;
+ display:flex;justify-content:center;align-items:center;font-size:16px;font-weight:800}
+.p8-level-indicator{color:#607D8E;font-size:11px;font-weight:600}
+@media(max-width:650px){.p8-level-card{padding:10px 9px}.p8-level-card p{font-size:12px}}

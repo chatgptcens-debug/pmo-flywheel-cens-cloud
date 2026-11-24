@@ -1,0 +1,65 @@
+/* PMO Flywheel CENS V0.13 · Paso 4. Se apoya en el tema SaaS Premium de V0.11.
+   No cambia estados de sesión, nombres de widgets ni callbacks. */
+.p4-card{background:#fff;border:1px solid #E1E5EC;border-radius:14px;padding:18px;min-height:190px;
+box-shadow:0 4px 18px rgba(48,43,86,.045);margin-top:10px}
+.p4-card small{color:#65718C;font-size:12px;letter-spacing:.025em}
+.p4-card h3{color:#302B56;font-size:17px;line-height:1.4;margin:11px 0}
+.p4-card p{font-size:14px;color:#65718C;line-height:1.6;min-height:58px}
+[data-testid="stDialog"] [data-testid="stForm"]{border-color:#E1E5EC;border-radius:14px}
+[data-testid="stDialog"] [data-testid="stTabs"]{margin:12px 0}
+[data-testid="stDialog"] label{font-size:13px}
+@media (max-width: 900px){.p4-card{min-height:unset}}
+
+/* V0.39.10 · Paso 04 · Catálogo corporativo y métricas agrupadas
+   Regla de contención: no altera widgets ni otros pasos. */
+.p4v-service-card{color:#273252}
+.p4v-service-header{display:flex;justify-content:space-between;align-items:center;gap:6px;margin-bottom:9px;flex-wrap:wrap}
+.p4v-service-code{background:#f0edff;color:#5723af;font-weight:800;padding:5px 10px;border-radius:10px;font-size:12px;letter-spacing:.01em}
+.p4v-service-status{border-radius:100px;font-size:11px;font-weight:750;white-space:nowrap;padding:5px 9px}
+.p4v-status-draft{background:#fff2e4;color:#8c4c08}
+.p4v-status-design{background:#e9f3ff;color:#1353a0}
+.p4v-status-validation{background:#f1e9ff;color:#6b32a6}
+.p4v-status-validated{background:#e4f8ef;color:#147650}
+.p4v-status-approved{background:#ddf8ea;color:#076c47}
+.p4v-status-suspended{background:#f1f1f4;color:#63647a}
+.p4v-service-card h3{font-size:16px;line-height:1.35;font-weight:800;color:#20234e;margin:0 0 8px;min-height:44px}
+.p4v-service-description{font-size:12.5px;line-height:1.48;min-height:78px;color:#5d6d8b;margin:0 0 11px;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.p4v-service-tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+.p4v-tile{background:#f7f9fe;border:1px solid #e9edf5;border-radius:10px;padding:8px;display:flex;align-items:flex-start;gap:7px;min-width:0;min-height:79px}
+.p4v-tile-icon{display:flex;align-items:center;justify-content:center;flex:0 0 27px;height:27px;border-radius:8px;font-size:15px;font-weight:800}
+.p4v-tile-icon-blue{background:#e8f3ff;color:#1668d2}.p4v-tile-icon-purple{background:#f0eaff;color:#7732d5}
+.p4v-tile-icon-green{background:#e2f8ed;color:#128259}.p4v-tile-icon-orange{background:#fff1e4;color:#e57012}
+.p4v-tile-icon-teal{background:#e4f6f4;color:#00977c}
+.p4v-tile-content{min-width:0;display:flex;flex-direction:column;gap:4px}
+.p4v-tile strong{font-size:11.4px;line-height:1.18;color:#23365e}
+.p4v-tile span:not(.p4v-tile-icon){font-size:11px;line-height:1.27;color:#5f6d85;overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.p4v-service-pending{background:#f0ebff;color:#5430a1;padding:10px;border-radius:9px;margin:10px 0 8px;font-size:12px;font-weight:750}
+div[data-testid="stVerticalBlockBorderWrapper"]:has(.p4v-service-card){border:1px solid #dce3f2!important;box-shadow:0 3px 15px rgba(40,49,95,.045);border-radius:15px!important;background:#fff;padding:9px 10px 7px}
+div[data-testid="stVerticalBlockBorderWrapper"]:has(.p4v-service-card) [data-testid="stButton"] button[kind="primary"]{background:linear-gradient(115deg,#5c2bba,#48259f);border-color:#5c2bba}
+div[data-testid="stVerticalBlockBorderWrapper"]:has(.p4v-service-card) [data-testid="stPopover"] button{font-size:11.5px;padding-left:6px;padding-right:6px;border-color:#b9a8ec;color:#48259f}
+.p4v-metrics-banner{background:#f0efff;border:1px solid #e1dcfb;color:#504c81;padding:11px 14px;border-radius:11px;font-size:12.5px;margin:12px 0}
+.p4v-metric-marker{display:flex;align-items:center;justify-content:space-between;gap:12px;background:#f5f2ff;border-radius:8px;padding:8px 11px;margin:0 0 9px;color:#31265a;font-size:12px}
+.p4v-metric-marker span{background:#e6ddff;border-radius:30px;padding:4px 11px;color:#6031ad;white-space:nowrap;font-weight:750}
+.p4v-metric-title{display:flex;align-items:center;gap:10px;min-width:0}
+.p4v-metric-title>div{display:flex;flex-direction:column;gap:5px;min-width:0}
+.p4v-metric-title strong{color:#252d54;font-size:13px;line-height:1.3;overflow-wrap:anywhere}
+.p4v-metric-icon{display:flex;align-items:center;justify-content:center;width:40px;min-width:40px;height:40px;border-radius:11px;font-weight:800;font-size:20px}
+.p4v-metric-icon.p4v-metric-efficiency{background:#fff1e7;color:#f27412}
+.p4v-metric-icon.p4v-metric-output{background:#e4f9ee;color:#06a569}
+.p4v-metric-icon.p4v-metric-outcome{background:#f1e9ff;color:#8135df}
+.p4v-metric-kind{font-size:11px;padding:2px 9px;align-self:start;border-radius:20px;font-weight:750}
+.p4v-metric-kind.p4v-metric-efficiency{background:#e4f2ff;color:#1864c3}
+.p4v-metric-kind.p4v-metric-output{background:#e7f9e9;color:#19803a}
+.p4v-metric-kind.p4v-metric-outcome{background:#efe4ff;color:#7032c4}
+.p4v-metric-meta,.p4v-metric-target{font-size:12px;line-height:1.55;color:#495572;display:flex;flex-direction:column;gap:3px}
+.p4v-metric-meta b,.p4v-metric-target b{font-weight:650;color:#2d385c}
+.p4v-state-wrapper{margin-top:4px}
+.p4v-metric-state{display:inline-flex;font-size:11px;padding:5px 9px;font-weight:750;border-radius:30px;line-height:1.2}
+.p4v-metric-state-pending{background:#fff0e3;color:#b54e08}
+.p4v-metric-state-neutral{background:#eef0f6;color:#59617e}
+.p4v-metric-state-ready{background:#dff6e9;color:#157654}
+div[data-testid="stVerticalBlockBorderWrapper"]:has(.p4v-metric-title){border:1px solid #e4e0f1!important;background:#fff;border-radius:10px!important;padding:7px 10px;box-shadow:0 2px 5px rgba(57,54,109,.025)}
+div[data-testid="stVerticalBlockBorderWrapper"]:has(.p4v-metric-title) [data-testid="stButton"] button{font-size:11px;padding:4px 5px;min-height:33px;color:#5534a0;border-color:#c7b9eb}
+div[data-testid="stExpander"]:has(.p4v-metric-marker){border:1px solid #e1dff0;border-radius:13px;box-shadow:0 2px 11px rgba(38,41,78,.04);margin-bottom:12px;background:#fff}
+div[data-testid="stExpander"]:has(.p4v-metric-marker) summary{background:#f2f0ff;color:#30235b;font-weight:750;border-radius:10px}
+@media(max-width:1120px){.p4v-service-tiles{grid-template-columns:1fr}.p4v-service-description{min-height:unset}.p4v-service-card h3{min-height:unset}.p4v-tile{min-height:55px}}

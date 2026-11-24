@@ -1,0 +1,19 @@
+# CENS V0.10 — visual configuration only. No server or data behavior settings.
+[theme]
+base = "light"
+primaryColor = "#1050AA"
+backgroundColor = "#F4F6FA"
+secondaryBackgroundColor = "#F7F8FA"
+textColor = "#232747"
+font = "sans serif"
+
+[server]
+headless = true
+maxUploadSize = 10
+enableXsrfProtection = true
+
+[client]
+showErrorDetails = "none"
+
+[browser]
+gatherUsageStats = false

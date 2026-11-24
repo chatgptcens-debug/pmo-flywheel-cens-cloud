@@ -1,0 +1,16 @@
+/* V0.39.4 · Guía de matriz PMO Value Ring; solo presentación. */
+.pmo-vr-intro { background:linear-gradient(116deg,#FFF,#F8F7FC); border:1px solid #E2E1EE; border-left:3px solid #D77C39; border-radius:12px; padding:16px 18px; margin:10px 0 17px; box-shadow:0 3px 14px rgba(48,43,86,.035); }
+.pmo-vr-kicker { font-size:10px;font-weight:800;letter-spacing:1.15px;color:#C06D33;margin-bottom:7px; }
+.pmo-vr-intro-title { font-size:18px;font-weight:800;letter-spacing:-.3px;color:#2F2B51;margin-bottom:6px; }
+.pmo-vr-intro-copy { font-size:12px;line-height:1.7;color:#63637B;max-width:1100px; }
+.pmo-vr-legend { display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin:8px 0 8px; }
+.pmo-vr-level { display:flex;gap:10px;align-items:center;min-height:69px;padding:12px;background:#FFF;border:1px solid #E1E4ED;border-radius:11px; }
+.pmo-vr-n { display:flex;align-items:center;justify-content:center;flex:0 0 36px;height:36px;border-radius:9px;font-size:19px;font-weight:850; }
+.pmo-vr-name {font-size:11px;font-weight:700;line-height:1.35;color:#514B68;}
+.pmo-vr-level-0 .pmo-vr-n {background:#EEF0F4;color:#656B7D;}
+.pmo-vr-level-1 .pmo-vr-n {background:#E9E8FF;color:#514BA0;}
+.pmo-vr-level-2 .pmo-vr-n {background:#E0F3EB;color:#19835D;}
+.pmo-vr-level-3 .pmo-vr-n {background:#FFF0D9;color:#BD720B;}
+.pmo-vr-level-4 .pmo-vr-n {background:#FCE2D2;color:#CA533D;}
+@media(max-width:850px){.pmo-vr-legend{grid-template-columns:repeat(3,minmax(0,1fr));}}
+@media(max-width:560px){.pmo-vr-legend{grid-template-columns:repeat(2,minmax(0,1fr));}.pmo-vr-level{padding:8px;min-height:58px;}}

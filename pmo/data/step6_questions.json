@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Gestión diaria de servicios",
+    "questions": [
+      "Los servicios se prestan conforme a los procesos y criterios de calidad definidos.",
+      "La PMO prioriza actividades equilibrando compromisos planificados y solicitudes imprevistas.",
+      "Existen canales de comunicación funcionales para recibir solicitudes.",
+      "La prestación se supervisa y los incidentes se atienden oportunamente.",
+      "Se revisa el desempeño operativo y se identifican acciones de mejora."
+    ]
+  },
+  {
+    "name": "Ejecución de ANS",
+    "questions": [
+      "Se revisan periódicamente los ANS vigentes y sus objetivos.",
+      "Las solicitudes se priorizan considerando los compromisos de ANS.",
+      "Existe un mecanismo definido para escalar posibles incumplimientos.",
+      "Se conservan evidencias de decisiones, excepciones y actuaciones sobre los ANS.",
+      "El equipo incorpora la responsabilidad por los ANS en su trabajo cotidiano."
+    ]
+  },
+  {
+    "name": "Solicitudes y consultas",
+    "questions": [
+      "El sistema permite seguir cada solicitud desde el registro hasta la resolución.",
+      "La priorización considera urgencia, impacto y prioridades organizacionales.",
+      "Se fijan y cumplen tiempos de respuesta y resolución por tipo de solicitud.",
+      "Existen rutas para escalar solicitudes urgentes o complejas.",
+      "Se mejoran periódicamente los procedimientos de atención y consulta."
+    ]
+  },
+  {
+    "name": "Recursos y carga de trabajo",
+    "questions": [
+      "La disponibilidad y las competencias de los integrantes están actualizadas.",
+      "Las asignaciones consideran capacidades, cargas de trabajo y necesidades del servicio.",
+      "Se emplean herramientas para equilibrar y seguir el trabajo asignado.",
+      "El equipo revisa regularmente restricciones y disponibilidad.",
+      "Se analiza el uso de recursos para orientar mejoras operativas."
+    ]
+  },
+  {
+    "name": "Comunicación con clientes",
+    "questions": [
+      "La comunicación se adapta a las características de cada grupo de clientes.",
+      "Se utilizan canales accesibles y consistentes de comunicación bidireccional.",
+      "La retroalimentación recibida genera acciones de seguimiento.",
+      "Las expectativas y limitaciones de atención se comunican de manera transparente.",
+      "Se promueven relaciones de colaboración y confianza con los clientes."
+    ]
+  },
+  {
+    "name": "Riesgos e incidentes",
+    "questions": [
+      "Existe un enfoque de gestión de riesgos para la continuidad de los servicios.",
+      "Los incidentes se registran, escalan y resuelven mediante un proceso definido.",
+      "Se mantiene actualizado un registro con riesgos, incidentes y tratamientos.",
+      "Existen planes de contingencia probados para riesgos relevantes.",
+      "Los riesgos e incidentes significativos se comunican a los clientes afectados."
+    ]
+  },
+  {
+    "name": "Conocimiento y capacidades",
+    "questions": [
+      "La PMO cuenta con un repositorio accesible de conocimientos operativos.",
+      "Las experiencias y soluciones de atención se documentan y comparten.",
+      "La documentación de los servicios y la formación del equipo se actualizan.",
+      "Se emplean herramientas tecnológicas para compartir y reutilizar conocimientos.",
+      "Las prácticas de conocimiento se revisan y mejoran según las necesidades."
+    ]
+  }
+]

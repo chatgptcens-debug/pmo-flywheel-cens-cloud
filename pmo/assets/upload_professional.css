@@ -1,0 +1,104 @@
+/* V0.39.4 · Zona de carga unificada (TODOS los tipos y módulos).
+   Respeta Streamlit nativo para arrastrar, examinar archivos, accesibilidad,
+   la lista de archivos seleccionados, validaciones, controles y eventos. */
+.stApp [data-testid="stFileUploader"] {
+  background:transparent !important;
+  border:0 !important;
+  padding:0 !important;
+  margin:6px 0 12px !important;
+  border-radius:16px !important;
+}
+.stApp [data-testid="stFileUploader"] > label,
+.stApp [data-testid="stFileUploader"] [data-testid="stWidgetLabel"] {
+  margin-bottom:9px !important;
+}
+.stApp [data-testid="stFileUploaderDropzone"] {
+  position:relative !important;
+  display:flex !important;
+  flex-direction:column !important;
+  justify-content:center !important;
+  align-items:center !important;
+  min-height:174px !important;
+  padding:19px 20px 16px !important;
+  text-align:center !important;
+  border:2px dashed #B7B9D2 !important;
+  border-radius:17px !important;
+  background:linear-gradient(145deg,#FFFFFF 0%,#F7F6FD 100%) !important;
+  box-shadow:0 7px 19px rgba(48,43,86,.035) !important;
+  transition:border-color .16s ease,box-shadow .16s ease,background .16s ease;
+}
+.stApp [data-testid="stFileUploaderDropzone"]:before {
+  content:'⇧';
+  display:flex;align-items:center;justify-content:center;
+  width:42px;height:42px;flex:0 0 42px;
+  margin:0 auto 9px;
+  border-radius:13px;
+  background:linear-gradient(140deg,#333052,#61598B);
+  color:#FFF;font-size:27px;font-family:"Segoe UI Symbol",sans-serif;
+  box-shadow:0 5px 13px rgba(48,43,86,.23);
+  pointer-events:none;
+}
+.stApp [data-testid="stFileUploaderDropzone"]:hover,
+.stApp [data-testid="stFileUploaderDropzone"]:focus-within {
+  border-color:#5B5590 !important;
+  background:linear-gradient(145deg,#FFFFFF,#F0EDFA) !important;
+  box-shadow:0 0 0 3px rgba(91,85,144,.10) !important;
+}
+.stApp [data-testid="stFileUploaderDropzoneInstructions"] {
+  margin:0 auto 10px !important;
+  align-items:center !important;
+  justify-content:center !important;
+  text-align:center !important;
+  color:#393452 !important;
+  max-width:480px;
+}
+.stApp [data-testid="stFileUploaderDropzoneInstructions"] > div {text-align:center !important;}
+.stApp [data-testid="stFileUploaderDropzoneInstructions"] p {
+  font-size:13px !important;
+  font-weight:750 !important;
+  color:#353052 !important;
+}
+.stApp [data-testid="stFileUploaderDropzoneInstructions"] small,
+.stApp [data-testid="stFileUploaderDropzoneInstructions"] span {
+  color:#75768C !important;
+  font-size:11px !important;
+}
+.stApp [data-testid="stFileUploaderDropzone"] button {
+  border:1px solid #3B355D !important;
+  border-radius:11px !important;
+  padding:7px 18px !important;
+  min-height:36px !important;
+  background:#383252 !important;
+  color:white !important;
+  box-shadow:0 4px 11px rgba(56,50,82,.16) !important;
+  font-size:12px !important;
+  font-weight:700 !important;
+  transition:transform .15s ease,background .15s ease;
+}
+.stApp [data-testid="stFileUploaderDropzone"] button:hover {background:#514A78 !important;transform:translateY(-1px);}
+.stApp [data-testid="stFileUploaderDropzone"] button:focus-visible {outline:3px solid #BCA9E8 !important;outline-offset:3px;}
+.stApp [data-testid="stFileUploaderDropzone"]:after {
+  content:'Carga segura · Los formatos admitidos dependen del formulario';
+  display:block;
+  font-size:10px;line-height:1.35;
+  color:#9291A4;
+  text-align:center;
+  margin-top:12px;
+  pointer-events:none;
+}
+.stApp [data-testid="stFileUploaderFile"] {
+  background:#FFFFFF !important;
+  border:1px solid #E3E1ED !important;
+  border-radius:11px !important;
+  padding:9px 12px !important;
+  margin-top:8px !important;
+}
+/* Controles compactos en formularios y diálogos sin ocultar nombres ni botones. */
+@media (max-width:640px){
+  .stApp [data-testid="stFileUploaderDropzone"]{min-height:160px !important;padding:16px 10px !important;}
+  .stApp [data-testid="stFileUploaderDropzone"] button{width:auto !important;max-width:100%;}
+}
+@media (prefers-reduced-motion:reduce){
+  .stApp [data-testid="stFileUploaderDropzone"],
+  .stApp [data-testid="stFileUploaderDropzone"] button{transition:none !important;}
+}

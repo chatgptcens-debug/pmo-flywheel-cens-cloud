@@ -1,0 +1,8 @@
+/* Paso 5: aplica sobre diseño global, sin modificar controles ni claves del estado. */
+.pmo-eyebrow{color:#CE7C42!important;letter-spacing:1.3px!important;font-weight:800!important}
+.pmo-title{color:#10374B!important;line-height:1.2!important}
+.pmo-subtitle{color:#65718C!important;line-height:1.6!important}
+[data-testid="stMetric"]{padding:12px 14px;border-radius:12px;background:#fff}
+[data-testid="stMetricValue"]{color:#10374B!important;font-weight:800!important}
+[data-testid="stVerticalBlockBorderWrapper"]{box-shadow:0 5px 22px rgba(16,55,75,.04)}
+[data-testid="stDataFrame"]{border-radius:10px;overflow:hidden}

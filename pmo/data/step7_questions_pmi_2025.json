@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Establecimiento de un marco de referencia integral para el monitoreo de los servicios de la PMO",
+    "questions": [
+      "Disponemos de un proceso de recopilación de datos estandarizado y fiable para todos los servicios de la PMO.",
+      "Utilizamos un tablero centralizado o un sistema de informes para supervisar el rendimiento del servicio en tiempo real.",
+      "Mantenemos un cronograma regular para las actividades relacionadas con el monitoreo del desempeño de los servicios de la PMO (por ejemplo, diario, semanal, mensual).",
+      "Dentro del equipo de la PMO tenemos claros los roles y responsabilidades en la recopilación de datos, análisis e informes.",
+      "Proporcionamos formación para garantizar que todos los miembros del equipo de la PMO comprenden el marco de referencia para el monitoreo de servicios de la PMO."
+    ]
+  },
+  {
+    "name": "Gestión del cumplimiento de acuerdos de nivel de servicio",
+    "questions": [
+      "Disponemos de un sistema de seguimiento del cumplimiento de los SLA en todos los servicios.",
+      "Revisamos periódicamente el rendimiento de los SLA y abordamos las áreas con riesgo de incumplimiento.",
+      "Disponemos de un proceso de escalado para posibles incumplimientos de los SLA que está bien documentado y es comprendido por todos los miembros del equipo de la PMO.",
+      "Documentamos todos los casos de incumplimiento de los SLA y utilizamos estos registros para futuras mejoras.",
+      "Revisamos y ajustamos periódicamente los acuerdos de nivel de servicio para asegurarnos de que siguen respondiendo a las necesidades de la organización."
+    ]
+  },
+  {
+    "name": "Informes y comunicación del rendimiento de los acuerdos de nivel de servicio",
+    "questions": [
+      "Comunicamos regularmente el rendimiento de los SLA a los clientes de la PMO con transparencia.",
+      "Nuestro cronograma de informes se ajusta a los ritmos organizativos y a los ciclos de toma de decisiones.",
+      "Utilizamos técnicas de visualización de datos (por ejemplo, tablas, gráficos) para hacer más accesibles los resultados del monitoreo de servicios de la PMO.",
+      "Desarrollamos narrativas claras en torno a los resultados del monitoreo de servicios de la PMO, explicando su relevancia y las acciones tomadas.",
+      "Utilizamos múltiples canales (por ejemplo, correo electrónico, reuniones, cuadros de mando) para comunicar eficazmente los resultados del rendimiento de los servicios de la PMO."
+    ]
+  },
+  {
+    "name": "Recogida y análisis de la retroalimentación de los clientes de la PMO",
+    "questions": [
+      "Utilizamos preguntas o métricas estandarizadas para medir la satisfacción del cliente de la PMO en todos los servicios.",
+      "Disponemos de un sistema de recopilación de retroalimentación para recoger en tiempo real las opiniones de los clientes de la PMO.",
+      "Analizamos periódicamente la retroalimentación de los clientes de la PMO para identificar tendencias, incidentes y áreas de excelencia.",
+      "Utilizamos la retroalimentación cuantitativa y cualitativa para mejorar nuestra comprensión de la calidad del servicio de la PMO.",
+      "Cerramos el bucle de retroalimentación comunicando a los clientes de la PMO cómo sus comentarios han influido en las mejoras del servicio."
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+/* Paso 6: capa visual compacta, no sustituye componentes ni cálculos */
+.p6-lane-head{background:#F0F4F7;border:1px solid #DEE8EF;border-radius:10px;padding:13px 9px;margin:8px 0 12px;font-size:12px;color:#10374B;font-weight:750;min-height:68px}
+.p6-lane-head b{float:right;background:white;padding:2px 8px;border-radius:20px;font-size:11px;color:#607F90}
+.p6-lane-dot{width:18px;height:4px;display:block;margin-bottom:7px;border-radius:4px;background:#9BAAB8}
+.p6-lane-1{background:#4B8CC2}.p6-lane-2{background:#E3A052}.p6-lane-3{background:#2C9D89}.p6-lane-4{background:#617E92}
+.p6-risk{display:inline-block;border-radius:25px;background:#EDF6F6;color:#107D7D;padding:3px 8px;font-size:10px;font-weight:750}
+[data-testid="stDialog"]{max-width:900px}

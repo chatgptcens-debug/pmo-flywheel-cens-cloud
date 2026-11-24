@@ -1,0 +1,38 @@
+/* V0.38 · tokens corporativos de presentación. No afectan cálculos ni contratos. */
+:root {
+  --fly-explore:#F45116;
+  --fly-design:#D82D2B;
+  --fly-deploy:#007EAC;
+  --fly-improve:#15A7CE;
+  --fly-realize:#6930A5;
+  --fly-nav:#292647;
+  --fly-bg:#F4F6FA;
+  --fly-white:#FFFFFF;
+  --fly-border:#E3E7EE;
+  --fly-ink:#232747;
+  --fly-muted:#66758B;
+  --fly-rad:14px;
+  --fly-shadow:0 2px 8px rgba(36,40,70,.025),0 9px 24px rgba(36,40,70,.04);
+}
+.stApp {--fly-stage:var(--fly-explore);--fly-stage-soft:rgba(244,81,22,.12)}
+.stApp:has(.pmo-stage-context[data-stage="design"]) {--fly-stage:var(--fly-design);--fly-stage-soft:rgba(216,45,43,.11)}
+.stApp:has(.pmo-stage-context[data-stage="deploy"]) {--fly-stage:var(--fly-deploy);--fly-stage-soft:rgba(0,126,172,.11)}
+.stApp:has(.pmo-stage-context[data-stage="improve"]) {--fly-stage:var(--fly-improve);--fly-stage-soft:rgba(21,167,206,.12)}
+.stApp:has(.pmo-stage-context[data-stage="realize"]) {--fly-stage:var(--fly-realize);--fly-stage-soft:rgba(105,48,165,.11)}
+.pmo-stage-context {display:none!important}
+/* Override presentation only. Status semantics remain separate. */
+.stApp .pmo-eyebrow::before,.stApp .p2-section-label::before {background:var(--fly-stage)!important}
+.stApp .pmo-eyebrow {color:var(--fly-stage)!important}
+.stApp .pmo-side-num {background:var(--fly-stage)!important;color:#fff!important}
+.stApp .pmo-side-step {border-left:3px solid var(--fly-stage)!important}
+.stApp .pmo-progress span {background:var(--fly-stage)!important}
+.stApp .pmo-hero,.stApp .p2-welcome {border-top-color:var(--fly-stage)!important}
+.stApp [data-testid="stSidebar"] [role="radiogroup"] > label:has(input:checked) {border-left-color:var(--fly-stage)!important}
+.stApp .stTabs button[data-baseweb="tab"][aria-selected="true"] {border-color:var(--fly-stage)!important}
+.stApp div.stButton > button[kind="primary"],.stApp div.stFormSubmitButton > button[kind="primary"],.stApp [data-testid="stBaseButton-primary"] {background:var(--fly-stage)!important;border-color:var(--fly-stage)!important;color:#fff!important}
+.stApp div.stButton > button[kind="primary"]:hover,.stApp div.stFormSubmitButton > button[kind="primary"]:hover,.stApp [data-testid="stBaseButton-primary"]:hover {filter:brightness(.90)!important}
+.stApp .pmo-topbar {border-top:2px solid var(--fly-stage)!important}
+.stApp .pmo-topmark {background:var(--fly-stage-soft)!important;color:var(--fly-stage)!important}
+
+/* Remove the empty Markdown block used solely as a stage CSS hook. */
+[data-testid="stMarkdown"]:has(.pmo-stage-context){display:none!important}

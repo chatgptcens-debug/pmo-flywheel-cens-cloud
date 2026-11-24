@@ -1,0 +1,1294 @@
+{
+  "id": "PMI-2025-GUIA-TEXTO-REFERENCIA-V03915",
+  "title": "Instrumentos de autoevaluación de los diez pasos, según Oficinas de Dirección de Proyectos: Una Guía Práctica (PMI, 2025)",
+  "source_note": "Transcripción estructurada para uso interno desde el ejemplar facilitado por el usuario; el PDF no está incluido. Se conservan los rangos publicados y se anotan discrepancias sin alterarlos.",
+  "scale": {
+    "1": "En absoluto/nunca",
+    "2": "Rara vez/deficiente",
+    "3": "A veces/promedio",
+    "4": "A menudo/bien",
+    "5": "Siempre/excelente"
+  },
+  "steps": {
+    "1": {
+      "title": "Evaluar la eficacia de la Generación de Conciencia de la PMO",
+      "intro": "La siguiente autoevaluación está diseñada para ayudar a los profesionales de la PMO a evaluar la eficacia con la que están creando y manteniendo la conciencia del Valor de la PMO dentro de la organización. Al centrarse en determinar las necesidades de los clientes, establecer puntos de contacto regulares, educar a los clientes y medir el impacto de los esfuerzos de concienciación, los profesionales de la PMO pueden impulsar un mayor compromiso y apoyo a sus servicios. La evaluación hace hincapié en la mejora continua para mantener a la PMO visible, relevante y estratégicamente alineada con los objetivos de la organización.",
+      "instructions": "Valore el rendimiento de la PMO en cada área en una escala de 1 a 5, donde: 1 = No en absoluto/ineficaz 2 = Rara vez/deficiente 3 = A veces/promedio 4 = A menudo/bien 5 = Siempre/excelente",
+      "source_pages": [
+        159,
+        160
+      ],
+      "score_page": 161,
+      "sections": [
+        {
+          "name": "Identificación de Clientes Potenciales de la PMO",
+          "questions": [
+            "Disponemos de un mapa exhaustivo de todos los clientes potenciales de la PMO en toda la organización.",
+            "Hemos creado perfiles detallados de clientes para nuestros principales grupos de clientes de la PMO.",
+            "Hemos segmentado a nuestros clientes potenciales de la PMO en función de su madurez en la dirección de proyectos y de sus necesidades específicas.",
+            "Entendemos las dinámicas de poder dentro de la organización y hemos identificado a los principales responsables e influyentes.",
+            "Entendemos las necesidades principales y los puntos débiles de cada segmento principal de clientes."
+          ],
+          "source_pages": [
+            159,
+            160
+          ]
+        },
+        {
+          "name": "Establecer Puntos de Contacto Periódicos",
+          "questions": [
+            "Disponemos de una estrategia de comunicación documentada y adaptada a los distintos grupos de clientes.",
+            "Hemos identificado los canales de comunicación preferidos de los distintos grupos de clientes mediante encuestas o entrevistas.",
+            "Mantenemos una cadencia coherente de comunicación a través de diversos canales (por ejemplo, boletines, reuniones, intranet).",
+            "Nuestra estrategia de contenidos incluye historias de éxito, infografías y actualizaciones periódicas sobre los logros de la PMO.",
+            "Realizamos un seguimiento y análisis periódicos de la eficacia de nuestros esfuerzos de comunicación."
+          ],
+          "source_pages": [
+            159,
+            160
+          ]
+        },
+        {
+          "name": "Educar a los Clientes sobre el Valor de la PMO",
+          "questions": [
+            "Disponemos de una amplia biblioteca de materiales educativos sobre los servicios y la propuesta de Valor de nuestra PMO.",
+            "Ofrecemos regularmente sesiones de entrenamiento o talleres sobre los servicios de la PMO y las buenas prácticas de la dirección de proyectos.",
+            "Recopilamos y compartimos activamente historias de éxito y casos de estudio que demuestran el Impacto de la PMO.",
+            "Contamos con un programa de \"embajadores de la PMO\" o con una iniciativa similar de defensa entre iguales.",
+            "Promovemos un portal de la PMO o una base de conocimientos donde los clientes de la PMO pueden acceder a recursos, plantillas y prácticas aceptadas relacionadas con la PMO."
+          ],
+          "source_pages": [
+            159,
+            160
+          ]
+        },
+        {
+          "name": "Medición de la eficacia",
+          "questions": [
+            "Hemos establecido métricas claras para medir la eficacia de nuestros esfuerzos de generación de conciencia.",
+            "Realizamos encuestas periódicas para medir el conocimiento y la percepción que tienen de la PMO los clientes de la PMO.",
+            "Seguimos y analizamos la aceptación de los servicios de PMO tras las campañas de concienciación.",
+            "Compartimos los resultados de nuestros esfuerzos de generación de conciencia con los principales clientes y Liderazgo de la PMO.",
+            "Comparamos nuestras actividades de concienciación con las prácticas del sector o con las de otras PMO de éxito."
+          ],
+          "source_pages": [
+            159,
+            160
+          ]
+        },
+        {
+          "name": "Mejora continua de los Esfuerzos de Concienciación",
+          "questions": [
+            "Analizamos los comentario de retroalimentación de los clientes de la PMO para entender cómo son percibidos nuestros esfuerzos de concienciación.",
+            "Revisamos y ajustamos periódicamente nuestra estrategia de comunicación en función de la retroalimentación y las métricas de rendimiento.",
+            "Comparamos nuestras actividades de concienciación con las prácticas del sector y con otras PMO de éxito.",
+            "Compartimos los resultados de las mediciones con clientes clave de la PMO para demostrar el Impacto de los esfuerzos de concienciación.",
+            "Implementamos cambios en nuestro planteamiento de concienciación basándonos en la información obtenida del Monitoreo y la Retroalimentación."
+          ],
+          "source_pages": [
+            159,
+            160
+          ]
+        }
+      ],
+      "bands": [
+        {
+          "label": "Excelente",
+          "min": 113,
+          "max": 125,
+          "guidance": "Su PMO sobresale en la creación de conciencia y en el mantenimiento de la visibilidad de la PMO en toda la organización. Siga perfeccionando y mejorando su enfoque para mantenerse al frente."
+        },
+        {
+          "label": "Bien",
+          "min": 98,
+          "max": 112,
+          "guidance": "Su PMO demuestra grandes esfuerzos de concienciación, pero puede beneficiarse de mejoras específicas en ciertas áreas."
+        },
+        {
+          "label": "Promedio",
+          "min": 77,
+          "max": 97,
+          "guidance": "Los esfuerzos de concienciación de su PMO son funcionales, pero requieren una mayor consistencia y un enfoque estratégico para maximizar su Impacto."
+        },
+        {
+          "label": "Pobre",
+          "min": 51,
+          "max": 76,
+          "guidance": "Los esfuerzos de concienciación de su PMO son inconsistentes y carecen de eficacia. Hay importantes lagunas en la comunicación y la visibilidad que deben abordarse para mejorar la posición de la PMO dentro de la organización."
+        },
+        {
+          "label": "Crítico",
+          "min": 25,
+          "max": 50,
+          "guidance": "Los esfuerzos de concienciación de su PMO son mínimos o ineficaces, lo que resulta en una baja visibilidad y compromiso dentro de la organización. Es necesario actuar de inmediato para sentar las bases del éxito de la PMO."
+        }
+      ],
+      "count": 25,
+      "source_discrepancies": []
+    },
+    "2": {
+      "title": "Evaluar la eficacia de la evaluación de las necesidades de la PMO",
+      "intro": "La siguiente autoevaluación está diseñada para ayudar a los profesionales de la PMO a evaluar la eficacia con la que llevan a cabo las evaluaciones de necesidades y priorizan los retos de los clientes. Un sólido proceso de evaluación de necesidades es la base para alinear los servicios de la PMO con los objetivos de la organización, impulsar el éxito de los proyectos y entregar un valor tangible a los clientes de la PMO. La evaluación hace hincapié en la importancia de la recopilación de Datos, el análisis basado en resultados y la Retroalimentación continua para dar forma a los esfuerzos de la PMO para satisfacer las necesidades y expectativas de los clientes. Al centrarse en estas áreas, los profesionales de la PMO pueden mejorar su impacto y posicionarse como socios estratégicos dentro de la organización.",
+      "instructions": "Califique el rendimiento de su PMO en cada área en una escala de 1 a 5, donde: 1 = En absoluto/nunca 2 = Rara vez/deficiente 3 = A veces/promedio 4 = A menudo/bien 5 = Siempre/excelente",
+      "source_pages": [
+        167,
+        168
+      ],
+      "score_page": 169,
+      "sections": [
+        {
+          "name": "Evaluación de necesidades basada en resultados",
+          "questions": [
+            "Disponemos de un mapa completo del panorama de la gestión de proyectos de nuestra organización.",
+            "Hemos identificado y categorizado a todos los clientes potenciales de la PMO en toda la organización.",
+            "Conocemos las prácticas y los marcos actuales de gestión de Portafolios, Programas y Proyectos utilizados en nuestra Organización.",
+            "Tenemos una idea clara de las herramientas y tecnologías utilizadas para la gestión de Portafolios, Programas y Proyectos en toda la organización.",
+            "Analizamos periódicamente los datos históricos sobre los resultados del portafolio, los programas y los proyectos."
+          ],
+          "source_pages": [
+            167,
+            168
+          ]
+        },
+        {
+          "name": "Recogida de Datos y Análisis de Resultados",
+          "questions": [
+            "Realizamos entrevistas periódicas con clientes clave de la PMO para conocer sus necesidades y expectativas.",
+            "Utilizamos encuestas y cuestionarios para recopilar datos cuantitativos sobre las necesidades y la satisfacción de los clientes de la PMO.",
+            "Organizamos grupos focales con diversos segmentos de clientes de la PMO para discutir sus expectativas sobre la PMO.",
+            "Analizamos los documentos post-mortem de los proyectos y las lecciones aprendidas para identificar los incidentes recurrentes y los éxitos.",
+            "Hemos establecido circuitos continuos de Retroalimentación para recabar continuamente las entradas de los clientes de la PMO sobre las necesidades cambiantes."
+          ],
+          "source_pages": [
+            167,
+            168
+          ]
+        },
+        {
+          "name": "Análisis de Brechas e Identificación de Oportunidades",
+          "questions": [
+            "Utilizamos un lenguaje orientado a los resultados en nuestras interacciones con los clientes de la PMO.",
+            "Hemos realizado ejercicios de empatía para comprender los pensamientos y motivaciones de nuestros clientes de la PMO.",
+            "Hemos creado un mapa de \"dificultades y beneficios\" para cada uno de los principales grupos de clientes de la PMO.",
+            "Creamos mapas de viaje del cliente de la PMO para visualizar la experiencia completa de diferentes grupos de clientes con la PMO.",
+            "Utilizamos una \"matriz de expectativas de Valor\" que mapea los grupos de clientes de la PMO con sus resultados esperados para identificar temas comunes y conflictos."
+          ],
+          "source_pages": [
+            167,
+            168
+          ]
+        },
+        {
+          "name": "Priorizar y abordar las necesidades detectadas",
+          "questions": [
+            "Tenemos un proceso estructurado para identificar las necesidades de los clientes de la PMO y priorizar las necesidades más críticas.",
+            "Nos aseguramos de que las necesidades identificadas de los clientes de la PMO estén alineadas con las metas y prioridades estratégicas de la organización antes de desarrollar los servicios de la PMO.",
+            "Comunicamos eficazmente las conclusiones de nuestra evaluación de necesidades a todos los clientes de la PMO dentro de la organización.",
+            "Disponemos de un plan claro para abordar las necesidades prioritarias principales de los clientes de la PMO identificadas en el proceso de evaluación.",
+            "Hacemos seguimiento y revisamos periódicamente los avances en la atención a las necesidades identificadas de los clientes de la PMO y ajustamos continuamente nuestra estrategia de PMO, según sea necesario."
+          ],
+          "source_pages": [
+            167,
+            168
+          ]
+        },
+        {
+          "name": "Demostrar el Valor de la Evaluación de Necesidades",
+          "questions": [
+            "Demostramos sistemáticamente cómo las conclusiones de la evaluación de las necesidades de un cliente de la PMO se vinculan directamente con la mejora de los resultados de los proyectos y el éxito de la organización.",
+            "Utilizamos los datos de las evaluaciones de las necesidades de los clientes de la PMO para justificar la asignación de recursos y la priorización de las actividades de la PMO.",
+            "Mostramos los beneficios tangibles y el Valor aportado a los clientes de la PMO como resultado de dar respuesta a sus necesidades identificadas.",
+            "Involucramos a los principales responsables de la toma de decisiones en el proceso de evaluación de las necesidades del cliente de la PMO para garantizar su aceptación y apoyo a las iniciativas de la PMO.",
+            "Medimos el impacto a largo plazo de la evaluación de las necesidades del cliente de la PMO en el rendimiento de la PMO y ajustamos nuestro enfoque basándonos en estos conocimientos."
+          ],
+          "source_pages": [
+            167,
+            168
+          ]
+        }
+      ],
+      "bands": [
+        {
+          "label": "Excelente",
+          "min": 113,
+          "max": 125,
+          "guidance": "Su PMO dispone de un proceso sólido y eficaz de evaluación de las necesidades de los clientes de la PMO. Céntrese en mantener sus elevados Estándares y perfeccione continuamente su enfoque en función de la evolución de las necesidades de la organización."
+        },
+        {
+          "label": "Bien",
+          "min": 98,
+          "max": 112,
+          "guidance": "Su PMO lo está haciendo bien con la evaluación de las necesidades de los clientes de la PMO, pero hay margen de mejora. Identifique las áreas con peor puntuación y elabore planes de acción para abordarlas."
+        },
+        {
+          "label": "Promedio",
+          "min": 77,
+          "max": 97,
+          "guidance": "Su PMO cuenta con un proceso básico de evaluación de las necesidades de los clientes de la PMO, pero se necesitan mejoras significativas. Priorice las áreas con peor puntuación para prestarles atención inmediata."
+        },
+        {
+          "label": "Pobre",
+          "min": 51,
+          "max": 76,
+          "guidance": "Sus esfuerzos de evaluación de necesidades para clientes de PMO requieren un trabajo sustancial. Considere la posibilidad de revisar todo su planteamiento y elaborar un plan global para abordar todas las áreas."
+        },
+        {
+          "label": "Crítico",
+          "min": 25,
+          "max": 50,
+          "guidance": "Su PMO necesita urgentemente establecer prácticas básicas de evaluación de necesidades para los clientes de la PMO. Empieza por los fundamentos y avanza poco a poco."
+        }
+      ],
+      "count": 25,
+      "source_discrepancies": []
+    },
+    "3": {
+      "title": "Evaluar la Eficacia de la Propuesta de Valor de la PMO",
+      "intro": "La siguiente autoevaluación ayuda a los profesionales de la PMO a evaluar la eficacia de su propuesta de Valor desglosándola en componentes esenciales, desde la síntesis de las necesidades de los clientes hasta el perfeccionamiento de la prestación de servicios basado en la Retroalimentación. Al identificar las carencias y las áreas de mejora, las PMO pueden posicionarse mejor como socios estratégicos dentro de sus organizaciones, asegurando que sus servicios estén alineados tanto con las expectativas de los clientes como con los objetivos empresariales más amplios.",
+      "instructions": "Califique el rendimiento de su PMO en cada área en una escala de 1 a 5, donde: 1 = En absoluto/nunca 2 = Rara vez/deficiente 3 = A veces/promedio 4 = A menudo/bien 5 = Siempre/excelente",
+      "source_pages": [
+        174,
+        175
+      ],
+      "score_page": 176,
+      "sections": [
+        {
+          "name": "Síntesis de los Resultados de la Evaluación de Necesidades",
+          "questions": [
+            "Analizamos exhaustivamente los Informes, los resultados de las Encuestas y la Retroalimentación de los Clientes de la PMO para desarrollar una clara comprensión de las necesidades de los Clientes de la PMO.",
+            "Categorizamos las necesidades identificadas de los clientes de la PMO, las debilidades y los resultados deseados en temas más amplios para estructurar nuestra propuesta de Valor de la PMO.",
+            "Priorizamos las necesidades de los clientes de la PMO utilizando métodos objetivos alineados con la estrategia de la organización.",
+            "Desarrollamos \"perfiles de puntos de dolor\" detallados para cada necesidad importante identificada, incluyendo datos sobre el Impacto y el dolor del Cliente de la PMO.",
+            "Creamos representaciones visuales (por ejemplo, mapas mentales) para sintetizar y comunicar los resultados de la evaluación de necesidades."
+          ],
+          "source_pages": [
+            174,
+            175
+          ]
+        },
+        {
+          "name": "De los problemas a las posibles soluciones",
+          "questions": [
+            "Llevamos a cabo sesiones de colaboración con el equipo de la PMO para aportar soluciones a cada uno de los principales puntos conflictivos.",
+            "Utilizamos herramientas como el \"lienzo de propuesta de Valor\" para vincular sistemáticamente los dolores de los clientes de la PMO con las soluciones potenciales de la PMO.",
+            "Realizamos análisis de Viabilidad de las soluciones propuestas, teniendo en cuenta las capacidades de la PMO, las necesidades de recursos y el impacto potencial.",
+            "Calificamos y agrupamos sistemáticamente las soluciones potenciales en función de patrones y puntos en común para identificar los servicios de alto Valor.",
+            "Diseñamos servicios de PMO que articulan claramente cómo aliviarán los dolores y ofrecerán ganancias a los clientes de la PMO."
+          ],
+          "source_pages": [
+            174,
+            175
+          ]
+        },
+        {
+          "name": "Definición de la Propuesta de Valor de la PMO",
+          "questions": [
+            "Creamos un concepto de servicio PMO claro y conciso para cada Solución, vinculándolo a los puntos de dolor específicos del cliente de la PMO.",
+            "Desarrollamos un \"mapa de soluciones\" que vincula visualmente los puntos de dolor con los servicios de la PMO, mostrando la alineación con los objetivos de la organización.",
+            "Identificamos y ofrecemos resultados rápidos para crear impulso y demostrar valor inmediato a los clientes de la PMO.",
+            "Esbozamos el método de prestación de cada Servicio, teniendo en cuenta la escalabilidad, la flexibilidad y la evolución a medida que crece la madurez de la organización.",
+            "Presentamos conceptos de servicios de PMO a clientes clave de PMO y recabamos retroalimentación en talleres o sesiones de validación."
+          ],
+          "source_pages": [
+            174,
+            175
+          ]
+        },
+        {
+          "name": "Establecimiento y evolución de la Propuesta de Valor",
+          "questions": [
+            "Creamos un \"Acuerdo de Valor para el Cliente de la PMO\" para cada grupo importante de clientes de la PMO, describiendo los resultados esperados y asegurando su aceptación.",
+            "Mantenemos una \"Hoja de ruta de evolución de la propuesta de Valor de la PMO\" para adaptar y mejorar continuamente los servicios de la PMO en función de las necesidades de los Clientes.",
+            "Disponemos de una estrategia documentada de gestión de riesgos para mitigar el riesgo de no cumplir nuestra propuesta de Valor.",
+            "Llevamos a cabo revisiones periódicas de nuestra propuesta de Valor PMO, refinándola trimestralmente y reevaluándola anualmente para mantener su relevancia.",
+            "Hemos creado una \"junta de revisión de la propuesta de Valor de la PMO\" diversa que aporta ideas y sugiere mejoras a la propuesta de Valor de la PMO."
+          ],
+          "source_pages": [
+            174,
+            175
+          ]
+        },
+        {
+          "name": "Medida y Perfeccionamiento de la Propuesta de Valor de la PMO",
+          "questions": [
+            "Recogemos y analizamos sistemáticamente la Retroalimentación de los Clientes de la PMO sobre la efectividad de la Propuesta de Valor de la PMO a través de Encuestas o Entrevistas.",
+            "Documentamos las lecciones aprendidas en cada ciclo de revisión y las compartimos internamente para mejorar nuestro enfoque de entrega de valor de la PMO.",
+            "Utilizamos la Retroalimentación de los clientes de la PMO para priorizar las mejoras a los servicios de la PMO, asegurando que la PMO ofrezca continuamente el máximo Valor.",
+            "Establecemos criterios claros para retirar, evolucionar o modificar los servicios de PMO que ya no se alinean con las necesidades o metas de los clientes de PMO.",
+            "Medimos regularmente el impacto de nuestra propuesta de Valor PMO frente a las expectativas de los clientes PMO y ajustamos los servicios en consecuencia."
+          ],
+          "source_pages": [
+            174,
+            175
+          ]
+        }
+      ],
+      "bands": [
+        {
+          "label": "Excelente",
+          "min": 113,
+          "max": 125,
+          "guidance": "Su PMO ha desarrollado e implementado con éxito una Propuesta de Valor altamente eficaz. Concéntrese en mantener altos estándares y refinar continuamente su enfoque a medida que las necesidades de los clientes de la PMO evolucionan."
+        },
+        {
+          "label": "Bien",
+          "min": 98,
+          "max": 112,
+          "guidance": "Su PMO lo está haciendo bien en el desarrollo de su Propuesta de Valor PMO, pero hay margen de mejora. Identifique las áreas con peor puntuación y elabore planes de acción específicos para abordarlas."
+        },
+        {
+          "label": "Promedio",
+          "min": 77,
+          "max": 97,
+          "guidance": "Su PMO tiene una Propuesta de Valor, pero necesita más atención para comunicar mejor y refinar el valor que ofrece. Céntrese en construir una Narrativa de Valor más completa y recoger más Retroalimentación de los clientes de la PMO."
+        },
+        {
+          "label": "Pobre",
+          "min": 51,
+          "max": 76,
+          "guidance": "La Propuesta de Valor de su PMO está poco desarrollada o no está bien comunicada. Considere la posibilidad de revisar todo su enfoque para asegurarse de que está centrado en el cliente, y aproveche la retroalimentación para construir una más fuerte alineación de valor."
+        },
+        {
+          "label": "Crítico",
+          "min": 25,
+          "max": 50,
+          "guidance": "Su PMO necesita urgentemente desarrollar una clara Propuesta de Valor. Comience por revisar a fondo las necesidades de los clientes de la PMO y diseñar servicios que aborden directamente los puntos débiles y se alineen con los objetivos estratégicos."
+        }
+      ],
+      "count": 25,
+      "source_discrepancies": []
+    },
+    "4": {
+      "title": "Evaluar la eficacia del desarrollo de servicios de la PMO",
+      "intro": "La siguiente autoevaluación proporciona un enfoque estructurado para evaluar la eficacia del proceso de desarrollo de servicios de la PMO. Mediante la evaluación de las áreas clave, los profesionales de la PMO pueden identificar brechas, mejorar el diseño y la prestación de servicios y asegurar que las ofertas de la PMO estén alineadas tanto con las expectativas de los clientes como con los objetivos más amplios de la organización.",
+      "instructions": "Califique el rendimiento de su PMO en cada área en una escala de 1 a 5, donde: 1 = En absoluto/nunca 2 = Rara vez/deficiente 3 = A veces/promedio 4 = A menudo/bien 5 = Siempre/excelente",
+      "source_pages": [
+        185,
+        187
+      ],
+      "score_page": 188,
+      "sections": [
+        {
+          "name": "Diseño del enfoque de prestación de servicios de la PMO",
+          "questions": [
+            "Evaluamos cuidadosamente diferentes enfoques de entrega para cada servicio de la PMO basados en las necesidades del cliente de la PMO, madurez y cultura organizacional.",
+            "Hemos desarrollado una matriz completa de prestación de servicios de la PMO en la que se describen los roles, las responsabilidades y los modelos de prestación de cada servicio de la PMO.",
+            "Validamos nuestros enfoques de prestación de servicios de la PMO con los clientes de la PMO y los ajustamos en función de sus comentarios.",
+            "Consideramos activamente cómo pueden evolucionar los enfoques de prestación de servicios de la PMO a medida que crecen las capacidades del cliente y la madurez organizacional de la PMO.",
+            "Revisamos y actualizamos periódicamente nuestros métodos de prestación de servicios de PMO para garantizar su pertinencia y eficacia."
+          ],
+          "source_pages": [
+            185,
+            186,
+            187
+          ]
+        },
+        {
+          "name": "Diseño a la medida del Proceso de Servicios de la PMO",
+          "questions": [
+            "Trazamos procesos de principio a fin para cada servicio de la PMO, incluidos los puntos de decisión y los traspasos.",
+            "Desarrollamos variantes de los Procesos de la PMO para acomodar diferentes tipos de proyectos, tamaños o niveles de Complejidad.",
+            "Hemos puesto en marcha un plan integral de gestión de riesgos para los servicios de la PMO con el fin de mitigar los riesgos para la prestación de servicios.",
+            "Proporcionamos una guía clara para adaptar los procesos de la PMO en función de las necesidades y circunstancias específicas de los cliente de la PMO.",
+            "Mantenemos una documentación exhaustiva para cada servicio de la PMO, que incluye flujos de procesos, matrices RACI e instrucciones detalladas."
+          ],
+          "source_pages": [
+            185,
+            186,
+            187
+          ]
+        },
+        {
+          "name": "Desarrollo del Catálogo de Servicios de la PMO",
+          "questions": [
+            "Hemos desarrollado un amplio catálogo de servicios de la PMO que define claramente todos los servicios disponibles de la PMO, incluyendo descripciones y características clave.",
+            "El catálogo de servicios de la PMO está segmentado en función de las necesidades de los clientes de la PMO, ofreciendo servicios a medida para diferentes departamentos, tipos de proyectos o niveles de madurez de la gestión de proyectos.",
+            "El catálogo de servicios de la PMO incluye una guía clara y accesible para los clientes de la PMO sobre cómo solicitar y acceder a cada servicio.",
+            "Actualizamos periódicamente el catálogo de servicios de la PMO para reflejar las nuevas ofertas, las mejoras de los servicios y los cambios organizacionales, asegurando que siga siendo relevante y valioso para los clientes de la PMO.",
+            "Promovemos activamente el catálogo de servicios de la PMO en toda la organización, asegurándonos de que todos los clientes de la PMO conocen los servicios disponibles de la PMO y cómo pueden aprovecharlos para satisfacer sus necesidades."
+          ],
+          "source_pages": [
+            185,
+            186,
+            187
+          ]
+        },
+        {
+          "name": "Objetivos e Indicadores de rendimiento específicos para cada Servicio de la PMO",
+          "questions": [
+            "Hemos definido unas métricas claras de eficiencia, Salidas y Resultados para cada Servicio de la PMO.",
+            "Hemos creado definiciones detalladas de las métricas que incluyen cómo se calcula cada métrica, quién es el responsable y con qué frecuencia se recopilan los datos.",
+            "Llevamos a cabo sesiones colaborativas de fijación de objetivos con los clientes de la PMO para establecer métricas de rendimiento para cada servicio de la PMO.",
+            "Utilizamos Tableros de Rendimiento personalizados para representar visualmente las Métricas y Metas de Servicio de la PMO para cada Cliente de la PMO.",
+            "Revisamos periódicamente las métricas de servicio de la PMO con los clientes y ajustamos los objetivos o servicios en función de los comentarios y las tendencias de rendimiento."
+          ],
+          "source_pages": [
+            185,
+            186,
+            187
+          ]
+        },
+        {
+          "name": "Asignación de recursos de la PMO y mapeo de competencias",
+          "questions": [
+            "Hemos llevado a cabo un Análisis exhaustivo de las habilidades requeridas para cada Servicio de la PMO, incluyendo habilidades técnicas y blandas.",
+            "Hemos evaluado las capacidades actuales del equipo de la PMO y las hemos comparado con un marco de competencias de la PMO.",
+            "Hemos desarrollado descripciones claras de los roles que describen las responsabilidades, las habilidades requeridas y las expectativas de rendimiento para cada Servicio de la PMO.",
+            "Revisamos periódicamente las necesidades de recursos y ajustamos las asignaciones del equipo de la PMO en función de la demanda de servicios de la PMO y de la capacidad de los equipos de la PMO.",
+            "Hemos puesto en marcha un plan de formación y desarrollo para subsanar las carencias de competencias y asegurar un crecimiento profesional continuo dentro del equipo de la PMO."
+          ],
+          "source_pages": [
+            185,
+            186,
+            187
+          ]
+        },
+        {
+          "name": "Acuerdos de Nivel de Servicio (SLA) y Validación de Clientes de la PMO",
+          "questions": [
+            "Redactamos acuerdos de nivel de servicio detallados para cada servicio de la PMO, en los que se describen el alcance del servicio, los plazos de entrega, las normas de calidad y los parámetros de rendimiento.",
+            "Establecemos objetivos de servicio de la PMO realistas y alcanzables, equilibrando las expectativas de los clientes de la PMO con la capacidad y los recursos de la PMO.",
+            "Adaptamos los SLA en función de las necesidades específicas de los distintos grupos de clientes de la PMO.",
+            "Validamos nuestros SLA a través de la Retroalimentación de los clientes de la PMO y los ajustamos en consecuencia para garantizar la alineación con las necesidades de los clientes de la PMO.",
+            "Monitoreamos y reportamos regularmente el desempeño de los SLA a los clientes de la PMO y discutimos los ajustes durante las reuniones de revisión."
+          ],
+          "source_pages": [
+            185,
+            186,
+            187
+          ]
+        },
+        {
+          "name": "Planificación de la implementación de los Servicios de la PMO",
+          "questions": [
+            "Desarrollamos hojas de ruta de implementación detalladas para cada servicio de la PMO, destacando los hitos clave, las dependencias y los plazos.",
+            "Creamos planes de implementación integrales que incluyen asignaciones de recursos del equipo de la PMO, requisitos presupuestarios de la PMO y evaluaciones de riesgos de la PMO.",
+            "Hemos establecido un Plan de Transición desde la incorporación al servicio de la PMO hasta la operación del servicio, garantizando un traspaso sin fisuras y la disponibilidad operativa.",
+            "Aplicamos una estrategia de implantación por fases para los servicios de la PMO complejos o de gran impacto, comenzando con grupos piloto antes de la implementación a gran escala.",
+            "Hemos establecido estructuras claras de Gobernanza de la PMO para supervisar la implementación de los Servicios de la PMO, la incorporación de los Servicios de la PMO y las Operaciones en curso de la PMO."
+          ],
+          "source_pages": [
+            185,
+            186,
+            187
+          ]
+        }
+      ],
+      "bands": [
+        {
+          "label": "Excelente",
+          "min": 154,
+          "max": 160,
+          "guidance": "Su PMO ha desarrollado un proceso de desarrollo de servicios altamente eficaz, con un claro enfoque en el diseño y la prestación de servicios valiosos y centrados en el cliente. Siga perfeccionando y evolucionando sus servicios a medida que cambien las necesidades de los clientes y las prioridades de la organización."
+        },
+        {
+          "label": "Bien",
+          "min": 131,
+          "max": 153,
+          "guidance": "Su PMO lo está haciendo bien en el desarrollo de servicios, pero hay margen para seguir perfeccionándolo. Céntrese en las áreas con puntuaciones más bajas para mejorar el diseño y la implementación de los Servicios."
+        },
+        {
+          "label": "Promedio",
+          "min": 102,
+          "max": 130,
+          "guidance": "Su PMO cuenta con un proceso básico de desarrollo de servicios, pero necesita mejoras significativas. Dé prioridad a la mejora de la documentación de procesos, la validación de clientes y el Monitoreo de SLA."
+        },
+        {
+          "label": "Pobre",
+          "min": 68,
+          "max": 101,
+          "guidance": "El proceso de desarrollo de servicios de su PMO requiere una mejora sustancial. Revise áreas clave como la asignación de recursos, las métricas de rendimiento y el compromiso con el cliente para reforzar su enfoque."
+        },
+        {
+          "label": "Crítico",
+          "min": 35,
+          "max": 67,
+          "guidance": "Su PMO necesita urgentemente establecer un proceso estructurado de desarrollo de servicios. Empiece por diseñar procesos claros, validar los procesos con los clientes y crear acuerdos de nivel de servicio sólidos para impulsar la calidad del servicio y la alineación con las necesidades de la organización."
+        }
+      ],
+      "count": 35,
+      "source_discrepancies": [
+        "La tabla de interpretación publicada termina en 160; la suma posible de 35 preguntas llega a 175."
+      ]
+    },
+    "5": {
+      "title": "Evaluar la eficacia de la incorporación de los servicios de la PMO",
+      "intro": "La siguiente autoevaluación permite a los profesionales de la PMO medir la eficacia de sus procesos de incorporación de servicios e identificar áreas de mejora. Al centrarse en elementos clave como la participación del cliente, la formación, el soporte y el monitoreo del rendimiento, las PMO pueden garantizar una transición fluida desde el desarrollo del servicio hasta su adopción a gran escala, maximizando el impacto de los nuevos servicios en el éxito de la organización.",
+      "instructions": "Califique el rendimiento de su PMO en cada área en una escala de 1 a 5, donde: 1 = En absoluto/nunca 2 = Rara vez/deficiente 3 = A veces/promedio 4 = A menudo/bien 5 = Siempre/excelente",
+      "source_pages": [
+        196,
+        198
+      ],
+      "score_page": 198,
+      "sections": [
+        {
+          "name": "Preparación y compromiso de los clientes de la PMO",
+          "questions": [
+            "Hemos identificado a todos los clientes relevantes de la PMO impactados o involucrados en los nuevos servicios de la PMO.",
+            "Hemos desarrollado estrategias de compromiso adaptadas a cada grupo de clientes de la PMO en función de sus necesidades y preocupaciones.",
+            "Nos comunicamos regularmente con los clientes de la PMO para crear conciencia y generar entusiasmo sobre los nuevos servicios de la PMO.",
+            "Recogemos los comentarios de los clientes de la PMO y actuamos en consecuencia durante el proceso de incorporación del servicio de la PMO.",
+            "Hemos identificado promotores de los servicios de la PMO dentro de los grupos de clientes de la PMO para promover los nuevos servicios de la PMO y apoyar a sus compañeros."
+          ],
+          "source_pages": [
+            196,
+            197,
+            198
+          ]
+        },
+        {
+          "name": "Desarrollo del Programa de Formación del Servicio de la PMO",
+          "questions": [
+            "Realizamos un análisis exhaustivo de las necesidades de formación de cada grupo de clientes de la PMO antes de la incorporación del servicio.",
+            "Hemos desarrollado un plan de formación de varios niveles adaptado a los distintos roles y niveles de competencia de los usuarios.",
+            "Proporcionamos diversos materiales de formación, como guías, tutoriales en vídeo y módulos interactivos.",
+            "Utilizamos un enfoque de aprendizaje mixto, combinando materiales de autoaprendizaje con sesiones dirigidas por un instructor.",
+            "Ofrecemos certificaciones o evaluaciones de competencias para garantizar que los clientes de la PMO dominan las habilidades necesarias."
+          ],
+          "source_pages": [
+            196,
+            197,
+            198
+          ]
+        },
+        {
+          "name": "Implementación del piloto y circuitos de retroalimentación",
+          "questions": [
+            "Hemos seleccionado diversos grupos piloto para representar diferentes segmentos de clientes de la PMO.",
+            "Disponemos de un plan detallado de implementación del proyecto piloto con objetivos definidos y métricas de éxito.",
+            "Proporcionamos un mayor apoyo a los participantes en el proyecto piloto para Monitorear de cerca la experiencia de los clientes de la PMO.",
+            "Recogemos datos cuantitativos y retroalimentación cualitativa de los participantes en el proyecto piloto.",
+            "Analizamos los datos y la retroalimentación del proyecto pilotos para identificar patrones, puntos débiles y áreas de mejora."
+          ],
+          "source_pages": [
+            196,
+            197,
+            198
+          ]
+        },
+        {
+          "name": "Establecimiento de la infraestructuras de soporte para los Servicios",
+          "questions": [
+            "Hemos establecido niveles claros de apoyo, desde la asistencia básica al cliente de la PMO hasta la resolución avanzada de problemas.",
+            "Hemos desarrollado una completa base de conocimientos, que incluye preguntas frecuentes y guías de solución de problemas.",
+            "Ofrecemos múltiples canales de asistencia (correo electrónico, teléfono, chat en línea) para que los clientes busquen ayuda.",
+            "Hemos establecido un servicio de asistencia o equipo de apoyo capacitado tanto en habilidades técnicas como de servicio al cliente de la PMO.",
+            "Hemos creado una comunidad o foro de clientes de la PMO para el apoyo entre iguales y el intercambio de conocimientos."
+          ],
+          "source_pages": [
+            196,
+            197,
+            198
+          ]
+        },
+        {
+          "name": "Marco de Monitoreo y Evaluación del Rendimiento",
+          "questions": [
+            "Hemos definido claramente los KPI y los criterios de éxito para medir el proceso de incorporación de los servicios de la PMO.",
+            "Utilizamos un Tablero de Rendimiento para proporcionar visibilidad en tiempo real de la adopción de los Servicios de la PMO.",
+            "Disponemos de herramientas para recopilar y analizar datos sobre el compromiso de los clientes de la PMO y la utilización de sus servicios.",
+            "Celebramos reuniones periódicas de revisión del rendimiento con los clientes de la PMO para evaluar el progreso de la incorporación.",
+            "Ajustamos el proceso de incorporación de servicios de la PMO o los servicios de la PMO en función de los datos y la retroalimentación."
+          ],
+          "source_pages": [
+            196,
+            197,
+            198
+          ]
+        },
+        {
+          "name": "Transición a Operaciones de Servicio Completo",
+          "questions": [
+            "Tenemos criterios claros para definir el éxito de la transición desde la incorporación del servicio hasta su pleno funcionamiento.",
+            "Disponemos de un plan de transición detallado que describe los pasos, los plazos y la asignación de recursos del equipo de la PMO.",
+            "Llevamos a cabo sesiones de transferencia de conocimientos entre el equipo de incorporación del servicio y el equipo de Operaciones de la PMO.",
+            "Hemos establecido procesos continuos de Monitoreo y Soporte para las operaciones posteriores al embarque.",
+            "Nos comunicamos claramente con los clientes de la PMO sobre la transición a la operación de servicio completo y cualquier cambio que puedan esperar."
+          ],
+          "source_pages": [
+            196,
+            197,
+            198
+          ]
+        }
+      ],
+      "bands": [
+        {
+          "label": "Excelente",
+          "min": 134,
+          "max": 150,
+          "guidance": "Su PMO domina la incorporación de servicios, lo que garantiza la adopción sin problemas, el compromiso y el éxito continuado de los nuevos servicios. Mantenga este alto Estándar mientras perfecciona y evoluciona su enfoque basándose en la retroalimentación continua."
+        },
+        {
+          "label": "Bien",
+          "min": 114,
+          "max": 133,
+          "guidance": "Su PMO está funcionando bien en la incorporación, pero hay oportunidades de mejora. Céntrese en las áreas con puntuaciones más bajas para seguir mejorando la formación, la asistencia y el compromiso del cliente."
+        },
+        {
+          "label": "Promedio",
+          "min": 89,
+          "max": 113,
+          "guidance": "El proceso de incorporación de su PMO es funcional pero requiere mejoras significativas. De prioridad al desarrollo de la formación, la retroalimentación de los pilotos y las mejoras del servicio de apoyo para aumentar la eficacia."
+        },
+        {
+          "label": "Pobre",
+          "min": 59,
+          "max": 88,
+          "guidance": "El proceso de incorporación de su PMO necesita un trabajo considerable. Revise áreas clave como el compromiso con el cliente, la infraestructura de soporte y la planificación de la transición para garantizar una experiencia de incorporación más satisfactoria."
+        },
+        {
+          "label": "Crítico",
+          "min": 30,
+          "max": 58,
+          "guidance": "Su PMO necesita urgentemente establecer un proceso estructurado de incorporación de servicios. Empiece por centrarse en la formación integral, los mecanismos de retroalimentación de los clientes y los sistemas de apoyo para impulsar la adopción satisfactoria de los servicios."
+        }
+      ],
+      "count": 30,
+      "source_discrepancies": []
+    },
+    "6": {
+      "title": "Evaluar la eficacia de la Operación de los Servicios de la PMO",
+      "intro": "La siguiente autoevaluación proporciona una herramienta completa para que los profesionales de la PMO evalúen su eficacia en la operación de servicios e identifiquen áreas de mejora. Al centrarse en aspectos operativos clave como la ejecución de acuerdos de nivel de servicio, la gestión de recursos y el compromiso con el cliente, las PMO pueden garantizar que no sólo cumplen, sino que superan, las expectativas de la organización en cuanto a prestación de servicios.",
+      "instructions": "Califique el rendimiento de su PMO en cada área en una escala de 1 a 5, donde: 1 = En absoluto/nunca 2 = Rara vez/deficiente 3 = A veces/promedio 4 = A menudo/bien 5 = Siempre/excelente",
+      "source_pages": [
+        206,
+        208
+      ],
+      "score_page": 208,
+      "sections": [
+        {
+          "name": "Gestión diaria de la prestación de servicios de la PMO",
+          "questions": [
+            "Garantizamos que cada servicio de la PMO se presta de acuerdo con sus procesos y estándares de calidad definidos.",
+            "Priorizamos las tareas con eficacia y mantenemos un equilibrio entre los servicios programados y las peticiones ad hoc.",
+            "Hemos establecido canales de comunicación claros para gestionar las solicitudes de servicio de la PMO.",
+            "Monitoreamos activamente la prestación de servicios de la PMO para identificar y abordar los incidentes con prontitud.",
+            "Revisamos periódicamente el rendimiento de la prestación de servicios de la PMO para identificar oportunidades de mejora."
+          ],
+          "source_pages": [
+            206,
+            207,
+            208
+          ]
+        },
+        {
+          "name": "Ejecutar los Acuerdos de Nivel de Servicio (SLA) de la PMO",
+          "questions": [
+            "Revisamos periódicamente los acuerdos de nivel de servicio y sus objetivos de rendimiento para garantizar su cumplimiento.",
+            "Disponemos de un enfoque sistemático para priorizar las solicitudes de servicio de la PMO en función de los compromisos de los SLA.",
+            "Disponemos de un proceso de escalado claro para abordar posibles incumplimientos de los SLA.",
+            "Mantenemos registros detallados de las actividades y decisiones relacionadas con los SLA.",
+            "Fomentamos una cultura orientada a los SLA dentro del equipo de la PMO."
+          ],
+          "source_pages": [
+            206,
+            207,
+            208
+          ]
+        },
+        {
+          "name": "Tramitación de solicitudes de servicio y consultas",
+          "questions": [
+            "Disponemos de un sólido sistema de seguimiento y gestión de las solicitudes de servicio de la PMO, desde su presentación hasta su resolución.",
+            "Priorizamos las solicitudes de los clientes de la PMO para garantizar una atención oportuna basada en las prioridades de la organización y el impacto.",
+            "Tenemos acuerdos de nivel de servicio claros sobre tiempos de respuesta y plazos de resolución que cumplimos consistentemente.",
+            "Hemos establecido procedimientos para escalar las solicitudes complejas o urgentes de los clientes de la PMO.",
+            "Revisamos y actualizamos periódicamente nuestros procesos de gestión de las solicitudes de servicio para mejorar la eficacia y la satisfacción de los clientes de la PMO."
+          ],
+          "source_pages": [
+            206,
+            207,
+            208
+          ]
+        },
+        {
+          "name": "Asignación de Recursos y Gestión de la Carga de Trabajo de la PMO",
+          "questions": [
+            "Mantenemos una visión actualizada de la reserva de recursos de la PMO y de las capacidades individuales de los miembros del equipo de la PMO.",
+            "Asignamos eficazmente las tareas a los miembros del equipo de la PMO en función de sus competencias y cargas de trabajo.",
+            "Utilizamos herramientas o sistemas para equilibrar y hacer un seguimiento de las cargas de trabajo en todo el equipo de la PMO.",
+            "Nos comunicamos regularmente con el equipo de la PMO para gestionar los recursos y abordar los problemas de capacidad.",
+            "Monitoreamos la utilización de recursos y la productividad para asegurar el uso eficiente de las capacidades de la PMO."
+          ],
+          "source_pages": [
+            206,
+            207,
+            208
+          ]
+        },
+        {
+          "name": "Compromiso y comunicación con los clientes de la PMO",
+          "questions": [
+            "Disponemos de un plan bien definido para la gestión de las comunicaciones con los clientes de la PMO que se ajusta a las necesidades de los distintos grupos.",
+            "Utilizamos diversos canales de comunicación para llegar eficazmente a todos los clientes de la PMO.",
+            "Buscamos activamente y actuamos con prontitud sobre la Retroalimentación de los clientes de la PMO con respecto a los servicios de la PMO.",
+            "Gestionamos las expectativas de los clientes de la PMO de forma transparente y eficaz.",
+            "Fomentamos una cultura de colaboración entre el equipo de la PMO y los clientes de la PMO."
+          ],
+          "source_pages": [
+            206,
+            207,
+            208
+          ]
+        },
+        {
+          "name": "Gestión de Riesgos e Incidentes de la PMO",
+          "questions": [
+            "Disponemos de un marco global de gestión de Riesgos para los servicios de PMO.",
+            "Tenemos un proceso establecido para escalar y gestionar incidentes durante la prestación del servicio.",
+            "Mantenemos un registro detallado de riesgos e incidentes, el cual actualizamos periódicamente, así como también las medidas para mitigarlos.",
+            "Hemos desarrollado y sometido a prueba periódicamente planes de contingencia para riesgos de alto impacto.",
+            "Comunicamos con transparencia a los clientes los riesgos e incidentes."
+          ],
+          "source_pages": [
+            206,
+            207,
+            208
+          ]
+        },
+        {
+          "name": "Gestión de Conocimientos y Desarrollo de Capacidades",
+          "questions": [
+            "Hemos desarrollado un sistema centralizado de gestión del conocimiento accesible a todos los miembros del equipo de la PMO.",
+            "Hemos implantado procesos para captar y compartir los conocimientos de las operaciones diarias de la PMO.",
+            "Mantenemos actualizada la documentación de los Servicios de la PMO y facilitamos la formación y el desarrollo continuos.",
+            "Aprovechamos la tecnología para mejorar la gestión del conocimiento y el desarrollo de capacitación de la PMO.",
+            "Revisamos y mejoramos regularmente las prácticas de gestión del conocimiento de la PMO para asegurarnos de que se mantienen alineadas con la evolución del equipo de la PMO y las necesidades de la organización."
+          ],
+          "source_pages": [
+            206,
+            207,
+            208
+          ]
+        }
+      ],
+      "bands": [
+        {
+          "label": "Excelente",
+          "min": 154,
+          "max": 175,
+          "guidance": "Su PMO destaca en el funcionamiento de los servicios, prestando constantemente servicios de alta calidad y manteniendo sólidas relaciones con los clientes. Siga innovando y perfeccionando sus procesos."
+        },
+        {
+          "label": "Bien",
+          "min": 131,
+          "max": 153,
+          "guidance": "Su PMO es eficaz en el funcionamiento de los servicios, pero puede mejorar en ciertas áreas para mejorar la prestación de servicios y la satisfacción del cliente."
+        },
+        {
+          "label": "Promedio",
+          "min": 102,
+          "max": 130,
+          "guidance": "Su PMO cuenta con procesos fundamentales de operación de servicios, pero se necesitan mejoras significativas para cumplir con estándares más altos."
+        },
+        {
+          "label": "Pobre",
+          "min": 68,
+          "max": 101,
+          "guidance": "Hay brechas críticas en las prácticas de operación de servicios de su PMO que necesitan atención inmediata para prevenir la interrupción del servicio."
+        },
+        {
+          "label": "Crítico",
+          "min": 35,
+          "max": 67,
+          "guidance": "Se requiere una acción urgente para establecer capacidades básicas de operación de servicios y estabilizar la prestación de servicios de su PMO."
+        }
+      ],
+      "count": 35,
+      "source_discrepancies": []
+    },
+    "7": {
+      "title": "Medir la eficacia del Monitoreo de Servicios de la PMO",
+      "intro": "La siguiente autoevaluación permite a los profesionales de la PMO evaluar su eficacia a la hora de Monitorear la prestación de Servicios, gestionar el cumplimiento de los acuerdos de nivel de servicio y abordar la Retroalimentación de los clientes de la PMO. Al centrarse en las métricas operativas clave, las PMO pueden garantizar que cumplen consistentemente los objetivos de rendimiento, fomentan la confianza con los clientes de la PMO y mejoran continuamente la calidad del servicio.",
+      "instructions": "Califique el rendimiento de su PMO en cada área en una escala de 1 a 5, donde: 1 = En absoluto/nunca 2 = Rara vez/deficiente 3 = A veces/promedio 4 = A menudo/bien 5 = Siempre/excelente",
+      "source_pages": [
+        217,
+        218
+      ],
+      "score_page": 219,
+      "sections": [
+        {
+          "name": "Establecimiento de un Marco de Referencia integral para el Monitoreo de los Servicios de la PMO",
+          "questions": [
+            "Disponemos de un proceso de recopilación de Datos estandarizado y fiable para todos los servicios de la PMO.",
+            "Utilizamos un tablero centralizado o un sistema de informes para supervisar el rendimiento del servicio en tiempo real.",
+            "Mantenemos un Cronograma regular para las actividades relacionadas con el Monitoreo del Desempeño de los Servicios de la PMO (por ejemplo, diario, semanal, mensual).",
+            "Dentro del equipo de la PMO tenemos claros los roles y responsabilidades en la recopilación de Datos, Análisis e Informes.",
+            "Proporcionamos formación para garantizar que todos los miembros del equipo de la PMO comprenden el marco de referencia para el Monitoreo de Servicios de la PMO."
+          ],
+          "source_pages": [
+            217,
+            218
+          ]
+        },
+        {
+          "name": "Gestión del cumplimiento de acuerdos de nivel de servicio",
+          "questions": [
+            "Disponemos de un Sistema de seguimiento del cumplimiento de los SLA en todos los servicios.",
+            "Revisamos periódicamente el rendimiento de los SLA y abordamos las áreas con riesgo de incumplimiento.",
+            "Disponemos de un proceso de escalado para posibles incumplimientos de los SLA que está bien documentado y es comprendido por todos los miembros del equipo de la PMO.",
+            "Documentamos todos los casos de incumplimiento de los SLA y utilizamos estos registros para futuras mejoras.",
+            "Revisamos y ajustamos periódicamente los acuerdos de nivel de servicio para asegurarnos de que siguen respondiendo a las necesidades de la organización."
+          ],
+          "source_pages": [
+            217,
+            218
+          ]
+        },
+        {
+          "name": "Informes y comunicación del rendimiento de los acuerdos de nivel de servicio",
+          "questions": [
+            "Comunicamos regularmente el rendimiento de los SLA a los clientes de la PMO con transparencia.",
+            "Nuestro Cronograma de informes se ajusta a los ritmos organizativos y a los ciclos de toma de decisiones.",
+            "Utilizamos técnicas de visualización de datos (por ejemplo, tablas, gráficos) para hacer más accesibles los resultados del Monitoreo de Servicios de la PMO.",
+            "Desarrollamos narrativas claras en torno a los resultados del Monitoreo de Servicios de la PMO, explicando su relevancia y las acciones tomadas.",
+            "Utilizamos múltiples canales (por ejemplo, correo electrónico, reuniones, cuadros de mando) para comunicar eficazmente los resultados del rendimiento de los servicios de la PMO."
+          ],
+          "source_pages": [
+            217,
+            218
+          ]
+        },
+        {
+          "name": "Recogida y Análisis de la Retroalimentación de los Clientes de la PMO",
+          "questions": [
+            "Utilizamos preguntas o métricas estandarizadas para medir la satisfacción del cliente de la PMO en todos los servicios.",
+            "Disponemos de un sistema de recopilación de retroalimentación para recoger en tiempo real las opiniones de los clientes de la PMO.",
+            "Analizamos periódicamente la retroalimentación de los clientes de la PMO para identificar tendencias, incidentes y áreas de excelencia.",
+            "Utilizamos la retroalimentación cuantitativa y cualitativa para mejorar nuestra comprensión de la calidad del servicio de la PMO.",
+            "Cerramos el bucle de Retroalimentación comunicando a los clientes de la PMO cómo sus comentarios han influido en las mejoras del Servicio."
+          ],
+          "source_pages": [
+            217,
+            218
+          ]
+        }
+      ],
+      "bands": [
+        {
+          "label": "Excelente",
+          "min": 89,
+          "max": 100,
+          "guidance": "Su PMO se destaca en el Monitoreo de Servicios, asegurando un alto Estándar de prestación de servicios y construyendo la confianza del cliente a través de la transparencia y la rendición de cuentas."
+        },
+        {
+          "label": "Bien",
+          "min": 76,
+          "max": 88,
+          "guidance": "Su PMO dispone de un marco de Referencia para el Monitoreo sólido, pero puede afinar áreas específicas para mejorar la gestión de servicios y la comunicación."
+        },
+        {
+          "label": "Promedio",
+          "min": 59,
+          "max": 75,
+          "guidance": "Su PMO cuenta con procesos básicos de Monitoreo, pero necesita mejoras significativas para mejorar la transparencia, la gestión de los SLA y la satisfacción del cliente."
+        },
+        {
+          "label": "Pobre",
+          "min": 39,
+          "max": 58,
+          "guidance": "Existen lagunas en las capacidades de Monitoreo de Servicios de su PMO. Céntrese en la creación de un marco de Referencia estructurado y en mejorar los mecanismos de información para aumentar la Confiabilidad de los Servicios."
+        },
+        {
+          "label": "Crítico",
+          "min": 20,
+          "max": 38,
+          "guidance": "Se requiere atención inmediata para establecer un marco de referencia para el Monitoreo. Empiece por desarrollar procesos esenciales de recopilación de datos, cumplimiento de los acuerdos de nivel de servicio y elaboración de informes."
+        }
+      ],
+      "count": 20,
+      "source_discrepancies": []
+    },
+    "8": {
+      "title": "Medir la eficacia del Monitoreo de Servicios de la PMO",
+      "intro": "La siguiente autoevaluación proporciona una forma estructurada para que los profesionales de la PMO evalúen la eficacia de sus iniciativas de mejora de los servicios. La evaluación ayuda a garantizar que la PMO pueda mejorar la madurez de los servicios, identificar oportunidades críticas de mejora y ofrecer continuamente valor a la organización mediante el perfeccionamiento de sus servicios y su alineación con los objetivos estratégicos.",
+      "instructions": "Califique el rendimiento de su PMO en cada área en una escala de 1 a 5, donde: 1 = En absoluto/nunca 2 = Rara vez/deficiente 3 = A veces/promedio 4 = A menudo/bien 5 = Siempre/excelente",
+      "source_pages": [
+        225,
+        227
+      ],
+      "score_page": 227,
+      "sections": [
+        {
+          "name": "Realización de una evaluación exhaustiva de la madurez de los servicios de PMO",
+          "questions": [
+            "Disponemos de un Modelo de Madurez PMO claro para evaluar el estado actual de cada servicio de la PMO.",
+            "Nuestras evaluaciones de madurez de la PMO identifican los puntos fuertes y las brechas específicas de cada servicio de la PMO .",
+            "Mantenemos informes detallados de nuestras evaluaciones de madurez del servicio de la PMO para futuras referencias.",
+            "Utilizamos las evaluaciones de madurez de la PMO para fundamentar las iniciativas de mejora de los servicios y las hojas de ruta de la PMO.",
+            "Revisamos y actualizamos periódicamente nuestros Criterios de madurez del servicio de la PMO para reflejar la evolución de las necesidades del Negocio."
+          ],
+          "source_pages": [
+            225,
+            226,
+            227
+          ]
+        },
+        {
+          "name": "Análisis de las brechas de madurez de la PMO y de las oportunidades de mejora de los Servicios de la PMO",
+          "questions": [
+            "Llevamos a cabo un exhaustivo Análisis de Brechas para identificar las áreas más críticas para la mejora de los Servicios de la PMO.",
+            "Nuestras oportunidades de mejora de los servicios de la PMO se priorizan en función del Impacto, las necesidades de los clientes de la PMO y la alineación estratégica.",
+            "Regularmente identificamos victorias tempranas para demostrar el Valor del Servicio de la PMO en al principio del proceso de mejora.",
+            "Llevamos a cabo análisis de viabilidad para garantizar que las oportunidades de mejora de los servicios de la PMO sean realistas y factibles.",
+            "Documentamos y comunicamos nuestras conclusiones y propuestas de mejora de los servicios de la PMO a los principales clientes de la PMO."
+          ],
+          "source_pages": [
+            225,
+            226,
+            227
+          ]
+        },
+        {
+          "name": "Desarrollo de una Hoja de ruta para la mejora de los Servicios de la PMO",
+          "questions": [
+            "Fijamos objetivos y metas claros y mensurables para cada iniciativa de mejora de servicio de la PMO.",
+            "Nuestra hoja de ruta para la mejora de los servicios de la PMO incluye un enfoque por fases, que equilibra las victorias tempranas con las mejoras a largo plazo.",
+            "Hemos establecido plazos e hitos para cada fase del proceso de mejora de los servicios de la PMO.",
+            "Asignamos propiedad y responsabilidades claras para cada iniciativa de mejora de servicio de la PMO.",
+            "Asignamos los recursos de la PMO de forma realista, garantizando suficiente personal, presupuesto y tecnología para apoyar las mejoras de los servicios de la PMO."
+          ],
+          "source_pages": [
+            225,
+            226,
+            227
+          ]
+        },
+        {
+          "name": "Implementación de iniciativas de mejora de los servicios de la PMO",
+          "questions": [
+            "Contamos con un equipo dedicado de implementación de la PMO con las competencias necesarias para impulsar mejoras en los servicios de la PMO.",
+            "Disponemos de planes de aplicación detallados que desglosan el proceso de mejora de los servicios de la PMO en tareas manejables.",
+            "Ponemos a prueba las mejoras con grupos pequeños y representativos antes de implementarlas a gran escala.",
+            "Nuestra estrategia de gestión de Cambios apoya a los clientes de PMO y a los miembros del equipo de la PMO en la adopción de servicios mejorados de la PMO.",
+            "Establecemos Métricas de Progreso claras y Monitoreamos regularmente el progreso de la implementación de los Servicios de la PMO."
+          ],
+          "source_pages": [
+            225,
+            226,
+            227
+          ]
+        },
+        {
+          "name": "Gestión de la Retroalimentación y Lecciones Aprendidas",
+          "questions": [
+            "Recogemos las opiniones de los clientes a lo largo del proceso de mejora del servicio.",
+            "La retroalimentación de los clientes se utiliza para realizar ajustes en tiempo real a las mejoras del servicio.",
+            "Gestionamos los riesgos de forma proactiva durante la implementación de las mejoras del servicio.",
+            "Las Lecciones Aprendidas de cada iniciativa de mejora son documentadas y compartidas a través de la PMO.",
+            "Utilizamos las lecciones aprendidas para perfeccionar futuras iniciativas de mejora y contribuir al desarrollo continuo de la PMO."
+          ],
+          "source_pages": [
+            225,
+            226,
+            227
+          ]
+        },
+        {
+          "name": "Transición a una PMO de Operaciones de Servicio u Onboarding",
+          "questions": [
+            "Definimos criterios claros para pasar de la mejora del Servicio a las Operaciones en curso.",
+            "Disponemos de un Plan de Transición que garantiza un traspaso fluido entre los equipos de implementación y Operaciones.",
+            "Mantenemos una asistencia y un Monitoreo continuos para garantizar el éxito de la integración en las Operaciones.",
+            "Establecemos revisiones continuas del servicio para hacer un seguimiento del éxito a largo plazo de las mejoras del servicio.",
+            "Nuestros clientes están bien informados y reciben apoyo durante la transición a operaciones de servicio completo."
+          ],
+          "source_pages": [
+            225,
+            226,
+            227
+          ]
+        }
+      ],
+      "bands": [
+        {
+          "label": "Excelente",
+          "min": 134,
+          "max": 150,
+          "guidance": "Su PMO sobresale en la mejora de los servicios de la PMO, mejorando continuamente la madurez de los servicios de la PMO y entregando valor medible a la organización."
+        },
+        {
+          "label": "Bien",
+          "min": 114,
+          "max": 133,
+          "guidance": "Su PMO tiene un marco sólido para la mejora de los servicios de la PMO, pero puede refinar áreas específicas para mejorar su impacto general y la madurez de la PMO."
+        },
+        {
+          "label": "Promedio",
+          "min": 89,
+          "max": 113,
+          "guidance": "Sus esfuerzos de mejora de los servicios de la PMO están en marcha, pero necesitan mejoras significativas para aumentar la madurez de los servicios de la PMO y alinearse con los objetivos estratégicos."
+        },
+        {
+          "label": "Pobre",
+          "min": 59,
+          "max": 88,
+          "guidance": "Existen lagunas notables en los procesos de mejora de los servicios de la PMO. Céntrese en la construcción de una hoja de ruta de mejora estructurada y en abordar las brechas más críticas en la madurez de los servicios de la PMO."
+        },
+        {
+          "label": "Crítico",
+          "min": 30,
+          "max": 58,
+          "guidance": "Se requiere atención inmediata para establecer un sólido marco de Referencia para la mejora de los servicios de la PMO. Comience por desarrollar una evaluación de la madurez de la PMO y priorizar las principales oportunidades de mejora."
+        }
+      ],
+      "count": 30,
+      "source_discrepancies": [
+        "La cabecera de la autoevaluación del Paso 08 dice «Monitoreo de Servicios», aunque se encuentra dentro del capítulo «Mejora de los servicios»; se conserva el texto de la fuente y la navegación identifica el paso correcto."
+      ]
+    },
+    "9": {
+      "title": "Evaluar la eficacia de la entrega de valor de la PMO",
+      "intro": "La siguiente autoevaluación permite a los profesionales de la PMO evaluar su eficacia en la entrega de valor medible a su organización. Al centrarse en métricas claras, análisis cuantitativos y estrategias de comunicación sólidas, los profesionales de la PMO pueden garantizar que sus servicios de PMO tengan un impacto tangible en el rendimiento de la organización.",
+      "instructions": "Califique el rendimiento de su PMO en cada área en una escala de 1 a 5, donde: 1 = En absoluto/nunca 2 = Rara vez/deficiente 3 = A veces/promedio 4 = A menudo/bien 5 = Siempre/excelente",
+      "source_pages": [
+        237,
+        238
+      ],
+      "score_page": 239,
+      "sections": [
+        {
+          "name": "Establecimiento de un Marco de Referencia Integral de Medida del Valor",
+          "questions": [
+            "Tenemos resultados claramente definidos y medibles para cada servicio de la PMO.",
+            "Recopilamos datos consistentes y fiables para medir el impacto de los servicios de la PMO.",
+            "Nuestro Informe de Valor es claro, estandarizado y adaptado a las distintas necesidades de los clientes de la PMO.",
+            "Revisamos periódicamente las métricas de Valor para asegurarnos de que se ajustan a los objetivos de la organización.",
+            "Disponemos de un Cronograma formalizado para la recolección de Datos y la elaboración de Informes sobre la entrega de Valor."
+          ],
+          "source_pages": [
+            237,
+            238
+          ]
+        },
+        {
+          "name": "Realización de Análisis de Impacto Cuantitativo",
+          "questions": [
+            "Recopilamos y analizamos sistemáticamente datos cuantitativos para medir el Impacto de la PMO.",
+            "Realizamos evaluaciones del impacto financiero para cuantificar las contribuciones de la PMO en términos monetarios.",
+            "Realizamos Análisis de Tendencias para identificar consistentemente patrones en la entrega de Valor.",
+            "Nuestros informes incluyen visualizaciones que facilitan la comprensión de datos complejos.",
+            "Nuestros Análisis articulan claramente los Supuestos y la Metodología utilizada para derivar Métricas de Valor."
+          ],
+          "source_pages": [
+            237,
+            238
+          ]
+        },
+        {
+          "name": "Evaluación de la Realización de los Beneficios Esperados por los Clientes de la PMO",
+          "questions": [
+            "Revisamos periódicamente los beneficios y resultados previstos para cada grupo de clientes de la PMO.",
+            "Hacemos seguimiento de la realización de los Beneficios para los Clientes de la PMO a lo largo del tiempo con Métricas claras.",
+            "Realizamos análisis del antes y el después para medir el impacto de las intervenciones de la PMO.",
+            "Utilizamos casos de estudio para documentar y destacar ejemplos de entregas de alto valor de la PMO.",
+            "Informamos periódicamente sobre los beneficios globales de la PMO mediante informes detallados y exhaustivos."
+          ],
+          "source_pages": [
+            237,
+            238
+          ]
+        },
+        {
+          "name": "Sintetizar y comunicar los resultados de la entrega de Valor de la PMO",
+          "questions": [
+            "Recopilamos datos exhaustivos de todas las actividades de entrega de Valor de la PMO, incluyendo perspectivas cuantitativas y cualitativas.",
+            "Desarrollamos una narrativa de valor clara que vincula los servicios de la PMO con el éxito de la organización.",
+            "Adaptamos los materiales de comunicación a los distintos grupos de clientes de la PMO, incluidos los altos directivos y los directores de proyectos.",
+            "Utilizamos técnicas de visualización de datos para simplificar la compleja información de entrega de valor de la PMO.",
+            "Tenemos un Cronograma de informes bien establecido que se alinea con los ciclos de toma de decisiones de la organización."
+          ],
+          "source_pages": [
+            237,
+            238
+          ]
+        },
+        {
+          "name": "Perfeccionamiento iterativo y reajuste de procesos",
+          "questions": [
+            "Realizamos análisis periódicos de las brechas de Valor para identificar las discrepancias entre los resultados previstos y reales de la PMO.",
+            "Llevamos a cabo un Análisis de Causa Raíz para cualquier discrepancia significativa en la entrega de Valor de la PMO.",
+            "Desarrollamos planes de acción para refinar la propuesta de Valor de la PMO, el diseño de los servicios de la PMO, o los procesos de entrega de la PMO.",
+            "Mejoramos continuamente nuestras Métricas y enfoques de Medida para captar mejor el Impacto de la PMO.",
+            "Seguimos un proceso estructurado de gestión de cambios para aplicar mejoras y comunicar los cambios a los clientes de la PMO."
+          ],
+          "source_pages": [
+            237,
+            238
+          ]
+        }
+      ],
+      "bands": [
+        {
+          "label": "Excelente",
+          "min": 113,
+          "max": 125,
+          "guidance": "Su PMO sobresale en la entrega de Valor, demostrando y comunicando efectivamente sus contribuciones al éxito organizacional."
+        },
+        {
+          "label": "Bien",
+          "min": 98,
+          "max": 112,
+          "guidance": "Su PMO aporta un gran Valor, pero podría beneficiarse del perfeccionamiento de sus Métricas y Estrategias de Comunicación para mejorar aún más su Impacto."
+        },
+        {
+          "label": "Promedio",
+          "min": 77,
+          "max": 97,
+          "guidance": "Su PMO está aportando Valor pero carece de consistencia o sofisticación en el seguimiento y la comunicación del mismo. Céntrese en la mejora de las técnicas de recopilación y análisis de Datos."
+        },
+        {
+          "label": "Pobre",
+          "min": 51,
+          "max": 76,
+          "guidance": "Su PMO necesita una mejora significativa en el seguimiento, análisis y demostración del Valor. Reevalúe su marco de Referencia para la medición del Valor y la elaboración de informes."
+        },
+        {
+          "label": "Crítico",
+          "min": 25,
+          "max": 50,
+          "guidance": "Su PMO tiene dificultades para demostrar su Valor. Empiece por desarrollar marcos de referencia claros de medición del Valor e involucre a los Interesados en la definición de las Métricas Clave."
+        }
+      ],
+      "count": 25,
+      "source_discrepancies": []
+    },
+    "10": {
+      "title": "Evaluar la eficacia del reconocimiento del Valor de la PMO",
+      "intro": "La siguiente autoevaluación ayuda a los profesionales de la PMO a evaluar su eficacia a la hora de garantizar que el valor que aportan sus servicios sea reconocido y apreciado en toda la organización. Al centrarse en la retroalimentación estructurada, los talleres atractivos, las campañas de narración de historias y los tableros en tiempo real, las PMOs pueden mejorar la visibilidad y la apreciación de sus contribuciones, impulsando el apoyo sostenido de los clientes y el éxito de la organización.",
+      "instructions": "Califique el rendimiento de su PMO en cada área en una escala de 1 a 5, donde: 1 = En absoluto/nunca 2 = Rara vez/deficiente 3 = A veces/promedio 4 = A menudo/bien 5 = Siempre/excelente",
+      "source_pages": [
+        249,
+        251
+      ],
+      "score_page": 251,
+      "sections": [
+        {
+          "name": "Realización de Encuestas de Percepción del Valor para los Clientes de la PMO",
+          "questions": [
+            "Encuestamos periódicamente a los clientes de la PMO para evaluar su percepción del Valor que aportamos.",
+            "Nuestras Encuestas incluyen preguntas tanto cuantitativas como abiertas para captar la retroalimentación matizada de los clientes de la PMO.",
+            "Segmentamos las respuestas a las encuestas por grupos de clientes de PMO para identificar variaciones en la percepción del Valor.",
+            "Analizamos a fondo los resultados de las encuestas para identificar discrepancias entre el valor entregado y el valor percibido por los clientes de la PMO.",
+            "Utilizamos los resultados de las encuestas para elaborar futuras estrategias de PMO, mejoras de servicios y planes de comunicación."
+          ],
+          "source_pages": [
+            249,
+            250,
+            251
+          ]
+        },
+        {
+          "name": "Facilitación de Talleres de Reconocimiento del Valor de la PMO",
+          "questions": [
+            "Organizamos talleres interactivos para ayudar a los clientes de la PMO a reconocer y reflexionar sobre las contribuciones de la PMO.",
+            "Nuestros talleres fomentan el diálogo abierto, la colaboración en la resolución de problemas y la elaboración de mapas de valor.",
+            "Documentamos las ideas y la retroalimentación de los talleres y las compartimos con los participantes.",
+            "Hacemos un seguimiento de los participantes en los talleres para evaluar los cambios de percepción o comportamiento.",
+            "Nuestros talleres se celebran con regularidad (por ejemplo, trimestral o semestralmente) para mantener un diálogo continuo sobre el valor de la PMO."
+          ],
+          "source_pages": [
+            249,
+            250,
+            251
+          ]
+        },
+        {
+          "name": "Desarrollo y Mantenimiento de un Tablero de Reconocimiento de Valor PMO",
+          "questions": [
+            "Disponemos de un Tablero dinámico que consolida las métricas clave del reconocimiento del Valor de la PMO.",
+            "Nuestro Tablero incluye indicadores críticos como la satisfacción de los clientes de la PMO, la utilización de los servicios y las solicitudes de participación de la PMO.",
+            "Hacemos que el Tablero sea de fácil acceso tanto para los miembros del equipo de la PMO como para los Clientes de la PMO.",
+            "Revisamos y perfeccionamos periódicamente el Tablero en función de la Retroalimentación de los clientes de la PMO y de la evolución de las prioridades.",
+            "Nuestro Tablero destaca historias de éxito específicas o \"historias de valor del mes\" para ilustrar el impacto de la PMO."
+          ],
+          "source_pages": [
+            249,
+            250,
+            251
+          ]
+        },
+        {
+          "name": "Realización de Campañas de Narración de Historias de Valor de la PMO",
+          "questions": [
+            "Desarrollamos campañas de storytelling que destacan ejemplos reales del Valor de la PMO en diferentes proyectos y departamentos.",
+            "Formamos a los miembros del equipo de la PMO en técnicas de narración para comunicar nuestro Valor con eficacia.",
+            "Nuestras campañas de narración de historias aprovechan diversos formatos, como casos de estudio, vídeos e infografías.",
+            "Organizamos eventos para contar historias sobre la PMO (por ejemplo, el \"Día del Impacto de la PMO\") para celebrar y compartir los éxitos de la PMO.",
+            "Medimos la implicación y el Impacto de las campañas de storytelling, utilizando los resultados para perfeccionar futuros esfuerzos."
+          ],
+          "source_pages": [
+            249,
+            250,
+            251
+          ]
+        },
+        {
+          "name": "Implementación de un Sistema de Retroalimentación de Valor de 360 Grados en la PMO",
+          "questions": [
+            "Disponemos de un completo Sistema de Retroalimentación que recoge información de todos los puntos de contacto con el cliente de la PMO a lo largo del ciclo de vida del Proyecto.",
+            "Nuestro Sistema de Retroalimentación incluye Encuestas Rápidas de Pulso, Entrevistas en Profundidad y Formularios en Línea para recoger la Retroalimentación de los Clientes de PMO.",
+            "Analizamos la retroalimentación de los clientes de la PMO para identificar tendencias en la percepción del Valor y áreas de mejora.",
+            "Cerramos el bucle de Retroalimentación del cliente de la PMO informando a los clientes sobre cómo se han utilizado sus entradas para mejorar los servicios de la PMO.",
+            "Perfeccionamos periódicamente el Sistema de Retroalimentación de Clientes de la PMO para garantizar que siga siendo fácil de usar y pertinente."
+          ],
+          "source_pages": [
+            249,
+            250,
+            251
+          ]
+        },
+        {
+          "name": "Organización de Eventos de Reconocimiento del Valor de la PMO",
+          "questions": [
+            "Organizamos eventos de reconocimiento del Valor de la PMO para mostrar y celebrar las contribuciones de la PMO al éxito de la organización.",
+            "Nuestros Eventos van desde pequeñas sesiones (por ejemplo, \"PMO Valor Spotlights\") a grandes eventos (por ejemplo, \"PMO Valor Expo\").",
+            "Utilizamos estos Eventos para fomentar una cultura de reconocimiento y aprecio por los logros de la PMO.",
+            "Involucramos a la alta dirección en estos eventos para subrayar la importancia estratégica de la PMO.",
+            "Medimos el Impacto de estos Eventos a través de Métricas tales como Índices de Asistencia, Compromiso y Encuestas de Seguimiento."
+          ],
+          "source_pages": [
+            249,
+            250,
+            251
+          ]
+        }
+      ],
+      "bands": [
+        {
+          "label": "Excelente",
+          "min": 134,
+          "max": 150,
+          "guidance": "Su PMO sobresale en asegurar que el Valor es reconocido y apreciado en toda la organización, fomentando fuertes relaciones con los clientes y apoyo."
+        },
+        {
+          "label": "Bien",
+          "min": 114,
+          "max": 133,
+          "guidance": "Su PMO reconoce y comunica eficazmente el Valor, pero puede haber oportunidades para refinar ciertas estrategias de comunicación o mejorar aún más el compromiso."
+        },
+        {
+          "label": "Promedio",
+          "min": 89,
+          "max": 113,
+          "guidance": "Su PMO demuestra Valor, pero se necesitan enfoques más consistentes y sofisticados para garantizar que los clientes reconozcan y aprecien plenamente el impacto de los servicios de la PMO."
+        },
+        {
+          "label": "Pobre",
+          "min": 59,
+          "max": 88,
+          "guidance": "Se necesita una mejora significativa en la comunicación y exhibición del Valor que aporta la PMO. Céntrese en el compromiso de los clientes y en los mecanismos de Retroalimentación para impulsar un mayor reconocimiento."
+        },
+        {
+          "label": "Crítico",
+          "min": 30,
+          "max": 58,
+          "guidance": "Su PMO lucha por que se reconozca su Valor dentro de la organización. Empiece por establecer canales de comunicación claros, medir periódicamente la percepción y abordar las brechas en el reconocimiento."
+        }
+      ],
+      "count": 30,
+      "source_discrepancies": []
+    }
+  }
+}

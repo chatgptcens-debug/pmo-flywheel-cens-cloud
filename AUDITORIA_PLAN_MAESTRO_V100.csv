@@ -1,0 +1,73 @@
+﻿ID,Componente,Criterio del plan,Estado,Referencia técnica,Brecha o condición
+PT01.01,Tokens y estilos centralizados,"Paleta, tipografía y espaciado compartidos",Parcial,design_system.py; assets/css; beta03_visual.py; assets/css/beta03.css,Capa común aplicada; auditoría de todos los formularios y resoluciones en navegador aún pendiente
+PT01.02,Componentes visuales reutilizables,"Tarjetas, encabezados y detalles consistentes",Parcial,design_system.py; form_system.py; beta03_visual.py; assets/css/beta03.css,Capa común aplicada; auditoría de todos los formularios y resoluciones en navegador aún pendiente
+PT01.03,Formularios homologados,"Etiquetas, ayudas, errores y acciones uniformes",Parcial,form_system.py; beta03_visual.py; assets/css/beta03.css,Capa común aplicada; auditoría de todos los formularios y resoluciones en navegador aún pendiente
+PT01.04,Modo presentación,Lectura sin controles de edición innecesarios,Implementado en código,beta03_presentation.py; alpha06_ui.py,"Vista agregada sin edición, exportación HTML imprimible; UAT visual pendiente; no es corte congelado"
+PT01.05,Diseño adaptable,Sin solapes en resoluciones objetivo,Parcial,assets/css; beta03_visual.py; assets/css/beta03.css,Capa común aplicada; auditoría de todos los formularios y resoluciones en navegador aún pendiente
+PT01.06,Estados vacíos didácticos,Explican acción siguiente y ausencia de datos,Parcial,alpha_guidance.py; alpha06_ui.py,Estados vacíos en vistas nuevas; no todos los módulos verificados
+PT02.01,Flywheel interactivo,Acceso directo a cada paso,Implementado en código,alpha06_ui.py:ring,Botones alrededor del diagrama; segmentos no accionables
+PT02.02,Navegación por etapas,"Los diez pasos visibles, agrupados, no ocultos",Implementado en código,alpha02_sidebar.py; ui.py,"53 componentes recorridos con Streamlit simulado; iconos, colores y render real pendientes de UAT"
+PT02.03,Estándar didáctico,"Propósito, entradas, ejecución, verificación y conexiones en 10 pasos",Implementado en código,alpha_guidance.py; app.py,10 pasos con orientación; validación visual pendiente
+PT02.04,Asistente contextual,Ayuda local con referencias y ejemplos originales,Implementado en código,alpha_guidance.py; alpha06_ui.py:academy,"Ayuda local, no asistente generativo"
+PT02.05,Buscador global,"Resultados con ID, ciclo y enlace a origen",Parcial,beta02_search.py; alpha06_ui.py,"Consulta exacta de 13 fuentes; acceso al componente, selección compatible de cliente, servicio, diagnóstico y necesidad; apertura exacta de otros formularios pendiente"
+PT02.06,Favoritos y recientes,Retorno a registro y conservación de filtros,Parcial,beta01_workspace.py,"Favoritos y recientes por paso, solo sesión; sin retorno a registro"
+PT03.01,Ficha 360° de cliente,Consulta de relaciones por ID original,Implementado en código,alpha02_clients.py; client_directory_ui.py; beta02_search.py,Interacciones y compromisos explícitos; revisión con datos activos y navegador pendiente
+PT03.02,Mapa de experiencia,Etapas y eventos reales sin avances ficticios,Parcial,alpha02_clients.py,Consulta de eventos y relaciones; recorrido visual completo pendiente
+PT03.03,Historial de interacciones,Cronología filtrable,Parcial,interactions_ui.py; alpha02_clients.py,Cronología unificada y filtros por revisar
+PT03.04,Explorador de necesidades,"Problema, ganancia, resultado y evidencia enlazados",Implementado en código,alpha02_clients.py; step2_ui.py,Consulta y filtros; no cambia relaciones
+PT03.05,Galería de evidencias,Vista previa y acceso a documentos existentes,Parcial,client_directory_ui.py; alpha02_clients.py,Evidencias vinculadas; comprobar archivos y cobertura
+PT03.06,Cobertura por dependencia y rol,Denominadores explícitos y filtros,Implementado en código,alpha02_clients.py:coverage,Denominadores de clientes activos; revisión operativa pendiente
+PT04.01,Explorador de matriz 30 × 26,Filtrado sin alterar valores,Implementado en código,alpha02_priority.py; priority_results_ui.py,"Lectura snapshot, sin modificar matriz"
+PT04.02,Explicación V5,Contribuciones reconciliadas con corrida seleccionada,Implementado en código,priority_results_ui.py; v5_engine.py,Reconciliación contra corrida y pruebas
+PT04.03,Laboratorio de escenarios,Escenarios separados de decisiones oficiales,Implementado en código,alpha06_transversal.py:simulate,No persistente; exportación separada
+PT04.04,Comparación histórica,Solo corridas reales seleccionadas,Implementado en código,priority_results_ui.py:ranking_diff,Solo selección de segunda corrida
+PT04.05,Trazabilidad de contribuciones,Matriz y pesos del snapshot correcto,Implementado en código,priority_results_ui.py; alpha02_priority.py,Consulta matriz congelada y contribuciones
+PT04.06,Validación independiente MVS,Selección visual no equivale a autorización,Implementado en código,step2.py; step2_ui.py,Preservación del motor y decisión MVS
+PT05.01,Lienzo de valor interactivo,"Relaciones editables por acción explícita, cobertura visible",Implementado en código,step3_ui.py; alpha03_studio.py,Lienzo original y análisis de cobertura; rediseño completo pendiente
+PT05.02,Plano de servicio,"Actores, contactos, actividades y entregables",Parcial,alpha03_studio.py,Vista consultiva; carriles cliente/front/back no completos
+PT05.03,Ficha 360° de servicio,"Lectura de diseño, operación, madurez, valor e historial",Parcial,alpha03_studio.py; beta02_search.py,Madurez y mejoras con correspondencia verificada; historial integral y validación visual pendientes
+PT05.04,Modalidades de prestación,Responsabilidad por servicio/cliente y validación,Parcial,alpha03_studio.py; step4_ui.py,Modalidades por servicio; configuración por cliente pendiente
+PT05.05,Configurador visual ANS,"Metas, unidades, responsables y versiones",Implementado en código,step4_ans.py; step4_ui.py; alpha03_studio.py,Edición original y versiones; verificar interfaz
+PT05.06,Mapa de competencias,Brechas con escala y evidencia,Implementado en código,alpha03_studio.py,Niveles ausentes diferenciados
+PT06.01,Centro de adopción,Uso y preparación de clientes con fuente,Parcial,alpha04_operations.py; step5_ui.py,Formación y adopción declaradas; uso real por cliente pendiente
+PT06.02,Cronogramas de incorporación,Hitos y evidencias por servicio,Implementado en código,alpha04_operations.py; step5_ui.py,"Cronograma consultivo, no Gantt editable"
+PT06.03,Tablero Kanban,Estados existentes y transiciones válidas,Implementado en código,step6_ui.py,Transiciones y reglas WIP originales
+PT06.04,Bandeja de trabajo,Solicitudes por responsable y vencimiento,Implementado en código,alpha04_operations.py; step6_ui.py,Filtros por responsable
+PT06.05,Simulador de capacidad,"Horas individuales, demanda, déficit y supuestos",Implementado en código,alpha04_operations.py,Supuestos en sesión; demanda no persistida
+PT06.06,Centro de compromisos,Alertas y navegación a registros,Parcial,alpha04_operations.py; step6_ui.py,Compromisos ANS; navegación directa a registro por validar
+PT07.01,Tableros de desempeño,"Tendencias, ANS y satisfacción por corte",Implementado en código,alpha05_value.py; alpha05_value_ui.py,Tendencias con denominadores; corte seleccionado pendiente de contraste activo
+PT07.02,Perfil integral de madurez,"Separación institucional, metodológica y de servicios",Implementado en código,alpha05_value_ui.py,Tres instrumentos separados
+PT07.03,Mapas de calor,Escalas y ausencias de medición explícitas,Implementado en código,alpha05_value.py; alpha05_value_ui.py,Ausencias no equivalen a cero
+PT07.04,Análisis de brechas,Actual versus objetivo comparable,Implementado en código,alpha05_value.py,Comparaciones actual y meta
+PT07.05,Backlog de mejoras,"Responsable, plazo, origen y estado",Implementado en código,step8_improvement.py; alpha05_value_ui.py,Backlog y fechas
+PT07.06,Evaluación de efectividad,Antes/después verificable sin atribución automática,Parcial,step8_improvement.py; alpha05_value_ui.py,Verificaciones registradas; antes/después integral pendiente
+PT08.01,Centro de beneficios,"Línea base, meta, medición y evidencia",Implementado en código,alpha05_value.py; alpha05_value_ui.py,"Línea base, mediciones y verificaciones"
+PT08.02,Alineación estratégica,Relaciones con objetivos aprobados,Parcial,alpha05_value_ui.py,Insumos; falta catálogo aprobado de objetivos y relación formal
+PT08.03,Observatorio de percepción,Percepción separada de beneficio medido,Implementado en código,alpha05_value.py; alpha05_value_ui.py,Percepción separada
+PT08.04,Historias de éxito,"Fuente, revisión y evidencias",Implementado en código,step10.py; alpha05_value_ui.py,Evidencias y estados registrados
+PT08.05,Reconocimiento del valor,Confirmación explícita de cliente,Parcial,step10.py; alpha05_value_ui.py,Reconocimiento y encuestas; validar confirmación explícita por cliente
+PT08.06,Reportes sponsor,"Corte, procedencia y pendientes de validación",Parcial,alpha05_value_ui.py,"Informe HTML agregado, no corte congelado"
+PT09.01,Control Tower,Indicadores verificables y accesos directos,Implementado en código,alpha_control_tower.py; alpha06_ui.py,"Indicadores acumulados, no filtro anual"
+PT09.02,Centro de decisiones,"Actor, fecha, fundamento y estado",Parcial,alpha06_transversal.py; beta02_governance.py,Consulta de decisiones y registro local auditable; no flujo formal de aprobación
+PT09.03,Gestión de comités,"Actas, compromisos y seguimiento",Parcial,beta02_governance.py,"Registro de seguimiento de comités y compromisos; actas, asistentes y validación formal pendientes"
+PT09.04,Mandato PMO,"Versiones de propósito, alcance y autoridad",Implementado en código,pmo/rc2_mandate.py; alpha06_ui.py,"Versiones inmutables por interfaz, aprobación y retiro documental con referencia y actor declarado; UAT pendiente; no otorga autoridad institucional"
+PT09.05,Riesgos de la PMO,"Responsables, controles y revisión",Parcial,beta02_governance.py,"Registro de riesgos con tratamiento, responsable, fecha, estado y auditoría; probabilidad/impacto y matriz pendientes"
+PT09.06,Centro de notificaciones,Alertas internas con origen y fecha,Parcial,alpha06_ui.py; alpha04_operations.py,Alertas consultivas; sin envío o persistencia transversal
+PT10.01,Academia PMO,Recursos originales y rutas de aprendizaje,Implementado en código,alpha06_ui.py:academy; alpha_guidance.py,Ruta de 10 pasos y ayudas originales
+PT10.02,Sala de talleres,Captura facilitada de ideas y resultados,Parcial,alpha06_ui.py:academy,"Notas de facilitador único, no tablero colaborativo"
+PT10.03,Simulador metodológico,Entorno demo aislado del oficial,Parcial,alpha06_ui.py:scenario; demo_assets,Simulación V5 y demo; ruta completa de diez pasos pendiente
+PT10.04,Casos prácticos,Datos etiquetados como ficticios,Parcial,alpha06_ui.py:academy,"Caso ficticio básico, biblioteca de casos pendiente"
+PT10.05,Tutoriales contextuales,Ejemplos y ayudas en el lugar de uso,Implementado en código,alpha_guidance.py,Orientación contextual en 10 pasos
+PT10.06,Modo facilitador,"Presentación, votaciones independientes y exportes",Parcial,alpha06_ui.py:academy,Exporta notas; sin votación/presentación dedicada
+PT11.01,Navegador de trazabilidad,Recorrido por IDs y enlaces reales; brechas explícitas,Implementado en código,alpha06_transversal.py:trace,"Relaciones explícitas, no causalidad"
+PT11.02,Motor de calidad,Advertencias explicables sin alterar registros,Implementado en código,alpha06_transversal.py:quality,Nueve reglas consultivas
+PT11.03,Control de integridad,Pruebas SQLite y comparaciones de históricos,Implementado en código,beta01_backup.py; beta01_admin.py; qa/RC1_PROTECTED_HASHES.json; tests/test_rc1.py,16 huellas protegidas y SQLite verificados; comparaciones históricas ausentes/no equivalentes explicitadas
+PT11.04,Historial de versiones,Consulta de cambios y decisiones,Parcial,step4_ans.py; pmo/alpha03_studio.py; alpha06_transversal.py,Versiones de ANS y decisiones; historial global pendiente
+PT11.05,Gestión de evidencias,Documentos y expedientes con origen,Implementado en código,library_portal.py; events_media.py,Gestión de documentos existente; respaldo solo de archivos internos
+PT11.06,Auditoría de registros,Eventos y acciones consultables,Implementado en código,storage.py; alpha06_transversal.py:governance,Consulta auditoría existente
+PT12.01,Acceso por perfiles,Autenticación y permisos comprobados en dominio,Condicionado,beta01_admin.py; INICIAR_APLICACION.bat,Localhost sin autenticación: requiere diseño y permisos institucionales
+PT12.02,Evaluación multiusuario,"Pruebas concurrencia, aislamiento y permisos",Condicionado,storage.py; INICIAR_APLICACION.bat,No evaluación de concurrencia integral ni autorización
+PT12.03,Optimización de rendimiento,Medir tiempos y reruns antes/después,Parcial,alpha06_transversal.py:search,Búsqueda streaming; rendimiento de reruns/navegador pendiente
+PT12.04,Copias y recuperación,Restauración probada en copia,Implementado en código,beta01_backup.py; ADMINISTRAR_RESPALDOS_BETA.py; PREPARAR_VISTA_PREVIA_ALPHA.py,Verificación de copias nuevas y existentes; respaldo offline y restauración; Windows pendiente
+PT12.05,IA asistida,"Revisión humana, privacidad y autorización de proveedor",Condicionado,No habilitada,"Autorización de proveedor, privacidad y revisión humana pendientes"
+PT12.06,Preparación de integraciones,"Contratos, autorización y prueba sin producción",Condicionado,No habilitada,Contratos y pruebas de integración pendientes

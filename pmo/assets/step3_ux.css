@@ -1,0 +1,14 @@
+/* PASO 3 · Propuesta de valor. Solo presentación, no manipula datos ni callbacks. */
+.p3-kanban-heading {
+  background:linear-gradient(90deg,#F1E7FF,#F7F8FA);
+  border:1px solid #E1E5EC;border-radius:11px 11px 4px 4px;
+  color:#302B56;font-size:14px;font-weight:800;padding:14px 15px;
+  display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;
+}
+.p3-kanban-heading span {font-size:12px;color:#65718C;background:white;border-radius:30px;padding:3px 10px}
+[data-testid="stDialog"] {border-radius:16px}
+[data-testid="stDialog"] [data-testid="stForm"]{background:#FFF}
+[data-testid="stDownloadButton"] button:disabled {opacity:.45}
+[data-testid="stFileUploader"] {border-radius:12px}
+@media(max-width:1366px){.p3-kanban-heading{padding:10px 9px;font-size:12px}}
+@media(prefers-reduced-motion:reduce){.p3-kanban-heading *,[data-testid="stDialog"] *{transition:none!important}}

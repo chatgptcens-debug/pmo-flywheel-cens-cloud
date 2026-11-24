@@ -1,0 +1,29 @@
+{
+  "fuente": "Archivo suministrado por usuario con título PMO_Value_Ring_Matrix.xlsx",
+  "hoja": "Service-Outcome Matrix",
+  "filas_excel_incluyendo_encabezado": 31,
+  "resultados": 30,
+  "servicios": 26,
+  "relaciones": 780,
+  "escala": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "nuevos_resultados_adicionales": 0,
+  "conteos_por_intensidad": {
+    "0": 490,
+    "1": 47,
+    "2": 119,
+    "3": 52,
+    "4": 72
+  },
+  "relaciones_positivas": 290,
+  "sha256_excel": "ad486fef15557cf99d3131afc566478d5100849d1fd24c68b73fe5b7e0126234",
+  "sha256_coeficientes": "442761f2da618a6e8ed11d6355591c1a5ad59605ceff038282c4ef4cf407d8d8",
+  "coincide_matriz_v5": true,
+  "diferencias_v5": 0,
+  "nota": "La coincidencia de datos no demuestra origen autorizado, certificación ni aval de PMI/PMOGA. La V5 conserva su identidad e historial."
+}

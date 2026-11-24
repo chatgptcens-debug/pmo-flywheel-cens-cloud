@@ -1,0 +1,8 @@
+/* V0.32 · Refuerzo local, hereda el estandar global de formularios V0.31. */
+.pmo31-form-head {border-left:4px solid #0C989B;}
+[data-testid="stTabs"] [data-baseweb="tab-list"] {flex-wrap:wrap;}
+[data-testid="stFileUploader"] {border-radius:12px;}
+@media(max-width:730px){
+ [data-testid="stTabs"] button[data-baseweb="tab"]{font-size:11px!important;padding:7px 9px!important;}
+ .pmo31-form-head h3{font-size:16px!important;}
+}
